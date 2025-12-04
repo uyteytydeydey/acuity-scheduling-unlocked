@@ -96,11 +96,11 @@ Adam must navigate the compromised facility, fighting through temporal anomalies
 - Preserve all research data (no destroyed terminals)
 - Keep the core intact throughout playthrough
 - Find hidden temporal keys (5 scattered throughout facility)
-- Complete specific side objectives showing ethical choices
+- Complete ethical choices: spare non-hostile test subjects, help trapped scientists, refuse Raed's offers
 
 **Player Choice**: Merge consciousness with the temporal weave itself  
-**Outcome**: Adam integrates his mind into the fabric of time, becoming a guardian that repairs temporal flaws without allowing the technology to be weaponized. His name fades from records, becoming only whispers and echoes across time—a nameless protector.  
-**Message**: *The ultimate sacrifice—rewriting history without the desire to possess power. Some heroes are remembered only as feelings, not names.*  
+**Outcome**: Adam integrates his mind into the fabric of time, becoming a guardian that repairs temporal flaws without allowing the technology to be weaponized. His name fades from records, becoming only whispers and echoes across time—a nameless protector. Those who enter the facility later report feeling an inexplicable sense of guidance and protection, as if someone is watching over them from within time itself.  
+**Message**: *The ultimate sacrifice—rewriting history without the desire to possess power. Some heroes are remembered only as feelings, not names. Adam becomes an eternal presence felt but never seen, a warmth in moments of danger, a whisper of hope in despair.*  
 **Tone**: Transcendent sacrifice—ego dissolved for the greater good
 
 ### 2.5 Themes
