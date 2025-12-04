@@ -11,6 +11,9 @@ Welcome to the comprehensive design documentation for **Echoes of Tomorrow**, an
 **Want to publish this game on PlayStation 5 NOW?**  
 👉 **[Read the Quick Start Publishing Guide](QUICK_START_PUBLISHING.md)** 👈
 
+**Want to SEE what the game looks like?**  
+👉 **[View the Visual Preview & Mockups](VISUAL_PREVIEW.md)** 👈
+
 **Immediate action items:**
 1. Register at PlayStation Partners Portal TODAY
 2. Gather company documents and assess $3-5M budget
@@ -47,7 +50,18 @@ Welcome to the comprehensive design documentation for **Echoes of Tomorrow**, an
 
 This repository contains comprehensive documentation organized into the following core documents:
 
-### 🚀 [Quick Start: Publishing Now](QUICK_START_PUBLISHING.md) ⭐ NEW
+### 🎮 [Visual Preview: See the Game](VISUAL_PREVIEW.md) ⭐ NEW
+**Visual mockups and concept showcase**
+- Main menu and HUD designs
+- Character designs (Adam, enemies)
+- Combat scenarios and gameplay
+- All four ending visualizations
+- DualSense controller features
+- Graphics comparison (Quality vs Performance)
+- Trophy system preview
+- What the final game would look like
+
+### 🚀 [Quick Start: Publishing Now](QUICK_START_PUBLISHING.md)
 **Immediate action steps to start publishing today**
 - Register as PlayStation developer (do this first!)
 - Required documents and budget assessment
