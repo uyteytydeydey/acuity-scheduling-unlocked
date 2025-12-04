@@ -531,17 +531,17 @@
 
 **Launch Window (First Month):**
 - Expected Sales: 200,000 units (PS5)
-- Base Game Revenue: $13.99M gross
+- Base Game Revenue: $14.00M gross
 - Sony's Share (30%): $4.20M
-- Developer Net: $9.79M
+- Developer Net: $9.80M
 
 **First Year:**
 - Expected Sales: 800,000 units (PS5)
-- Base Game Revenue: $55.96M gross
+- Base Game Revenue: $56.00M gross
 - DLC Revenue: $8.00M gross
-- Total Gross: $63.96M
-- Sony's Share: $19.19M
-- Developer Net: $44.77M
+- Total Gross: $64.00M
+- Sony's Share: $19.20M
+- Developer Net: $44.80M
 
 ### 9.2 PlayStation Plus Considerations
 
@@ -624,9 +624,9 @@
 
 **Essential Links:**
 - PlayStation Partners Portal: https://partners.playstation.net
-- PlayStation DevNet: https://devnet.playstation.com (requires login)
+- PlayStation DevNet: (requires PlayStation Partners account)
 - Technical Support: Via PlayStation Partners portal
-- Business Development: ps-bd@sony.com
+- Business Development: Contact via PlayStation Partners portal
 
 ### 11.2 Development Tools
 
@@ -678,6 +678,6 @@ With proper execution, "Echoes of Tomorrow" can achieve critical acclaim and com
 ---
 
 **Document Version:** 1.0  
-**Last Updated:** December 2025  
-**Confidentiality:** Internal Use Only  
+**Last Updated:** December 2024  
+**Status:** Design Documentation  
 **Target Platform:** PlayStation 5
