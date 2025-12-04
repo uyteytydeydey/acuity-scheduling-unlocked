@@ -78,6 +78,18 @@ This repository contains comprehensive documentation organized into the followin
 - Technical art standards
 - Performance budgets for art assets
 
+### 5️⃣ [PlayStation 5 Publishing Guide](PS5_PUBLISHING_GUIDE.md)
+**Complete PS5 platform publishing roadmap**
+- PS5 hardware specifications and optimization
+- Developer registration and requirements
+- Technical certification (TRC) requirements
+- DualSense controller integration (haptics, adaptive triggers)
+- Submission process and timeline
+- PS5 Activities, Trophies, and Game Help
+- Store presence and marketing strategy
+- Post-launch support and DLC plan
+- Revenue projections and business model
+
 ---
 
 ## 🎮 Gameplay Highlights
@@ -159,6 +171,48 @@ Each timeline features a distinct visual identity:
 - 🟢 **Ecological** - Nature-reclaimed warm green spaces
 - ⚪ **Technological** - Sleek AI-designed cool white perfection
 - 🌈 **Fractured** - Reality-breaking glitch aesthetics
+
+---
+
+## 🎮 PlayStation 5 Features
+
+"Echoes of Tomorrow" fully leverages PlayStation 5's advanced capabilities:
+
+### DualSense Controller
+- **Haptic Feedback**: Unique sensations for each TimeBrace ability
+  - Temporal Rewind: Reversing pulse sensation
+  - Time Dilation: Stretched, slowed vibration
+  - Timeline Shift: Sharp transition clicks
+  - Reality Weave: Complex overlapping patterns
+- **Adaptive Triggers**: Dynamic resistance for weapons and abilities
+  - Different trigger feel for each weapon type
+  - TimeBrace ability activation resistance
+- **Controller Speaker**: Salim's comms, TimeBrace sounds, collectible chimes
+- **Light Bar**: Player status and temporal phase indication
+
+### Ultra-Fast SSD
+- **Load Times**: Under 2 seconds for fast travel
+- **Initial Load**: 15 seconds from menu to gameplay
+- **No Loading Screens**: Seamless transitions throughout facility
+- **Quick Resume**: Instant return to gameplay from rest mode
+
+### 3D Audio (Tempest)
+- **Spatial Sound**: Precise enemy positioning through audio
+- **Environmental Audio**: Realistic facility acoustics
+- **Directional Cues**: Temporal rifts and hazards audible in 3D space
+- **Headphone Optimization**: Full 3D audio in stereo headphones
+
+### PS5 Activities & Game Help
+- **Integrated Activities**: Mission tracking with time estimates
+- **Video Hints**: Contextual help for puzzles and challenges
+- **Progress Tracking**: Real-time updates on collectibles and endings
+
+### Performance Modes
+- **Quality Mode**: Native 4K @ 30 FPS with full ray tracing
+- **Performance Mode**: 1440p @ 60 FPS with optimized graphics
+- **Both modes feature**: Nanite geometry and Lumen global illumination
+
+For complete PlayStation 5 publishing details, see **[PS5 Publishing Guide](PS5_PUBLISHING_GUIDE.md)**.
 
 ---
 
