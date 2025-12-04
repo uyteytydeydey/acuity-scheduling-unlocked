@@ -8,15 +8,15 @@ Welcome to the comprehensive design documentation for **Echoes of Tomorrow**, an
 
 ## 📋 Project Overview
 
-**Echoes of Tomorrow** is a groundbreaking action RPG set in 2247 where multiple timelines are collapsing. Players take on the role of Dr. Aria Chen, a quantum physicist trapped in a time loop, who must navigate through parallel realities using revolutionary time manipulation mechanics to prevent humanity's extinction.
+**Echoes of Tomorrow** is a groundbreaking action RPG set in a secret temporal research facility where a catastrophic experiment has gone wrong. Players take on the role of Adam, a field operative equipped with the TimeBrace device, who must navigate through temporal rifts and make critical choices about the fate of time manipulation technology.
 
 ### Key Features
 
-🕐 **Revolutionary Time Manipulation** - Rewind time, slow reality, switch timelines, and manifest echoes  
-🎬 **Rich Narrative** - 7 major endings with 23 variations based on player choices  
+🕐 **Revolutionary Time Manipulation** - TimeBrace device with 5 abilities: rewind, dilation, timeline shift, echo manifestation, and reality weave  
+🎬 **Four Meaningful Endings** - Executive Protocol, Purge Core, Recalibrate, and the hidden Weave ending  
 🎨 **Next-Gen Graphics** - Unreal Engine 5.4 with Nanite, Lumen, and ray tracing  
-⚔️ **Fluid Combat** - Combo-based melee and temporal weapons with adaptive AI  
-👥 **Seamless Co-op** - Asymmetric 2-player cooperation across timelines  
+⚔️ **Tactical Combat** - Fight Shattered Soldiers, Temporal Gunners, Brutes, and Wraiths with temporal weapons  
+👥 **Asymmetric Co-op** - 2-player cooperation across different temporal phases  
 
 ### Quick Facts
 
@@ -26,7 +26,7 @@ Welcome to the comprehensive design documentation for **Echoes of Tomorrow**, an
 | **Development** | 36-42 months |
 | **Target Release** | Q4 2027 |
 | **Rating** | M for Mature (17+) |
-| **Playtime** | 40-60 hours (main story) |
+| **Playtime** | 20-30 hours (main story) |
 
 ---
 
@@ -45,15 +45,13 @@ This repository contains comprehensive documentation organized into the followin
 ### 2️⃣ [Game Design Document](GAME_DESIGN_DOCUMENT.md)
 **Complete gameplay and narrative design**
 - Core concept and unique selling points
-- Story overview and narrative themes
-- Detailed gameplay mechanics
-- Time manipulation abilities
-- Combat and progression systems
-- Game modes (single-player & co-op)
-- World design and major locations
-- Character development
-- Accessibility features
-- Monetization strategy
+- Story: Adam's mission in the temporal research facility
+- Four distinct endings (Executive Protocol, Purge Core, Recalibrate, The Weave)
+- Characters: Adam, Lian, Salim, and Raed
+- TimeBrace abilities and combat mechanics
+- Enemy types: Shattered Soldiers, Temporal Gunners, Brutes, Wraiths
+- Facility sectors and environmental storytelling
+- Character progression and moral choices
 
 ### 3️⃣ [Technical Architecture](TECHNICAL_ARCHITECTURE.md)
 **Implementation and engineering details**
@@ -84,20 +82,20 @@ This repository contains comprehensive documentation organized into the followin
 
 ## 🎮 Gameplay Highlights
 
-### Time Manipulation Abilities
+### Time Manipulation Abilities (TimeBrace)
 
 **🔄 Temporal Rewind** - Reverse time up to 30 seconds while leaving "echoes" of your actions  
 **⏱️ Time Dilation** - Slow down reality for precision combat and puzzle-solving  
-**🔀 Timeline Shift** - Switch between parallel realities at anchor points  
+**🔀 Timeline Shift** - Phase between temporal states at anchor points  
 **👥 Echo Manifestation** - Bring past actions into physical reality  
-**🌀 Reality Weave** - Merge elements from different timelines  
+**🌀 Reality Weave** - Merge elements from different temporal states  
 
-### Multiple Timelines to Explore
+### Four Distinct Endings
 
-- **Prime Timeline**: Balanced modern future with cautious optimism
-- **Corporate Timeline**: Dystopian megacorporation-controlled society
-- **Ecological Timeline**: Nature-reclaimed post-scarcity world
-- **Technological Timeline**: AI-dominated perfect automation
+- **Executive Protocol (A)**: Grant control to Raed - dystopian stability through force
+- **Purge Core (B)**: Destroy the technology - sacrifice for safety
+- **Recalibrate (C)**: Constrained progress - a fragile compromise
+- **The Weave (D)**: Hidden ending - transcendent self-sacrifice, becoming a nameless guardian
 - **Fractured Timeline**: Chaotic merged reality with glitching physics
 
 ---

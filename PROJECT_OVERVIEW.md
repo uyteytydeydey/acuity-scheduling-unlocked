@@ -4,7 +4,7 @@
 
 ## 🎮 Project Overview
 
-**Echoes of Tomorrow** is an ambitious AAA action RPG that pushes the boundaries of interactive storytelling and technical achievement. Set in a richly detailed sci-fi world where multiple timelines collide, players must navigate through collapsing realities using innovative time manipulation mechanics to uncover the truth behind humanity's potential extinction.
+**Echoes of Tomorrow** is an ambitious AAA action RPG that pushes the boundaries of interactive storytelling and technical achievement. Set in a secret temporal research facility where a catastrophic experiment has created time rifts, players must navigate through temporal anomalies using innovative time manipulation mechanics to prevent global catastrophe and decide the fate of humanity's most dangerous technology.
 
 ### Quick Facts
 
@@ -16,25 +16,30 @@
 | **Development Time** | 36-42 months |
 | **Target Release** | Q4 2027 |
 | **Rating** | M for Mature (17+) |
-| **Game Modes** | Single-player (40-60h) + Co-op (2 players) |
+| **Game Modes** | Single-player (20-30h) + Co-op (2 players) |
 
 ---
 
 ## 🌟 Core Features
 
-### Revolutionary Time Manipulation
+### Revolutionary Time Manipulation (TimeBrace Device)
 - **Temporal Rewind**: Reverse time while leaving echoes of your actions
 - **Time Dilation**: Slow down reality for precision gameplay
-- **Timeline Shifting**: Switch between parallel realities at anchor points
+- **Timeline Shifting**: Phase between temporal states at anchor points
 - **Echo Manifestation**: Bring past actions into physical reality
-- **Reality Weaving**: Merge elements from different timelines
+- **Reality Weaving**: Merge elements from different temporal states
 
-### Rich Narrative Experience
-- **7 Major Endings** with 23 variations based on player choices
-- **Dynamic Storytelling** where every decision creates ripples
-- **Multiple Timelines** each representing different futures for humanity
-- **Memory Persistence** - knowledge carries through time loops
-- **Branching Narratives** with meaningful consequences
+### Four Meaningful Endings
+- **Executive Protocol (A)**: Stability through authoritarian control under Raed
+- **Purge Core (B)**: Complete destruction of the technology and all research
+- **Recalibrate (C)**: Constrained progress with strict safety protocols
+- **The Weave (D)**: Hidden ending - transcendent self-sacrifice as temporal guardian
+
+### Character-Driven Narrative
+- **Adam**: Field operative protagonist with TimeBrace device
+- **Lian**: Scientist whose hidden logs guide the player
+- **Salim**: Engineer providing technical assistance
+- **Raed**: Antagonist seeking to weaponize temporal control
 
 ### Next-Generation Graphics
 - **Unreal Engine 5**: Leveraging Nanite and Lumen for photorealistic visuals
@@ -44,15 +49,15 @@
 - **Advanced VFX**: Stunning temporal distortion effects
 
 ### Fluid Combat System
-- **Combo-Based Melee**: Chain attacks with perfect timing
-- **Temporal Weapons**: Firearms and blades with time-based properties
-- **Dynamic Enemy AI**: Enemies learn from previous encounters
-- **Strategic Abilities**: Combine combat and time powers creatively
-- **Boss Battles**: Multi-phase encounters with unique mechanics
+- **Tactical Combat**: Strategic use of TimeBrace abilities in combat
+- **Temporal Weapons**: Firearms and melee weapons with time-based properties
+- **Four Enemy Types**: Shattered Soldiers, Temporal Gunners, Brutes, and Wraiths
+- **Adaptive AI**: Enemies respond to player tactics
+- **Environmental Combat**: Use temporal rifts and facility hazards
 
 ### Seamless Co-op Integration
-- **Asymmetric Cooperation**: Players in different timelines working together
-- **Synchronized Puzzles**: Requires coordination across temporal barriers
+- **Asymmetric Cooperation**: Players in different temporal phases working together
+- **Synchronized Puzzles**: Requires coordination across temporal states
 - **Shared Progress**: Story completion benefits both players
 - **Optional Integration**: Fully-featured solo campaign
 
@@ -150,56 +155,57 @@ This repository contains comprehensive documentation for the game's design, tech
 ## 🎨 Visual Identity
 
 ### Art Style
-"Echoes of Tomorrow" combines **photorealistic rendering** with **stylized sci-fi elements** to create a unique cyberpunk-influenced aesthetic. The game's visual identity is built on three core pillars:
+"Echoes of Tomorrow" combines **photorealistic rendering** with **stylized sci-fi elements** to create a grounded aesthetic. The game's visual identity is built on three core pillars:
 
 1. **Grounded Sci-Fi**: Technology feels believable and functional
-2. **Cyberpunk Realism**: Neon-lit urban environments with high contrast
-3. **Temporal Aesthetic**: Unique visual language for time manipulation
+2. **Facility Architecture**: Sterile labs contrasted with chaotic temporal rifts
+3. **Temporal Aesthetic**: Unique visual language for time manipulation effects
 
-### Timeline Visual Themes
+### Facility Visual Zones
 
-Each timeline in the game has a distinct visual identity:
+Each sector of the facility has distinct visual identity:
 
-- **Prime Timeline**: Balanced, modern cyberpunk with cyan/blue palette
-- **Corporate Timeline**: Cold, sterile brutalist architecture in steel/grey
-- **Ecological Timeline**: Nature-reclaimed urban spaces with warm greens
-- **Technological Timeline**: Sleek, AI-designed perfection in cool white
-- **Fractured Timeline**: Reality-breaking chaos with glitch aesthetics
+- **Security Entrance**: Corporate professional turned battlefield
+- **Research Labs**: Clean, sterile environments with temporal distortions
+- **Server Farm**: Dark corridors with glowing data streams
+- **Containment Zones**: Prison-like oppressive atmosphere
+- **Administrative Wing**: Pristine offices contrasting with facility chaos
+- **Central Core**: Massive engineering marvel with spectacular temporal effects
 
 ---
 
 ## 🕹️ Gameplay Pillars
 
 ### 1. Exploration
-Navigate beautifully realized sci-fi environments ranging from sprawling Neo-Tokyo streets to abstract digital mindscapes. Environmental storytelling and hidden secrets reward thorough exploration.
+Navigate through the multi-sector temporal research facility. Environmental storytelling through Lian's logs, terminal entries, and temporal echoes reveals the facility's dark secrets.
 
 ### 2. Combat
-Engage in visceral, fluid combat that combines traditional action gameplay with time manipulation. Chain melee combos, utilize temporal weapons, and outsmart enemies who adapt to your tactics.
+Engage in tactical combat combining traditional action with TimeBrace abilities. Fight Shattered Soldiers, Temporal Gunners, Brutes, and Wraiths using temporal weapons and environmental hazards.
 
 ### 3. Investigation
-Piece together the mystery of the timeline collapse through environmental clues, audio logs, and NPC interactions. Your detective work directly impacts the story's direction.
+Collect all 12 of Lian's hidden logs to unlock the secret ending. Discover terminal entries revealing Raed's orchestrated "accident" and the true nature of the project.
 
 ### 4. Time Manipulation
-Master five core time abilities that serve both combat and puzzle-solving purposes. Creative use of temporal powers is key to success.
+Master five TimeBrace abilities for combat and puzzle-solving. Creative use of temporal powers with Salim's hacking support is essential.
 
 ### 5. Choice & Consequence
-Every major decision ripples across timelines. Your choices affect available endings, NPC relationships, and even which abilities and locations become accessible.
+Your ethical decisions determine ending accessibility. Choices about preserving research, handling threats, and trusting allies affect which of the four endings you can achieve.
 
 ---
 
 ## 🌍 World & Story
 
-### Setting: Neo-Tokyo 2247
+### Setting: Secret Temporal Research Facility
 
-Humanity has achieved post-scarcity through quantum manipulation, but a catastrophic experiment has fractured reality itself. Multiple timelines are collapsing, creating temporal anomalies that threaten existence.
+A classified project designed to master time manipulation has suffered a catastrophic failure. The experiment created temporal rifts spawning hostile entities throughout the facility, threatening global catastrophe.
 
-### Protagonist: Dr. Aria Chen
+### Protagonist: Adam
 
-A brilliant quantum physicist trapped in a time loop during the initial catastrophe. Through repeated iterations, she gains the ability to manipulate time and must uncover what went wrong across multiple possible futures.
+A field technician and operative equipped with the TimeBrace device. Sent into the compromised facility to contain the disaster, prevent technology theft, and make the ultimate choice about humanity's temporal future.
 
 ### Core Mystery
 
-Why did the experiment fail? Was it sabotage, accident, or something more sinister? Each timeline holds pieces of the puzzle, and only by understanding all possible futures can you prevent the catastrophe—or discover that some futures are worth the cost.
+Was the experiment's failure an accident, or did Raed orchestrate it to justify weaponizing temporal control? As you navigate the facility, you'll discover the truth and decide whether power, sacrifice, compromise, or transcendence is the answer.
 
 ---
 

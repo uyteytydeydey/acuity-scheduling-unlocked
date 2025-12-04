@@ -29,58 +29,131 @@
 ## 2. Story Overview
 
 ### 2.1 Setting
-The year is 2247. Humanity has achieved post-scarcity civilization through quantum manipulation, but a catastrophic experiment has fractured reality itself. Multiple timelines are collapsing into each other, creating temporal anomalies that threaten to unravel existence.
+**Location**: A secret temporal research facility hidden from the world  
+**Context**: A classified scientific project designed to master time manipulation and prevent global catastrophes has gone catastrophically wrong. The experiment created temporal rifts throughout the facility, spawning distorted enemies and threatening to tear reality apart.
 
-### 2.2 Protagonist
-**Dr. Aria Chen** - A quantum physicist who becomes trapped in a time loop during the initial catastrophe. Players can customize Aria's appearance, skills, and approach to problem-solving.
+### 2.2 Characters
+
+#### Adam (Protagonist/Player)
+**Role**: Field technician and operative  
+**Equipment**: TimeBrace - A wrist-mounted device enabling temporal manipulation  
+**Background**: Sent into the compromised facility to contain the disaster and prevent the technology from falling into the wrong hands  
+**Customization**: Players can customize Adam's appearance, tactical loadout, and skill specialization
+
+#### Lian (The Conscience)
+**Role**: Lead scientist within the project  
+**Motivation**: Ethical concerns about weaponizing time manipulation  
+**Gameplay**: Her warnings and moral guidance are hidden in facility logs, audio recordings, and encrypted data terminals  
+**Impact**: Finding all her logs unlocks the hidden ending path
+
+#### Salim (The Ally)
+**Role**: Systems engineer and technical support  
+**Assistance**: Provides remote hacking support, opens security doors, and unlocks server access  
+**Communication**: Guides player through facility systems via comm-link  
+**Character Arc**: Struggles between loyalty to the project and doing what's right
+
+#### Raed (The Antagonist)
+**Role**: Ambitious project administrator  
+**Motivation**: Believes the temporal technology can impose "forced stability" on the chaotic world  
+**Philosophy**: Willing to make harsh decisions and sacrifice freedom for order  
+**Conflict**: Represents the temptation of absolute control
 
 ### 2.3 Core Narrative
-Players must navigate through collapsed timelines, each representing a different possible future for humanity. By understanding what went wrong in each timeline, players piece together a solution to prevent the catastrophe entirely—or discover that some futures are worth preserving, even at great cost.
 
-### 2.4 Themes
-- The weight of choice and responsibility
-- Persistence through adversity
-- The nature of identity across infinite possibilities
-- Technology's double-edged nature
-- Hope in the face of inevitable doom
+The facility's grand temporal experiment has malfunctioned, creating devastating time rifts and spawning hostile temporal entities:
+- **Shattered Soldiers**: Military personnel fractured across timelines
+- **Temporal Gunners**: Elite ranged units phasing in and out of time
+- **Brutes**: Heavy experimental subjects with unstable temporal armor
+- **Wraiths**: Ghost-like smoke entities that exist between moments
+
+Adam must navigate the compromised facility, fighting through temporal anomalies while uncovering the truth: **Raed orchestrated the "accident" to justify using the technology as a weapon for global control**. The player must decide the fate of this dangerous technology and prevent either total catastrophe or totalitarian misuse.
+
+**Primary Objective**: Reach the central control room and determine the fate of temporal manipulation technology
+
+### 2.4 Four Endings
+
+#### Ending A: Executive Protocol (The Power Ending)
+**Player Choice**: Grant control to Raed  
+**Outcome**: The world achieves stability under harsh centralized authority. Order is maintained through temporal surveillance and control.  
+**Message**: *Stability without compassion is not salvation—it is domination.*  
+**Tone**: Dystopian "peace" at the cost of freedom
+
+#### Ending B: Purge Core (The Sacrifice Ending)
+**Player Choice**: Activate the purge protocol, destroying the core and all research data  
+**Outcome**: The technology is lost forever. The immediate threat ends, but so does humanity's chance to master time.  
+**Message**: *Preventing a greater evil through sacrifice is moral, but comes at the cost of potential progress.*  
+**Tone**: Bittersweet relief—safety through destruction
+
+#### Ending C: Recalibrate (The Gray Ending)
+**Player Choice**: Recalibrate the system with strict safety protocols and oversight  
+**Outcome**: The technology survives under heavy constraints. A fragile compromise between progress and safety.  
+**Message**: *Neither absolute power nor total destruction—a delicate second chance for humanity.*  
+**Tone**: Uncertain hope—walking a tightrope between disaster and breakthrough
+
+#### Ending D: The Weave (Hidden Deep Ending)
+**Requirements**: 
+- Collect all of Lian's research logs (12 hidden recordings)
+- Preserve all research data (no destroyed terminals)
+- Keep the core intact throughout playthrough
+- Find hidden temporal keys (5 scattered throughout facility)
+- Complete specific side objectives showing ethical choices
+
+**Player Choice**: Merge consciousness with the temporal weave itself  
+**Outcome**: Adam integrates his mind into the fabric of time, becoming a guardian that repairs temporal flaws without allowing the technology to be weaponized. His name fades from records, becoming only whispers and echoes across time—a nameless protector.  
+**Message**: *The ultimate sacrifice—rewriting history without the desire to possess power. Some heroes are remembered only as feelings, not names.*  
+**Tone**: Transcendent sacrifice—ego dissolved for the greater good
+
+### 2.5 Themes
+- **Power vs. Ethics**: Can stability be achieved through force, or must it come from wisdom?
+- **Science as Weapon vs. Responsibility**: Technology is powerful, but too dangerous in the wrong hands
+- **Identity and Memory**: In "The Weave," memories become whispers—an impact without identity, goodness without glory
+- **The Weight of Choice**: Every ending represents a different philosophy of how humanity should handle ultimate power
+- **Sacrifice and Legacy**: What are you willing to give up for a better future?
 
 ---
 
 ## 3. Gameplay Mechanics
 
 ### 3.1 Core Gameplay Loop
-1. **Explore** - Navigate through beautifully realized sci-fi environments
-2. **Combat** - Engage enemies using a fluid combat system enhanced by time powers
-3. **Investigate** - Uncover clues about timeline divergence points
-4. **Manipulate** - Use time powers to solve environmental puzzles
-5. **Decide** - Make consequential choices that affect the narrative
-6. **Loop** - Return to the beginning with new knowledge and abilities
+1. **Explore** - Navigate through the compromised temporal research facility
+2. **Combat** - Fight temporal anomalies and hostile entities using the TimeBrace
+3. **Investigate** - Discover Lian's hidden logs and uncover Raed's true intentions
+4. **Manipulate** - Use time powers to solve environmental puzzles and bypass security
+5. **Decide** - Make consequential choices that determine which ending path you follow
+6. **Hack** - Work with Salim to access restricted areas and unlock critical systems
 
-### 3.2 Time Manipulation Abilities
+### 3.2 Time Manipulation Abilities (TimeBrace)
+
+The **TimeBrace** is Adam's wrist-mounted temporal manipulation device. It provides five core abilities that grow more powerful throughout the game:
 
 #### Temporal Rewind (Basic)
 - Rewind time up to 30 seconds in a localized area
 - Repositions you while leaving "echoes" of your previous actions
+- Essential for puzzle-solving and correcting mistakes
 - Cooldown: 45 seconds
 
 #### Time Dilation (Intermediate)
 - Slow down time for up to 10 seconds
 - Allows for precision combat and puzzle-solving
+- Enemies move in slow-motion while you retain normal speed
 - Cooldown: 60 seconds
 
 #### Timeline Shift (Advanced)
-- Switch between parallel timelines at specific anchor points
-- Changes environment layout and available resources
+- Phase between temporal states at specific anchor points
+- Changes environment layout, enemy positions, and available resources
+- Some doors/paths only exist in certain temporal phases
 - Unlimited use at anchor points
 
 #### Echo Manifestation (Expert)
 - Bring echoes of past actions into physical reality
-- Can create copies of yourself to solve multi-person puzzles
+- Can create temporal copies of yourself to solve multi-person puzzles
+- Echoes can press switches, distract enemies, or trigger events
 - Limited by "Temporal Stability" resource
 
 #### Reality Weave (Master)
-- Merge elements from different timelines
-- Can combine weapons, abilities, or environmental features
+- Merge elements from different temporal states
+- Can combine weapons, create hybrid paths, or fuse timeline elements
+- Required for accessing certain areas and the hidden ending
 - High temporal stability cost
 
 ### 3.3 Combat System
@@ -98,93 +171,124 @@ Players must navigate through collapsed timelines, each representing a different
 4. **Hybrid Tech**: Experimental weapons combining multiple technologies
 
 #### Enemy Types
-- **Temporal Soldiers**: Military units from collapsed timelines
-- **Quantum Aberrations**: Creatures born from timeline fractures
-- **Echo Entities**: Hostile versions of yourself from failed loops
-- **Reality Warpers**: Powerful beings that can manipulate time
+**Shattered Soldiers** - Military personnel fractured across timelines
+- Basic infantry units with conventional weapons
+- Can phase between temporal states, making them unpredictable
+- Weak to sustained fire and time dilation
+- Often encountered in groups
+
+**Temporal Gunners** - Elite ranged units with temporal phasing
+- Highly accurate marksmen that blink in and out of time
+- Difficult to hit due to constant temporal shifting
+- Vulnerable during their brief moments of materialization
+- Require timing and precision to defeat
+
+**Brutes** - Heavy experimental subjects with unstable temporal armor
+- Massive, slow-moving tanks with devastating melee attacks
+- Temporal armor absorbs direct damage
+- Weak points exposed during attack animations
+- Must use environment or time manipulation to defeat
+
+**Wraiths** - Ghost-like smoke entities existing between moments
+- Ethereal beings that phase through physical objects
+- Can only be damaged during specific temporal phases
+- Deadly when they solidify for attacks
+- Require timeline shifting or temporal weapons to harm
 
 ### 3.4 Character Progression
 
 #### Skill Trees
 1. **Combat Mastery**: Unlock new combat moves and weapon proficiencies
-2. **Temporal Arts**: Expand time manipulation capabilities
-3. **Scientific Knowledge**: Gain deeper understanding of quantum mechanics
-4. **Social Engineering**: Improve dialogue options and ally relationships
+2. **Temporal Arts**: Expand TimeBrace capabilities and reduce cooldowns
+3. **Technical Knowledge**: Improve hacking abilities and system access with Salim
+4. **Tactical Awareness**: Enhance stealth, enemy detection, and strategic options
 
 #### Equipment System
-- **Modular Gear**: Customize weapons and armor with found components
-- **Timeline Artifacts**: Unique items from different possible futures
-- **Quantum Augmentations**: Biological enhancements affecting abilities
+- **Modular Gear**: Customize weapons and armor with facility components
+- **Temporal Artifacts**: Experimental items found throughout the facility
+- **TimeBrace Upgrades**: Enhance your temporal manipulation capabilities
 
 #### Character Development
-- **Memory Persistence**: Knowledge and skills carry through loops
-- **Relationship Building**: NPCs remember you across iterations
-- **Moral Alignment**: Choices affect available solutions and endings
+- **Skill Progression**: Unlock abilities through experience and research
+- **Relationship Dynamics**: How you interact with Lian and Salim affects available options
+- **Moral Choices**: Ethical decisions determine ending accessibility
 
 ---
 
 ## 4. Game Modes
 
 ### 4.1 Single-Player Campaign
-- **40-60 hours** of main story content
-- **Multiple endings** based on player choices (7 major endings, 23 variations)
-- **New Game+** with additional challenges and story revelations
+- **20-30 hours** of main story content focused on a single facility
+- **Four distinct endings** based on player choices (A: Executive Protocol, B: Purge Core, C: Recalibrate, D: The Weave)
+- **Hidden Ending Requirements**: Collect all 12 of Lian's logs, preserve research data, find 5 temporal keys
+- **New Game+** with additional challenges and hidden story elements
 - **Challenge Modes**: Time trial and combat arena modes
 
 ### 4.2 Cooperative Mode
-- **Asymmetric Co-op**: Two players in different timelines working together
-- **Synchronized Puzzles**: Requires coordination across temporal barriers
-- **Shared Progress**: Story completion counts for both players
-- **Unique Dialogue**: Special interactions when playing co-op
+- **Asymmetric Co-op**: Two operatives in different temporal phases working together
+- **Synchronized Puzzles**: Requires coordination across temporal states
+- **Shared Progress**: Story completion and collectibles count for both players
+- **Unique Dialogue**: Special interactions between co-op partners and NPCs
 
 ### 4.3 Post-Launch Content
 - **Seasonal Events**: Time-limited challenges with unique rewards
-- **Story Expansions**: Additional timelines and narrative branches
-- **Character DLC**: Play as other characters from the story
-- **Community Challenges**: Global events affecting all players
+- **Story Expansions**: Additional facility sectors and narrative branches
+- **Character Perspectives**: Experience the story from Lian or Salim's viewpoint
+- **Community Challenges**: Global events and leaderboards
 
 ---
 
 ## 5. World Design
 
-### 5.1 Major Locations
+### 5.1 Major Locations (Facility Sectors)
 
-#### Neo-Tokyo 2247 (Hub)
-- Sprawling cyberpunk metropolis
-- Multiple districts with distinct aesthetics
-- Safe zone between missions
-- NPC interactions and side quests
+#### Sector A: Main Entrance & Security (Tutorial/Opening)
+- Corporate lobby turned into temporal battlefield
+- Introduction to basic combat and TimeBrace mechanics
+- Security checkpoints and guard stations
+- First encounter with Shattered Soldiers
 
-#### Quantum Research Facility (Tutorial/Prologue)
-- Where the catastrophe originates
+#### Sector B: Research Labs (Early Game)
+- Where the catastrophic experiment took place
 - Sterile, high-tech laboratory environment
-- Introduction to basic mechanics
+- Audio logs from Lian scattered throughout
+- Temporal Gunners patrol the corridors
+- Introduction to Timeline Shift mechanics
 
-#### The Fractured Wastes (Early Game)
-- Post-apocalyptic landscape where timelines overlap
-- Visual glitches and temporal anomalies
-- Introduction to combat systems
+#### Sector C: Server Farm & Data Center (Mid Game)
+- Massive server rooms with cooling systems
+- Salim guides you through hacking puzzles
+- Critical story information stored in encrypted servers
+- Wraith encounters in the dark server corridors
+- Environmental hazards: cooling gas, electrical systems
 
-#### Corporate Arcology (Mid Game)
-- Massive self-contained city structure
-- Explores dystopian corporate future
-- Stealth and social infiltration missions
+#### Sector D: Containment Zones (Mid-Late Game)
+- Where experimental subjects are held
+- Heavy security and Brute encounters
+- Oppressive, prison-like atmosphere
+- Temporal rifts create dangerous anomalies
+- Key decisions about releasing or containing threats
 
-#### Digital Mindscape (Late Game)
-- Abstract representation of quantum consciousness
-- Surreal, impossible architecture
-- Pure puzzle and exploration focus
+#### Sector E: Administrative Wing (Late Game)
+- Raed's domain of control
+- Pristine offices contrasting with facility chaos
+- Evidence of the orchestrated "accident"
+- Moral choice encounters
+- Access to multiple ending branches
 
-#### The Convergence Point (Endgame)
-- Where all timelines meet
-- Massive scale environmental design
-- Climactic confrontations
+#### Sector F: Central Core & Temporal Engine (Endgame)
+- The heart of the temporal manipulation technology
+- Massive scale engineering marvel
+- All four ending choices made here
+- Final confrontations and revelations
+- Visually spectacular with temporal distortions
 
 ### 5.2 Environmental Storytelling
-- **Visual Narrative**: Each environment tells a story through details
-- **Audio Logs**: Optional recordings that deepen lore
-- **Environmental Hazards**: Temporal rifts and quantum storms
-- **Interactive Elements**: Objects that reveal history when examined
+- **Lian's Logs**: 12 hidden audio recordings revealing ethical concerns and warnings
+- **Research Notes**: Terminal entries showing project development and corruption
+- **Environmental Details**: Scorch marks, temporal tears, and evidence of disaster
+- **Temporal Echoes**: Ghostly replays of past events showing what went wrong
+- **Interactive Terminals**: Unlock doors, reveal lore, and access Salim's assistance
 
 ---
 
