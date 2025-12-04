@@ -96,7 +96,6 @@ This repository contains comprehensive documentation organized into the followin
 - **Purge Core (B)**: Destroy the technology - sacrifice for safety
 - **Recalibrate (C)**: Constrained progress - a fragile compromise
 - **The Weave (D)**: Hidden ending - transcendent self-sacrifice, becoming a nameless guardian
-- **Fractured Timeline**: Chaotic merged reality with glitching physics
 
 ---
 
