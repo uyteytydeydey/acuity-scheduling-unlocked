@@ -8,9 +8,20 @@
 
 ### 📚 Complete Documentation
 
-- 🗺️ **[MAP VISUALIZATION - SEE THE MAP!](FORTNITE_MAP_VISUALIZATION.md)** ⭐ NEW
-- 📖 **[Quick Start Guide](FORTNITE_QUICK_START.md)** - Get your server running in 30 minutes
-- 🔧 **[Technical Implementation](FORTNITE_TECHNICAL_GUIDE.md)** - Device setup and systems
+**Choose Your Implementation:**
+- 🎮 **[UNREAL ENGINE GUIDE - Full Programming with UEFN](FORTNITE_UNREAL_ENGINE_GUIDE.md)** ⭐ RECOMMENDED
+  - Professional game development with Verse programming language
+  - Complete control over all systems
+  - Advanced features: Custom UI, AI, persistence, complex logic
+  
+- 🔧 **[Creative Mode Guide - No Programming](FORTNITE_TECHNICAL_GUIDE.md)**
+  - Simple device-based setup
+  - No coding required
+  - Limited but easier to implement
+
+**Other Documentation:**
+- 🗺️ **[MAP VISUALIZATION - SEE THE MAP!](FORTNITE_MAP_VISUALIZATION.md)**
+- 📖 **[Quick Start Guide](FORTNITE_QUICK_START.md)** - Get your server running
 - 🎨 **[Visual Design Guide](FORTNITE_VISUAL_GUIDE.md)** - Architecture and aesthetics
 - 📜 **[Server Rules & Moderation](FORTNITE_RULES.md)** - Community guidelines
 
