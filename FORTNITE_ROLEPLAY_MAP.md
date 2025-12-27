@@ -47,8 +47,8 @@ Create the most immersive roleplay experience in Fortnite Creative by combining 
 ### Key Features
 
 🏙️ **3 Unique Cities** - Al-Markaz (Los Santos-style metropolis), Paleto Bay (coastal town), Sandy Shores (desert outpost)  
-🏢 **Government Palace** - Qasr Al-Hukm in central city with skyscrapers  
-👔 **20+ Career Paths** - From police officer to fisherman to pilot  
+🏢 **Government Palace** - Qasr Al-Hukm with Governor and Cabinet Ministers  
+👔 **23+ Career Paths** - From Governor to fisherman, including government leadership positions  
 💰 **Player-Driven Economy** - Earn, spend, and trade currency across all cities  
 🚗 **Vehicle System** - Personal and job-specific vehicles, including boats and planes  
 🏠 **Property Ownership** - Buy, sell, and customize homes across 3 distinct cities  
@@ -269,6 +269,168 @@ The map is divided into **3 distinct cities**, each with unique characteristics 
 ---
 
 ## 👥 Job System (FiveM-Inspired)
+
+### 🏛️ Government Leadership (Elected/Appointed Positions)
+
+#### 0. **Governor (الحاكم)** (1 player - Elected)
+**Full Title**: Governor of City of Legends / حاكم مدينة الأساطير
+
+**Powers & Authorities**:
+- **Supreme Executive Authority**: Highest decision-maker in the city
+- **Appointment Power**: Appoint and remove all ministers and department heads
+- **Legislative Authority**: Sign or veto city laws and regulations
+- **Emergency Powers**: Declare states of emergency
+- **Budget Authority**: Approve city budgets and major expenditures
+- **Diplomatic Authority**: Represent the city in official matters
+- **Pardon Power**: Grant pardons and reduce sentences
+
+**Responsibilities**:
+- Lead cabinet meetings with all ministers
+- Set city-wide policies and priorities
+- Manage relations between all government departments
+- Address major crises and emergencies
+- Make final decisions on controversial issues
+- Meet with citizens and business leaders
+- Deliver state of the city addresses
+- Oversee economic development
+
+**Equipment**:
+- Executive Office in Government Palace (Qasr Al-Hukm)
+- Official Governor Vehicle (luxury sedan with flags)
+- Security detail (4 bodyguards from police force)
+- Direct communication line to all departments
+- Access to all government buildings and areas
+
+**Salary**: $500 per in-game hour (highest paid position)
+
+**Requirements**:
+- Level 10+ required
+- Must win election or be appointed by server admins
+- Clean criminal record mandatory
+- Leadership experience preferred
+
+---
+
+#### 0.1 **Minister of Interior (وزير الداخلية)** (1 player - Appointed by Governor)
+**Full Title**: Minister of Interior Affairs / وزير الشؤون الداخلية
+
+**Powers & Authorities**:
+- **Police Oversight**: Direct authority over all police departments
+- **Security Policy**: Set security and law enforcement policies
+- **Emergency Management**: Coordinate disaster response
+- **Border Control**: Manage city entry/exit points
+- **Intelligence**: Oversee security intelligence operations
+- **Appointment**: Appoint Police Chiefs and Sheriffs
+
+**Responsibilities**:
+- Supervise Police HQ in Al-Markaz
+- Manage Paleto Bay Police Station
+- Oversee Sandy Shores Sheriff Department
+- Review and approve major police operations
+- Handle citizen complaints about law enforcement
+- Coordinate with Justice Department on legal matters
+- Respond to security threats and crimes
+- Maintain order across all 3 cities
+- Report to Governor on security status
+
+**Chain of Command**:
+```
+Governor → Minister of Interior → Police Chiefs → Officers
+```
+
+**Equipment**:
+- Ministry Office in Government Palace
+- Official Minister Vehicle (executive sedan)
+- Police radio access to all departments
+- Security clearance for all police facilities
+- Personal security detail (2 officers)
+
+**Salary**: $350 per in-game hour
+
+**Requirements**:
+- Level 8+ required
+- Appointed by Governor
+- Previous police or government experience preferred
+- Clean criminal record mandatory
+
+---
+
+#### 0.2 **Minister of Defense (وزير الدفاع)** (1 player - Appointed by Governor)
+**Full Title**: Minister of Defense / وزير الدفاع
+
+**Powers & Authorities**:
+- **Military Command**: Authority over military/tactical units
+- **Emergency Response**: Deploy tactical teams for major threats
+- **Strategic Planning**: Develop defense and security strategies
+- **Equipment Authorization**: Approve military-grade equipment
+- **Base Command**: Oversee military installations
+- **Special Operations**: Authorize high-risk tactical operations
+
+**Responsibilities**:
+- Command SWAT/Tactical Response Teams
+- Manage National Guard units (if applicable)
+- Oversee Sandy Shores Airfield security
+- Coordinate air support operations (helicopters)
+- Protect government buildings and officials
+- Plan and execute anti-terrorism operations
+- Manage military equipment and vehicles
+- Conduct joint operations with Police
+- Report to Governor on defense readiness
+
+**Chain of Command**:
+```
+Governor → Minister of Defense → SWAT Commander → Tactical Units
+```
+
+**Special Units Under Defense**:
+- SWAT Team (4 players)
+- Air Support Unit (2 pilots)
+- Tactical Response Team
+- VIP Protection Unit
+- Explosives Disposal Unit
+
+**Equipment**:
+- Defense Ministry Office in Government Palace
+- Armored Vehicle (military-grade)
+- Access to all tactical equipment
+- Military-grade weapons authorization
+- Command center with city-wide surveillance
+- Personal security detail (2 tactical officers)
+
+**Salary**: $350 per in-game hour
+
+**Requirements**:
+- Level 8+ required
+- Appointed by Governor
+- Military or tactical law enforcement background
+- Leadership and strategic planning skills
+- Clean criminal record mandatory
+
+---
+
+### 📋 Government Cabinet Structure
+
+**Full Cabinet Lineup**:
+1. **Governor** (الحاكم) - Chief Executive
+2. **Minister of Interior** (وزير الداخلية) - Law Enforcement & Security
+3. **Minister of Defense** (وزير الدفاع) - Military & Tactical Operations
+4. **Minister of Finance** *(optional)* - Economy & Budget
+5. **Minister of Justice** *(optional)* - Courts & Legal System
+6. **Minister of Transportation** *(optional)* - Roads & Vehicles
+
+**Cabinet Meetings**:
+- Held weekly in Government Palace throne room
+- All ministers report to Governor
+- Major decisions require cabinet vote
+- Emergency meetings for crises
+
+**Succession Order**:
+If Governor is unavailable:
+1. Minister of Interior becomes Acting Governor
+2. Minister of Defense becomes Acting Governor (if Interior absent)
+3. Police Chief becomes Acting Governor (if all ministers absent)
+
+---
 
 ### Legal Careers
 

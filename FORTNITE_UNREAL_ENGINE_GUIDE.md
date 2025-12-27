@@ -393,7 +393,13 @@ job_manager := class(creative_device):
     EMSTeam : team_settings_and_inventory_device = team_settings_and_inventory_device{}
     
     Initialize():void=
-        # Define job salaries
+        # Define job salaries (highest to lowest)
+        # Government Leadership
+        set JobSalaries["Governor"] = 500
+        set JobSalaries["Minister_Interior"] = 350
+        set JobSalaries["Minister_Defense"] = 350
+        
+        # Regular Jobs
         set JobSalaries["Police"] = 200
         set JobSalaries["EMS"] = 150
         set JobSalaries["Fire"] = 150
@@ -435,6 +441,163 @@ job_manager := class(creative_device):
     GiveEMSEquipment(Player : player):void=
         # Grant medical items
         Print("Giving medical equipment to {Player}")
+
+# Government positions structure
+government_position := struct:
+    Title : string
+    Player : player
+    AppointedBy : ?player
+    AppointedDate : float
+    Powers : []string
+
+```
+
+### Government Management System
+
+```verse
+government_manager := class(creative_device):
+    
+    # Government positions
+    var Governor : ?player = false
+    var MinisterInterior : ?player = false
+    var MinisterDefense : ?player = false
+    
+    # Cabinet members
+    var CabinetMembers : []player = array{}
+    
+    # Powers tracking
+    var GovernorPowers : []string = array{
+        "Appoint_Ministers",
+        "Veto_Laws",
+        "Emergency_Powers",
+        "Budget_Approval",
+        "Grant_Pardons"
+    }
+    
+    @editable
+    JobManager : job_manager = job_manager{}
+    
+    @editable
+    EconomyManager : economy_manager = economy_manager{}
+    
+    Initialize():void=
+        Print("Government System - Initialized")
+    
+    # Appoint Governor (election or admin)
+    AppointGovernor(Player : player)<suspends>:void=
+        set Governor = Player
+        
+        # Assign job and salary
+        JobManager.AssignJob(Player, "Governor")
+        
+        # Give special permissions
+        GrantGovernorPowers(Player)
+        
+        # Announce to all players
+        Print("{Player} is now the Governor!")
+    
+    # Governor appoints Minister of Interior
+    AppointMinisterInterior(Governor : player, Minister : player)<suspends>:bool=
+        # Check if player is Governor
+        if (Governor = self.Governor):
+            set MinisterInterior = Minister
+            
+            # Assign job
+            JobManager.AssignJob(Minister, "Minister_Interior")
+            
+            # Add to cabinet
+            set CabinetMembers += array{Minister}
+            
+            Print("Governor {Governor} appointed {Minister} as Minister of Interior")
+            return true
+        
+        return false
+    
+    # Governor appoints Minister of Defense
+    AppointMinisterDefense(Governor : player, Minister : player)<suspends>:bool=
+        # Check if player is Governor
+        if (Governor = self.Governor):
+            set MinisterDefense = Minister
+            
+            # Assign job
+            JobManager.AssignJob(Minister, "Minister_Defense")
+            
+            # Add to cabinet
+            set CabinetMembers += array{Minister}
+            
+            Print("Governor {Governor} appointed {Minister} as Minister of Defense")
+            return true
+        
+        return false
+    
+    # Governor removes minister
+    RemoveMinister(Governor : player, Minister : player)<suspends>:bool=
+        if (Governor = self.Governor):
+            # Remove from position
+            if (Minister = MinisterInterior):
+                set MinisterInterior = false
+            else if (Minister = MinisterDefense):
+                set MinisterDefense = false
+            
+            # Remove from cabinet
+            set CabinetMembers = CabinetMembers.RemoveElement(Minister)
+            
+            Print("Governor {Governor} removed {Minister} from cabinet")
+            return true
+        
+        return false
+    
+    # Check if player has specific power
+    HasPower(Player : player, Power : string):bool=
+        if (Player = Governor):
+            return true  # Governor has all powers
+        else if (Player = MinisterInterior):
+            if (Power = "Police_Command" or Power = "Security_Policy"):
+                return true
+        else if (Player = MinisterDefense):
+            if (Power = "Military_Command" or Power = "Tactical_Operations"):
+                return true
+        
+        return false
+    
+    # Grant Governor special powers
+    GrantGovernorPowers(Player : player):void=
+        # Give access to government palace
+        # Enable special commands
+        # Grant VIP status
+        Print("Governor powers granted to {Player}")
+    
+    # Hold cabinet meeting
+    HoldCabinetMeeting()<suspends>:void=
+        Print("Cabinet Meeting Called!")
+        
+        # Teleport all cabinet members to throne room
+        if (Gov := Governor):
+            Print("Governor {Gov} is leading the meeting")
+        
+        for (Member : CabinetMembers):
+            Print("Minister {Member} attending")
+    
+    # Get current government roster
+    GetGovernmentRoster():string=
+        Roster := "Current Government:\n"
+        
+        if (Gov := Governor):
+            set Roster += "Governor: {Gov}\n"
+        else:
+            set Roster += "Governor: VACANT\n"
+        
+        if (MinInt := MinisterInterior):
+            set Roster += "Minister of Interior: {MinInt}\n"
+        else:
+            set Roster += "Minister of Interior: VACANT\n"
+        
+        if (MinDef := MinisterDefense):
+            set Roster += "Minister of Defense: {MinDef}\n"
+        else:
+            set Roster += "Minister of Defense: VACANT\n"
+        
+        Roster
 ```
 
 ---
