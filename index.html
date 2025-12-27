@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Echoes of Tomorrow - أصداء الغد</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #eee;
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            flex: 1;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            margin-bottom: 30px;
+            border: 2px solid #00d9ff;
+            box-shadow: 0 0 30px rgba(0, 217, 255, 0.3);
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 0 0 20px #00d9ff;
+            color: #00d9ff;
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            color: #aaa;
+            margin-bottom: 20px;
+        }
+
+        .game-section {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #333;
+        }
+
+        .game-section h2 {
+            color: #00d9ff;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+        }
+
+        .game-section h3 {
+            color: #4dd0e1;
+            margin: 20px 0 10px 0;
+            font-size: 1.3em;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .feature-card {
+            background: rgba(0, 217, 255, 0.1);
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #00d9ff;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(0, 217, 255, 0.4);
+        }
+
+        .feature-card h4 {
+            color: #00d9ff;
+            margin-bottom: 10px;
+        }
+
+        .download-section {
+            text-align: center;
+            padding: 40px;
+            background: linear-gradient(135deg, rgba(0, 217, 255, 0.2), rgba(77, 208, 225, 0.2));
+            border-radius: 10px;
+            margin: 30px 0;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 15px 40px;
+            margin: 10px;
+            background: linear-gradient(135deg, #00d9ff, #4dd0e1);
+            color: #000;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: transform 0.3s, box-shadow 0.3s;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 20px rgba(0, 217, 255, 0.5);
+        }
+
+        .btn-secondary {
+            background: linear-gradient(135deg, #555, #777);
+            color: #fff;
+        }
+
+        .code-block {
+            background: #1a1a1a;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 4px solid #00d9ff;
+            margin: 15px 0;
+            font-family: 'Courier New', monospace;
+            overflow-x: auto;
+        }
+
+        .ending-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .ending-list li {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border-left: 4px solid #00d9ff;
+        }
+
+        .ending-list li strong {
+            color: #00d9ff;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .requirements {
+            background: rgba(255, 215, 0, 0.1);
+            border: 1px solid #ffd700;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+        }
+
+        .requirements h4 {
+            color: #ffd700;
+            margin-bottom: 10px;
+        }
+
+        .requirements ul {
+            margin-right: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.5);
+            border-top: 1px solid #333;
+            margin-top: 40px;
+        }
+
+        .language-toggle {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 1000;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            .feature-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .checkmark {
+            color: #4caf50;
+            margin-left: 5px;
+        }
+
+        .star {
+            color: #ffd700;
+        }
+    </style>
+</head>
+<body>
+    <button class="btn btn-secondary language-toggle" onclick="toggleLanguage()">English / عربي</button>
+
+    <div class="container">
+        <header>
+            <h1>🎮 Echoes of Tomorrow</h1>
+            <h1>أصداء الغد</h1>
+            <p class="subtitle">A Temporal Research Facility Mystery</p>
+            <p class="subtitle">لغز منشأة البحث الزمنية</p>
+        </header>
+
+        <div class="download-section">
+            <h2>🎮 العب الآن / Play Now</h2>
+            <p style="margin: 20px 0;">اللعبة متاحة للتحميل والعب مجاناً</p>
+            <p style="margin: 20px 0;">The game is available for free download and play</p>
+            
+            <a href="echoes_of_tomorrow.py" download class="btn">
+                📥 تحميل اللعبة / Download Game
+            </a>
+            <a href="GAME_README.md" class="btn btn-secondary">
+                📖 دليل اللعب / Game Guide
+            </a>
+        </div>
+
+        <div class="game-section">
+            <h2>📖 القصة / The Story</h2>
+            <p>
+                <strong>منشأة بحث زمنية سرّية.</strong> مشروع علمي يحاول التحكم بخيوط الزمن لإصلاح الكوارث.
+            </p>
+            <p>
+                <strong>A secret temporal research facility.</strong> A scientific project attempting to control the threads of time to fix disasters.
+            </p>
+            <br>
+            <p>
+                تجربة زمنية كبرى تنحرف، فتنتج تشققات زمنية وأعداء مشوّهين. آدم يدخل المنشأة لإيقاف الكارثة ومنع استغلال التقنية.
+            </p>
+            <p>
+                A major temporal experiment goes wrong, creating time rifts and distorted enemies. Adam enters the facility to stop the catastrophe and prevent exploitation of the technology.
+            </p>
+        </div>
+
+        <div class="game-section">
+            <h2>👥 الشخصيات / Characters</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h4>آدم (Adam)</h4>
+                    <p>البطل/اللاعب - تقني/عميل ميداني مع جهاز TimeBrace</p>
+                    <p>The Hero/Player - Field technician with TimeBrace device</p>
+                </div>
+                <div class="feature-card">
+                    <h4>ليان (Lian)</h4>
+                    <p>عالِمة - ضمير أخلاقي، تحذيراتها مخفية في 12 سجل</p>
+                    <p>Scientist - Ethical conscience, warnings hidden in 12 logs</p>
+                </div>
+                <div class="feature-card">
+                    <h4>سليم (Salim)</h4>
+                    <p>مهندس أنظمة - يساعد بخطافات تقنية</p>
+                    <p>Systems Engineer - Provides technical support</p>
+                </div>
+                <div class="feature-card">
+                    <h4>رائد (Raed)</h4>
+                    <p>العقل الإداري - يريد نظامًا للسيطرة</p>
+                    <p>Administrative Mind - Seeks forced stability</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="game-section">
+            <h2>⚔️ الأعداء / Enemies</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h4>Shattered Soldiers</h4>
+                    <p>جنود مفتتون عبر الزمن</p>
+                </div>
+                <div class="feature-card">
+                    <h4>Temporal Gunners</h4>
+                    <p>وحدات رماية زمنية</p>
+                </div>
+                <div class="feature-card">
+                    <h4>Brutes</h4>
+                    <p>تجارب ثقيلة</p>
+                </div>
+                <div class="feature-card">
+                    <h4>Wraiths</h4>
+                    <p>كائنات دخانية شبحية</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="game-section">
+            <h2>🎮 قدرات TimeBrace / TimeBrace Abilities</h2>
+            <ul class="ending-list">
+                <li><strong>⏪ Temporal Rewind</strong> - إرجاع الزمن حتى 30 ثانية</li>
+                <li><strong>⏱️ Time Dilation</strong> - تباطؤ الزمن للقتال الدقيق</li>
+                <li><strong>🔀 Timeline Shift</strong> - التحول بين الحالات الزمنية</li>
+                <li><strong>👥 Echo Manifestation</strong> - جلب أفعال الماضي للواقع</li>
+                <li><strong>🌀 Reality Weave</strong> - دمج عناصر من حالات زمنية</li>
+            </ul>
+        </div>
+
+        <div class="game-section">
+            <h2>🎯 النهايات الأربعة / Four Endings</h2>
+            <ul class="ending-list">
+                <li>
+                    <strong>A: Executive Protocol (نهاية القوة)</strong>
+                    رائد ينتصر - العالم مستقر لكن تحت سلطة قاسية<br>
+                    "الاستقرار بدون رحمة ليس إنقاذًا؛ إنه سيطرة"
+                </li>
+                <li>
+                    <strong>B: Purge Core (نهاية التضحية)</strong>
+                    تدمير التقنية - منع السلاح لكن تضحية بالفرص العلمية<br>
+                    "منع السلاح أخلاقيًا، لكن شرّ أكبر تم تفاديه"
+                </li>
+                <li>
+                    <strong>C: Recalibrate (النهاية الرمادية)</strong>
+                    إعادة ضبط - التقنية تبقى تحت قيود صارمة<br>
+                    "حل وسط؛ لا ندم ولا سلطة مطلقة. فرصة ثانية هشة"
+                </li>
+                <li>
+                    <strong><span class="star">★</span> D: The Weave (النهاية المخفية العميقة)</strong>
+                    دمج الوعي في نسيج الزمن - التضحية القصوى<br>
+                    "التضحية القصوى؛ كتابة التاريخ بلا رغبة في امتلاك القوة"
+                    
+                    <div class="requirements">
+                        <h4>متطلبات فتح النهاية المخفية:</h4>
+                        <ul>
+                            <li><span class="checkmark">✓</span> جمع كل سجلات ليان (12/12)</li>
+                            <li><span class="checkmark">✓</span> جمع المفاتيح الزمنية (5/5)</li>
+                            <li><span class="checkmark">✓</span> حِفظ الأبحاث</li>
+                            <li><span class="checkmark">✓</span> عدم إتلاف النواة</li>
+                            <li><span class="checkmark">✓</span> اتخاذ خيارات أخلاقية (3/3)</li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="game-section">
+            <h2>🚀 كيفية اللعب / How to Play</h2>
+            
+            <h3>المتطلبات / Requirements:</h3>
+            <p>Python 3.6 أو أحدث / Python 3.6 or newer</p>
+
+            <h3>تشغيل اللعبة / Run the Game:</h3>
+            <div class="code-block">
+                python3 echoes_of_tomorrow.py
+            </div>
+
+            <h3>اختبار اللعبة / Test the Game:</h3>
+            <div class="code-block">
+                python3 test_game.py
+            </div>
+
+            <h3>عرض توضيحي / Demo:</h3>
+            <div class="code-block">
+                python3 demo_game.py
+            </div>
+
+            <h3>التحقق من عناصر القصة / Verify Story Elements:</h3>
+            <div class="code-block">
+                python3 verify_story.py
+            </div>
+        </div>
+
+        <div class="game-section">
+            <h2>📦 الملفات / Files</h2>
+            <ul class="ending-list">
+                <li><strong>echoes_of_tomorrow.py</strong> - اللعبة الرئيسية (45KB)</li>
+                <li><strong>test_game.py</strong> - اختبارات تلقائية</li>
+                <li><strong>demo_game.py</strong> - عرض توضيحي</li>
+                <li><strong>verify_story.py</strong> - التحقق من عناصر القصة</li>
+                <li><strong>GAME_README.md</strong> - دليل مفصل (عربي/English)</li>
+                <li><strong>IMPLEMENTATION_SUMMARY.md</strong> - ملخص التطبيق</li>
+            </ul>
+        </div>
+
+        <div class="download-section">
+            <h2>📥 روابط التحميل / Download Links</h2>
+            <p>يمكنك تحميل جميع ملفات اللعبة من GitHub</p>
+            <p>You can download all game files from GitHub</p>
+            
+            <a href="https://github.com/uyteytydeydey/acuity-scheduling-unlocked" class="btn" target="_blank">
+                🔗 فتح في GitHub / Open on GitHub
+            </a>
+        </div>
+
+        <footer>
+            <p>"في كل خط زمني، الأمل يستمر"</p>
+            <p>"In every timeline, hope persists"</p>
+            <br>
+            <p>Echoes of Tomorrow - 2025</p>
+        </footer>
+    </div>
+
+    <script>
+        function toggleLanguage() {
+            // Simple toggle for demonstration
+            alert('Language toggle feature - Implementation depends on hosting platform');
+        }
+    </script>
+</body>
+</html>
