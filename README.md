@@ -6,6 +6,22 @@ Welcome to the comprehensive design documentation for **Echoes of Tomorrow**, an
 
 ---
 
+## 🎮 **NEW: Play the Game NOW!**
+
+**Want to experience the story RIGHT NOW?**  
+👉 **[Play the Interactive Prototype](echoes_of_tomorrow.py)** 👈
+
+We've created a fully playable text-based interactive fiction prototype that brings the complete Echoes of Tomorrow story to life! Experience all four endings, make ethical choices, and discover the hidden "Weave" ending.
+
+**Quick Start:**
+```bash
+python3 echoes_of_tomorrow.py
+```
+
+📖 **[Read Game Instructions (English/Arabic)](GAME_README.md)** - Learn how to play and unlock all endings!
+
+---
+
 ## 🚀 Ready to Publish? Start Here!
 
 **Want to publish this game on PlayStation 5 NOW?**  
