@@ -8,6 +8,7 @@
 
 ### 📚 Complete Documentation
 
+- 🗺️ **[MAP VISUALIZATION - SEE THE MAP!](FORTNITE_MAP_VISUALIZATION.md)** ⭐ NEW
 - 📖 **[Quick Start Guide](FORTNITE_QUICK_START.md)** - Get your server running in 30 minutes
 - 🔧 **[Technical Implementation](FORTNITE_TECHNICAL_GUIDE.md)** - Device setup and systems
 - 🎨 **[Visual Design Guide](FORTNITE_VISUAL_GUIDE.md)** - Architecture and aesthetics
