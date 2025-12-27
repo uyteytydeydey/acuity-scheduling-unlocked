@@ -1,0 +1,167 @@
+{
+  "title": "Echoes of Tomorrow - أصداء الغد",
+  "title_en": "Echoes of Tomorrow",
+  "title_ar": "أصداء الغد",
+  "version": "1.0.0",
+  "release_date": "2025-12-27",
+  
+  "description_short_en": "A text-based temporal adventure where you control time and decide the fate of humanity.",
+  "description_short_ar": "مغامرة نصية زمنية حيث تتحكم في الزمن وتقرر مصير البشرية.",
+  
+  "description_long_en": "A temporal research facility has suffered a catastrophic failure. You are Adam, a field operative equipped with the TimeBrace device, capable of manipulating time itself. Navigate through temporal rifts, fight distorted enemies, collect hidden logs, and make choices that will determine the fate of time manipulation technology and humanity itself.",
+  "description_long_ar": "منشأة بحث زمنية تعرضت لفشل كارثي. أنت آدم، عميل ميداني مجهز بجهاز TimeBrace، قادر على التلاعب بالزمن نفسه. تنقل عبر التشققات الزمنية، قاتل الأعداء المشوهين، اجمع السجلات المخفية، واتخذ قرارات ستحدد مصير تقنية التلاعب بالزمن والبشرية.",
+  
+  "author": "uyteytydeydey",
+  "genre": [
+    "Adventure",
+    "Interactive Fiction",
+    "Sci-Fi",
+    "Text-Based"
+  ],
+  
+  "tags": [
+    "text-adventure",
+    "sci-fi",
+    "time-travel",
+    "choices-matter",
+    "story-rich",
+    "multiple-endings",
+    "arabic",
+    "english",
+    "temporal",
+    "cyberpunk",
+    "time-manipulation",
+    "narrative"
+  ],
+  
+  "features": [
+    "5 Time manipulation abilities (TimeBrace)",
+    "4 different endings (including 1 hidden ending)",
+    "6 facility sectors to explore",
+    "4 enemy types (Shattered Soldiers, Temporal Gunners, Brutes, Wraiths)",
+    "Collectible system: 12 Lian's logs + 5 temporal keys",
+    "Ethical choices that affect the story",
+    "Bilingual support (English/Arabic)"
+  ],
+  
+  "characters": [
+    {
+      "name": "Adam (آدم)",
+      "role": "Protagonist - Field technician with TimeBrace device"
+    },
+    {
+      "name": "Lian (ليان)",
+      "role": "Scientist - Ethical conscience with 12 hidden logs"
+    },
+    {
+      "name": "Salim (سليم)",
+      "role": "Systems Engineer - Technical support"
+    },
+    {
+      "name": "Raed (رائد)",
+      "role": "Antagonist - Seeks forced stability"
+    }
+  ],
+  
+  "endings": [
+    {
+      "id": "A",
+      "name": "Executive Protocol",
+      "name_ar": "نهاية القوة",
+      "description": "Raed wins - Dystopian stability through force"
+    },
+    {
+      "id": "B",
+      "name": "Purge Core",
+      "name_ar": "نهاية التضحية",
+      "description": "Destroy the technology - Sacrifice for safety"
+    },
+    {
+      "id": "C",
+      "name": "Recalibrate",
+      "name_ar": "النهاية الرمادية",
+      "description": "Technology survives under strict constraints"
+    },
+    {
+      "id": "D",
+      "name": "The Weave",
+      "name_ar": "نهاية النسيج",
+      "description": "Hidden ending - Merge consciousness with temporal fabric",
+      "hidden": true,
+      "requirements": [
+        "Collect all 12 Lian's logs",
+        "Find all 5 temporal keys",
+        "Make 3 ethical choices",
+        "Preserve research data",
+        "Keep core intact"
+      ]
+    }
+  ],
+  
+  "requirements": {
+    "platform": "Python",
+    "version": "3.6+",
+    "dependencies": [],
+    "storage": "~1 MB"
+  },
+  
+  "playtime": {
+    "average": "20-30 minutes per ending",
+    "total": "60-90 minutes for all endings"
+  },
+  
+  "languages": [
+    "English",
+    "Arabic (العربية)"
+  ],
+  
+  "rating": {
+    "suggested": "T for Teen (13+)",
+    "content": [
+      "Fantasy Violence",
+      "Mild Language",
+      "Intense Sequences"
+    ]
+  },
+  
+  "links": {
+    "repository": "https://github.com/uyteytydeydey/acuity-scheduling-unlocked",
+    "branch": "copilot/add-game-storyline-elements",
+    "web": "https://uyteytydeydey.github.io/acuity-scheduling-unlocked/",
+    "documentation": {
+      "game_readme": "GAME_README.md",
+      "deployment_guide": "DEPLOYMENT_GUIDE.md",
+      "quick_deploy": "QUICK_DEPLOY.md",
+      "troubleshooting": "PUBLISHING_TROUBLESHOOTING.md"
+    }
+  },
+  
+  "files": {
+    "main": "echoes_of_tomorrow.py",
+    "test": "test_game.py",
+    "demo": "demo_game.py",
+    "verify": "verify_story.py",
+    "package": "package_game.py",
+    "web": "index.html"
+  },
+  
+  "license": "MIT",
+  
+  "social": {
+    "hashtags": [
+      "#gamedev",
+      "#indiegame",
+      "#textadventure",
+      "#python",
+      "#timetravel",
+      "#scifi"
+    ]
+  },
+  
+  "marketing": {
+    "tagline_en": "In every timeline, hope persists",
+    "tagline_ar": "في كل خط زمني، الأمل يستمر",
+    "elevator_pitch_en": "Control time, fight enemies, and choose the fate of humanity in this text-based temporal adventure with 4 unique endings.",
+    "elevator_pitch_ar": "تحكم بالزمن، قاتل الأعداء، واختر مصير البشرية في هذه المغامرة الزمنية النصية مع 4 نهايات فريدة."
+  }
+}
