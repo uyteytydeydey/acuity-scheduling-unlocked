@@ -19,6 +19,7 @@ This repository contains comprehensive design documentation for multiple game pr
 - 🚗 **Vehicle System** - Own and customize personal vehicles
 - ⚖️ **Law & Order** - Active police force with arrest and court systems
 - 🏠 **Property Ownership** - Buy homes and businesses
+- 📱 **iFone 17 Pro Max** - 9 integrated apps including social media, ride-hailing, food delivery, and government services
 
 ---
 

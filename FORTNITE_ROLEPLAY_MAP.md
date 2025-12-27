@@ -501,12 +501,188 @@ Create the most immersive roleplay experience in Fortnite Creative by combining 
 7. **Business Channel (5)**: Commerce and trade
 8. **Private Channels (10-99)**: Create custom channels
 
-### Phone System
-- **Contact List**: Add other players
-- **Text Messages**: Send private messages
-- **Voicemail**: Leave messages for offline players
-- **Emergency Call**: Quick access to 911
-- **Business Directory**: Find services and businesses
+### Phone System - "iFone 17 Pro Max"
+
+**Device Design**: Modern smartphone interface inspired by iPhone 17 Pro Max aesthetics
+
+#### Core Phone Features
+- **Contact List**: Add and manage other players
+- **Call System**: Voice or text-based calls to contacts
+- **Emergency Call**: Quick access to 911 dispatch
+- **Notifications**: Receive alerts from apps and services
+- **Settings**: Customize phone appearance and notifications
+
+#### Installed Applications
+
+##### 1. **New X** (Social Media - Twitter Alternative)
+- **Purpose**: Public social media platform for city-wide announcements and discussions
+- **Features**:
+  - Post status updates (140 character limit)
+  - Follow other players
+  - Like and repost content
+  - Trending topics in City of Legends
+  - Direct messages to other users
+- **Usage**: Share news, advertise businesses, social interactions
+- **In-Game Implementation**: Text-based feed with HUD display
+
+##### 2. **New Chat** (Social Messaging - Snapchat Alternative)
+- **Purpose**: Private messaging with disappearing messages and streak system
+- **Features**:
+  - Send private messages (disappear after read)
+  - Photo sharing (text descriptions)
+  - **Streak System**: Track consecutive days of messaging with friends
+    - Streaks increase social reputation
+    - Rewards for maintaining long streaks
+  - Story posting (24-hour visible posts)
+  - Friend list with streak counters
+- **Usage**: Close friend communication, building relationships
+- **Streak Rewards**: Bonus XP and social perks for 7, 30, 100 day streaks
+
+##### 3. **Absher** (Government Services App)
+- **Purpose**: Official government app for fines, violations, and identity documents
+- **Features**:
+  - **Pay Traffic Fines**: View and pay outstanding tickets
+  - **Criminal Record**: Check your violation history
+  - **Identity Documents**: Apply for and renew ID cards
+  - **Vehicle Registration**: Register new vehicles
+  - **License Management**: View driving license status
+  - **Fine History**: Complete record of all violations
+  - **Payment Portal**: Direct payment using Legend Coins
+- **Usage**: Essential for law-abiding citizens and legal compliance
+- **Police Integration**: Police can check player status through this system
+
+##### 4. **NewSab** (Messaging - WhatsApp Alternative)
+- **Purpose**: Primary messaging app for private conversations
+- **Features**:
+  - One-on-one messaging
+  - Group chats (up to 10 players)
+  - Voice messages (text transcription)
+  - Media sharing (text descriptions)
+  - Status updates
+  - Read receipts (blue checkmarks)
+  - Last seen status
+- **Usage**: Business communication, friend chats, coordination
+- **Encryption**: Simulated end-to-end encryption for privacy RP
+
+##### 5. **Keeta** (Food Delivery Service)
+- **Purpose**: Order food from restaurants and have it delivered
+- **Features**:
+  - Browse restaurant menus
+  - Order food items
+  - Track delivery driver location
+  - Rate restaurants and drivers
+  - Save favorite orders
+  - Promotions and discounts
+- **Job Integration**: Creates delivery driver jobs
+- **Restaurant Owners**: Can list their businesses
+- **Delivery Time**: 5-10 minutes in-game
+
+##### 6. **My Job** (Employment Platform)
+- **Purpose**: Job listings and application system
+- **Features**:
+  - Browse available job positions
+  - Apply for jobs with resume
+  - View job requirements and salary
+  - Employer job posting (for business owners)
+  - Application tracking
+  - Job recommendations based on level/skills
+  - Company reviews and ratings
+- **Integration**: Links to Employment Center
+- **Business Owners**: Can post job openings for their companies
+
+##### 7. **Phone App** (Native Dialer)
+- **Purpose**: Make and receive calls
+- **Features**:
+  - Add contacts with names and numbers
+  - Call history (incoming, outgoing, missed)
+  - Favorites list
+  - Speed dial
+  - Caller ID
+  - Voicemail system
+  - Block contacts
+- **Call Types**: Voice (proximity chat) or text-based roleplay
+- **Emergency**: 911 speed dial button
+
+##### 8. **Haraj** (Marketplace - Car Sales)
+- **Purpose**: Buy and sell vehicles between players
+- **Features**:
+  - List vehicles for sale with price
+  - Browse available vehicles by type/price
+  - Filter by condition, mileage, price range
+  - Seller ratings and reviews
+  - Direct messaging with sellers
+  - Price negotiation system
+  - Photo listings (vehicle preview)
+  - Transaction history
+- **Safety**: Meet at police station for safe transactions
+- **Fees**: 5% platform fee on sales
+
+##### 9. **Newber** (Ride-Hailing - Uber Alternative)
+- **Purpose**: Request rides from taxi/Uber drivers
+- **Features**:
+  - Request ride to destination
+  - See nearby drivers on map
+  - Fare estimate before booking
+  - Track driver arrival
+  - Driver rating system
+  - Payment through phone (auto-deduct LC)
+  - Ride history
+  - Split fare with friends
+  - Favorite drivers
+- **Driver Side**: Accept requests, navigate to pickup, earn fares
+- **Pricing**: Distance-based fare calculation
+- **Tips**: Option to tip driver after ride
+
+#### Phone System Technical Implementation
+
+**Fortnite Creative Implementation**:
+1. **HUD Message Device**: Display phone interface and app screens
+2. **Button Devices**: Navigate between apps and menus
+3. **Conditional Buttons**: Check requirements (balance for payments, job for listings)
+4. **Trigger Devices**: Detect when players use phone features
+5. **Accolade Device**: Process payments (fines, food orders, ride fares)
+6. **Item Granter**: Give phone item to all players on spawn
+7. **Scoreboards**: Track streaks, ratings, transaction history
+
+**Phone Menu Navigation**:
+- Players access phone via inventory item or button
+- Grid menu showing all 9 apps
+- Each app opens sub-menu with features
+- Back button to return to home screen
+- Notification badges on apps with updates
+
+**Data Persistence**:
+- Contact lists stored per player
+- Streak counters tracked with timers
+- Transaction history logged
+- Messages can be saved (limited storage)
+
+#### Phone Integration With Game Systems
+
+**Economy Integration**:
+- Absher: Pay fines directly
+- Keeta: Order and pay for food
+- Newber: Automatic fare payment
+- Haraj: Vehicle transactions
+- My Job: View salary info
+
+**Job Integration**:
+- Taxi drivers receive Newber requests
+- Restaurant workers fulfill Keeta orders
+- Police can check Absher records
+- Employers post on My Job
+
+**Social Integration**:
+- New X: Public announcements
+- New Chat: Friend connections and streaks
+- NewSab: Group coordination
+- Phone: Direct communication
+
+**Progression Rewards**:
+- New Chat streaks: +social XP
+- Newber ratings: +driver reputation
+- Keeta ratings: +business reputation
+- Haraj sales: +merchant experience
 
 ### Social Interactions
 - **Emotes**: Express emotions and actions

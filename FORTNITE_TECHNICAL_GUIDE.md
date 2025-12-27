@@ -8,8 +8,9 @@
 5. [Property System](#property-system)
 6. [Vehicle System](#vehicle-system)
 7. [Law Enforcement Mechanics](#law-enforcement-mechanics)
-8. [Performance Optimization](#performance-optimization)
-9. [Testing & Quality Assurance](#testing--quality-assurance)
+8. [Phone System Implementation](#phone-system-implementation)
+9. [Performance Optimization](#performance-optimization)
+10. [Testing & Quality Assurance](#testing--quality-assurance)
 
 ---
 
@@ -794,6 +795,538 @@ Barrier Device: Unlock door (when key detected)
 - Verify wanted level tracked correctly
 - Test teleport destination (jail cell)
 - Confirm Barrier Device at jail door
+
+---
+
+## 📱 Phone System Implementation
+
+### iFone 17 Pro Max Setup
+
+The phone system is a central feature providing 9 integrated apps for player interaction. This section covers complete implementation.
+
+#### Core Phone Infrastructure
+
+**Devices Required**:
+- **Item Granter Device** (phone item given to all players)
+- **HUD Message Device** (display phone UI and app screens)
+- **Multiple Button Devices** (app icons and navigation)
+- **Conditional Button Devices** (feature requirements)
+- **Trigger Devices** (detect phone usage)
+- **Tracker Devices** (store data: contacts, streaks, balances)
+- **Timer Devices** (streak counters, delivery times)
+
+#### Phone Menu System
+
+**Main Menu Implementation**:
+1. Create **Phone Item** (consumable or tool item)
+2. When used → Display HUD with 9 app icons
+3. Each app icon = **Button Device**
+4. Pressing app button → Opens app sub-menu
+
+**Menu Layout** (3x3 Grid):
+```
+┌─────────┬─────────┬─────────┐
+│ New X   │NewChat  │ Absher  │
+├─────────┼─────────┼─────────┤
+│ NewSab  │ Keeta   │ My Job  │
+├─────────┼─────────┼─────────┤
+│ Phone   │ Haraj   │ Newber  │
+└─────────┴─────────┴─────────┘
+```
+
+### App 1: New X (Social Media)
+
+**Implementation**:
+1. **Post System**:
+   - Button: "Create Post"
+   - Input: Custom text prompt (140 chars)
+   - Broadcast: HUD Message to all players
+   - Channel 100: Post broadcast
+
+2. **Feed Display**:
+   - Scoreboard Device: Show recent posts
+   - Refresh button updates feed
+   - Like button increments counter
+
+3. **Direct Messages**:
+   - Conditional Button: Select recipient
+   - HUD Message: Private message display
+   - Channel 101-110: DM channels
+
+**Devices Setup**:
+```
+Phone Item → Button "New X" → Sub-Menu
+↓
+Button "Create Post" → Text Input → Broadcast (Channel 100)
+Button "View Feed" → Display Scoreboard
+Button "DM" → Select Player → Send Message (Channel 101)
+```
+
+### App 2: New Chat (Messaging + Streaks)
+
+**Streak System Implementation**:
+
+**Devices Required**:
+- **Tracker Device** (track streak count per player pair)
+- **Timer Device** (24-hour reset check)
+- **Accolade Device** (streak rewards)
+- **HUD Message** (streak notifications)
+
+**Implementation Steps**:
+1. **Streak Counter**:
+   ```
+   Daily Timer (24 hours) → Check if message sent
+   If YES: Increment Streak Counter (+1)
+   If NO: Reset Streak to 0
+   ```
+
+2. **Messaging**:
+   - Button: Select friend from list
+   - Send message (text or "snap")
+   - Updates last-contact timestamp
+   - Message disappears after read (5 second HUD)
+
+3. **Streak Display**:
+   - Show flame icon + number next to friend name
+   - HUD: "🔥 7 day streak with PlayerName!"
+   
+4. **Streak Rewards**:
+   ```
+   7 days: +100 social XP (Accolade Device)
+   30 days: +500 XP + special badge
+   100 days: +2000 XP + legendary badge
+   ```
+
+**Device Chain**:
+```
+Timer (24h loop) → Trigger (check message sent)
+→ If true: Increment Streak (Tracker +1)
+→ If false: Reset Streak (Tracker = 0)
+→ Display Streak on HUD (HUD Message)
+→ Check milestones → Grant rewards (Accolade)
+```
+
+### App 3: Absher (Government Services)
+
+**Fine Payment System**:
+
+**Devices Required**:
+- **Tracker Device** (store outstanding fines)
+- **Conditional Button** (pay fine - requires gold bars)
+- **Accolade Device** (deduct payment)
+- **HUD Message** (receipt confirmation)
+
+**Implementation**:
+1. **View Fines**:
+   - Button: "My Violations"
+   - Display Tracker value (total fines)
+   - List violations with amounts
+
+2. **Pay Fine**:
+   ```
+   Button "Pay Fine" (Conditional)
+   → Check gold bar balance
+   → If sufficient: Deduct amount (Channel 120)
+   → Clear violation from record
+   → HUD: "Fine Paid: $200 LC"
+   ```
+
+3. **Identity Documents**:
+   - Button: "Apply for ID"
+   - Cost: $50 LC
+   - Grant item: "City ID Card"
+   - Required for certain jobs
+
+4. **Police Integration**:
+   - Police can add fines via special device
+   - Trigger → Increment player's fine Tracker
+   - Notification sent to player's phone
+
+**Device Setup**:
+```
+Police Button "Issue Fine" → Input Amount
+→ Target Player Selection
+→ Tracker (add to player's fine total)
+→ HUD Message (notify player)
+
+Player Button "Pay Fine" (Conditional)
+→ Check Balance (gold bars >= fine amount)
+→ Accolade (deduct payment)
+→ Tracker (reset fine to 0)
+```
+
+### App 4: NewSab (WhatsApp Clone)
+
+**Group Chat Implementation**:
+
+**Devices Required**:
+- **Multiple HUD Message Devices** (separate channels per group)
+- **Button Devices** (send message, create group)
+- **Tracker Device** (group member lists)
+
+**Implementation**:
+1. **Create Group**:
+   - Button: "New Group"
+   - Select up to 10 players
+   - Assign group to Channel (130-140)
+
+2. **Send Message**:
+   - Select group or individual
+   - Text input
+   - Broadcast on group's channel
+   - All members see HUD message
+
+3. **Read Receipts**:
+   - Track who viewed message
+   - Blue checkmark after read
+   - Uses Trigger Device (detect view)
+
+**Device Chain**:
+```
+Button "Send Message"
+→ Select Recipient/Group
+→ Text Input
+→ Broadcast on Channel (130+)
+→ HUD Message to recipients
+→ Track Read Status (Trigger)
+```
+
+### App 5: Keeta (Food Delivery)
+
+**Order & Delivery System**:
+
+**Devices Required**:
+- **Vending Machine** (restaurant menus)
+- **Spawner Device** (spawn food items)
+- **Button Device** (order placement)
+- **Accolade Device** (payment processing)
+- **Timer Device** (delivery countdown)
+- **Item Granter** (grant food to player)
+
+**Implementation**:
+1. **Restaurant Menu**:
+   - Each restaurant = Vending Machine
+   - Items: Pizza ($15), Burger ($10), Drink ($5)
+   - Player selects items
+
+2. **Order Placement**:
+   ```
+   Button "Place Order"
+   → Check balance (Conditional)
+   → Deduct payment (Accolade)
+   → Alert delivery drivers (HUD broadcast Channel 145)
+   → Start delivery timer (5-10 minutes)
+   ```
+
+3. **Driver Acceptance**:
+   - Drivers see order notification
+   - Button: "Accept Delivery"
+   - Navigate to restaurant → Pick up → Deliver to player
+   - Earn fare + tip
+
+4. **Food Delivery**:
+   - Timer ends → Item Granter gives food to player
+   - Food provides health boost (if applicable)
+   - Player can rate driver
+
+**Device Setup**:
+```
+Vending Machine (Menu) → Player selects items
+→ Button "Order" (Conditional - check balance)
+→ Accolade (deduct cost)
+→ HUD (notify drivers on Channel 145)
+→ Driver accepts → Navigate to pickup
+→ Timer (delivery countdown)
+→ Item Granter (give food to player)
+→ Accolade (pay driver + tip)
+```
+
+### App 6: My Job (Employment Platform)
+
+**Job Listing System**:
+
+**Devices Required**:
+- **HUD Message Device** (display job listings)
+- **Button Devices** (post job, apply)
+- **Conditional Button** (check requirements)
+- **Tracker Device** (application status)
+
+**Implementation**:
+1. **View Jobs**:
+   - Button: "Browse Jobs"
+   - Display available positions
+   - Filter by: salary, type, level required
+
+2. **Apply for Job**:
+   ```
+   Button "Apply" (Conditional)
+   → Check player level
+   → Check requirements met
+   → Submit application (Tracker)
+   → Notify employer (HUD)
+   ```
+
+3. **Employer Posting** (for business owners):
+   - Button: "Post Job"
+   - Input: Title, salary, requirements
+   - Add to job board
+   - Receive applications
+
+4. **Job Acceptance**:
+   - Employer reviews applications
+   - Button: "Hire Player"
+   - Player joins team/gets equipment
+   - Integration with Employment Center
+
+**Device Chain**:
+```
+Business Owner Button "Post Job"
+→ Input job details
+→ Add to Job Board (Scoreboard)
+
+Player Button "Apply"
+→ Conditional (check level/requirements)
+→ Tracker (mark as applied)
+→ HUD (notify employer)
+
+Employer Button "Hire"
+→ Team Settings (assign player to job team)
+→ Item Granter (give equipment)
+→ HUD (notify player of acceptance)
+```
+
+### App 7: Phone (Native Dialer)
+
+**Call System Implementation**:
+
+**Devices Required**:
+- **Button Device** (contacts list)
+- **HUD Message** (incoming call notification)
+- **Trigger Device** (detect answer/decline)
+- **Audio Device** (ringtone)
+- **Proximity Chat** (for voice calls)
+
+**Implementation**:
+1. **Contact Management**:
+   - Button: "Add Contact"
+   - Input: Player name + number
+   - Store in player's contact list
+
+2. **Make Call**:
+   ```
+   Button "Call Contact"
+   → Select from list
+   → HUD to recipient (incoming call)
+   → Recipient buttons: "Answer" / "Decline"
+   → If answered: Open voice/text chat
+   ```
+
+3. **Call Types**:
+   - Voice: Uses proximity chat or party chat
+   - Text: HUD message exchange
+   - Emergency (911): Direct to dispatch
+
+4. **Voicemail**:
+   - If declined/unanswered
+   - Button: "Leave Voicemail"
+   - Text message stored for recipient
+   - Notification on next login
+
+**Device Setup**:
+```
+Button "Call" → Select Contact
+→ HUD Message (recipient - incoming call)
+→ Buttons: "Answer" / "Decline"
+
+If Answer:
+→ Enable voice chat / text chat
+→ Timer (call duration tracking)
+
+If Decline:
+→ Button "Voicemail" (caller)
+→ Store message (Tracker)
+→ Notify on recipient login
+```
+
+### App 8: Haraj (Vehicle Marketplace)
+
+**Buy/Sell System**:
+
+**Devices Required**:
+- **Vending Machine** (vehicle listings)
+- **Button Device** (list vehicle, contact seller)
+- **Conditional Button** (purchase - requires funds)
+- **Accolade Device** (process transaction)
+- **Spawner Device** (spawn purchased vehicle)
+- **Item Granter** (give vehicle key)
+
+**Implementation**:
+1. **List Vehicle for Sale**:
+   ```
+   Button "Sell My Vehicle"
+   → Input: Vehicle type, price, condition
+   → Add to marketplace (Vending Machine)
+   → 5% listing fee deducted
+   ```
+
+2. **Browse Vehicles**:
+   - Display all listed vehicles
+   - Filter: Type (sedan, sports, SUV)
+   - Filter: Price range
+   - Sort: Newest, price low-high
+
+3. **Purchase Vehicle**:
+   ```
+   Button "Buy Vehicle" (Conditional)
+   → Check balance (price + 5% fee)
+   → Deduct from buyer (Accolade)
+   → Pay seller 95% (Accolade)
+   → Grant vehicle key (Item Granter)
+   → Remove from marketplace
+   ```
+
+4. **Meet & Trade**:
+   - Button: "Contact Seller"
+   - Arrange meeting location
+   - Complete transaction in person
+   - Safety: Recommend police station meetups
+
+**Device Chain**:
+```
+Seller Button "List Vehicle"
+→ Input price and details
+→ Accolade (deduct 5% fee)
+→ Add to Vending Machine
+
+Buyer Button "Buy" (Conditional)
+→ Check gold bars >= price
+→ Accolade (deduct from buyer)
+→ Accolade (pay seller 95%)
+→ Item Granter (give vehicle key)
+→ Spawner (spawn vehicle at location)
+→ Remove listing
+```
+
+### App 9: Newber (Ride-Hailing)
+
+**Uber-Style Ride System**:
+
+**Devices Required**:
+- **Button Device** (request ride, accept ride)
+- **HUD Message** (driver notifications, ride status)
+- **Trigger Device** (detect pickup/dropoff locations)
+- **Timer Device** (estimate arrival time)
+- **Accolade Device** (fare payment)
+- **Tracker Device** (driver ratings)
+
+**Implementation**:
+1. **Request Ride**:
+   ```
+   Button "Request Newber"
+   → Select destination (from list or map)
+   → Calculate fare estimate
+   → Broadcast to drivers (Channel 150)
+   → HUD: "Finding driver..."
+   ```
+
+2. **Driver Accepts**:
+   - Nearby drivers see notification
+   - Button: "Accept Ride"
+   - First to accept gets job
+   - Display pickup location
+
+3. **Ride Progress**:
+   ```
+   Driver navigates to pickup
+   → Trigger at pickup location
+   → HUD: "Driver arrived!"
+   → Player enters vehicle (proximity)
+   → Driver navigates to destination
+   → Trigger at destination
+   → Ride complete
+   ```
+
+4. **Payment & Rating**:
+   ```
+   Ride ends:
+   → Calculate distance-based fare
+   → Accolade (deduct from passenger)
+   → Accolade (pay driver + tip option)
+   → Buttons: Rate driver (1-5 stars)
+   → Update driver rating (Tracker)
+   ```
+
+5. **Pricing**:
+   - Base fare: $10 LC
+   - Per distance unit: $2 LC
+   - Surge pricing during peak hours: 1.5x
+
+**Driver Side Implementation**:
+```
+Button "Go Online" (driver app)
+→ Receive ride requests (HUD Channel 150)
+→ Button "Accept"
+→ Navigate to pickup (waypoint)
+→ Trigger (pickup zone) → "Passenger picked up"
+→ Navigate to destination
+→ Trigger (destination) → "Ride complete"
+→ Accolade (receive payment + tip)
+→ Rating from passenger (Tracker)
+```
+
+**Passenger Side Implementation**:
+```
+Button "Request Ride"
+→ Select destination
+→ Fare estimate displayed
+→ Wait for driver acceptance
+→ HUD: Driver name, ETA, vehicle
+→ Trigger (driver arrives) → Enter vehicle
+→ Trigger (destination) → Exit vehicle
+→ Accolade (auto-deduct fare)
+→ Button "Rate Driver" (1-5 stars)
+→ Button "Add Tip" (optional $5-20)
+```
+
+### Phone System Device Budget
+
+**Memory Allocation**:
+- Phone UI System: ~5,000 memory
+- Per App System: ~2,000-3,000 memory each
+- Total Phone System: ~25,000 memory (25% of budget)
+
+**Channel Allocation**:
+- Channels 100-110: New X (posts, DMs)
+- Channels 111-120: New Chat (messages, streaks)
+- Channels 121-130: Absher (government services)
+- Channels 131-140: NewSab (group chats)
+- Channels 141-145: Keeta (food orders)
+- Channels 146-150: My Job (applications)
+- Channels 151-155: Phone (calls)
+- Channels 156-160: Haraj (vehicle sales)
+- Channels 161-165: Newber (ride requests)
+
+### Testing Phone System
+
+**Test Checklist**:
+- [ ] Phone item spawns for all players
+- [ ] All 9 apps accessible from main menu
+- [ ] New X posts broadcast to all players
+- [ ] New Chat streaks increment daily
+- [ ] Absher fines can be paid
+- [ ] NewSab messages reach recipients
+- [ ] Keeta orders trigger delivery jobs
+- [ ] My Job listings display correctly
+- [ ] Phone calls connect players
+- [ ] Haraj transactions complete successfully
+- [ ] Newber rides calculate fares correctly
+
+**Common Issues & Solutions**:
+1. **Apps not opening**: Check HUD Message channel conflicts
+2. **Payments failing**: Verify Accolade Device settings and balance
+3. **Streaks not counting**: Check Timer Device 24-hour loop
+4. **Notifications not showing**: Check HUD Message display time
+5. **Calls not connecting**: Verify proximity chat settings
 
 ---
 

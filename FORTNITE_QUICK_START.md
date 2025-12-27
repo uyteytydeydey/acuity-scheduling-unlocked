@@ -338,7 +338,112 @@ For each job, place a **Button Device**:
 
 ---
 
-## 🎮 Phase 5: Testing & Polish (30 min)
+## 📱 Phase 5: Phone System Setup (45 min)
+
+### iFone 17 Pro Max Implementation
+
+#### Basic Phone Setup (15 min)
+
+1. **Create Phone Item**:
+   - Use **Item Granter Device** at spawn
+   - Grant "Phone" item to all players on spawn
+   - Item should be usable/consumable
+
+2. **Main Menu HUD**:
+   - Place **HUD Message Device** at spawn area
+   - Configure to show 9 app icons when phone used:
+   ```
+   📱 iFone 17 Pro Max
+   
+   [New X]  [NewChat]  [Absher]
+   [NewSab] [Keeta]    [My Job]
+   [Phone]  [Haraj]    [Newber]
+   ```
+   - Display time: 10 seconds (or until app selected)
+
+3. **App Selection Buttons**:
+   - Place 9 **Button Devices** near spawn
+   - Each button opens respective app menu
+   - Label buttons with app names
+
+#### Essential Apps Setup (30 min)
+
+##### New X (Social Media) - 5 min
+1. Place **Button Device**: "Create Post"
+2. Place **HUD Message Device** (Channel 100):
+   ```
+   Display Mode: Broadcast to all players
+   Message: "[PlayerName]: [Post text]"
+   ```
+3. Place **Scoreboard Device**: Display recent posts
+
+##### New Chat (Streaks) - 10 min
+1. Place **Timer Device**:
+   ```
+   Duration: 86400 seconds (24 hours)
+   Loop: Enabled
+   ```
+2. Place **Tracker Device** per player:
+   ```
+   Track: Streak count
+   Min: 0, Max: 365
+   ```
+3. Place **Button Device**: "Send Snap"
+4. **Device Chain**:
+   ```
+   Button "Send Snap" → Mark message sent today
+   Timer (24h) → Check if messaged
+   → If YES: Increment Tracker (+1 streak)
+   → If NO: Reset Tracker (0 streak)
+   → Display streak on HUD
+   ```
+5. **Streak Rewards** (use Accolade Device):
+   - 7 days: +100 XP
+   - 30 days: +500 XP
+   - 100 days: +2000 XP
+
+##### Absher (Government) - 5 min
+1. Place **Tracker Device**: Store fine amounts
+2. Place **Button Device**: "View Fines"
+3. Place **Conditional Button**: "Pay Fine"
+   ```
+   Condition: Gold bars >= fine amount
+   On Success: Deduct payment, reset fine tracker
+   ```
+4. **Police Integration**:
+   - Police button adds to fine tracker
+   - HUD notifies player of new fine
+
+##### Newber (Ride-Hailing) - 10 min
+1. **Passenger Setup**:
+   - Button: "Request Ride"
+   - HUD: Show nearby drivers
+   - Conditional Button: Confirm ride (deducts fare)
+
+2. **Driver Setup**:
+   - Button: "Go Online" (for taxi drivers)
+   - HUD: Receive ride requests (Channel 150)
+   - Button: "Accept Ride"
+   - Trigger at pickup: "Passenger picked up"
+   - Trigger at destination: "Ride complete"
+   - Accolade: Pay driver + tip
+
+3. **Fare Calculation**:
+   ```
+   Base fare: 10 gold bars
+   + Distance-based charge
+   Total displayed before confirmation
+   ```
+
+**Quick Implementation Tips**:
+- Use Channels 100-165 for phone apps
+- Keep HUD messages brief (5-10 seconds)
+- Test each app individually before integration
+- Monitor device memory usage
+
+---
+
+## 🎮 Phase 6: Testing & Polish (30 min)
 
 ### Solo Testing (15 min)
 1. **Start Game** and test as player:
@@ -376,7 +481,7 @@ For each job, place a **Button Device**:
 
 ---
 
-## 📢 Phase 6: Publishing (15 min)
+## 📢 Phase 7: Publishing (15 min)
 
 ### Prepare for Launch
 1. **Set Island Name**: "City of Legends RP"
@@ -441,6 +546,9 @@ For each job, place a **Button Device**:
 - [ ] Property purchase system (Conditional Button + Key)
 - [ ] Arrest system (Conditional Button + Jail + Timer)
 - [ ] Economy system (Vending Machines, ATMs)
+- [ ] Phone system (iFone with 9 apps)
+- [ ] Streak tracking (New Chat app)
+- [ ] Ride-hailing system (Newber app)
 
 ### Testing Complete
 - [ ] All jobs work correctly
@@ -448,6 +556,9 @@ For each job, place a **Button Device**:
 - [ ] Vehicles spawn properly
 - [ ] Properties can be purchased
 - [ ] Arrests send players to jail
+- [ ] Phone apps accessible and functional
+- [ ] Newber rides work end-to-end
+- [ ] New Chat streaks increment correctly
 - [ ] No critical bugs
 - [ ] Performance is acceptable
 
