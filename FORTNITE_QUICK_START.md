@@ -405,11 +405,14 @@ For each job, place a **Button Device**:
 4. **Create Thumbnail**: Take screenshot of downtown area
 
 ### Publish Island
-1. Open Phone → **My Island**
-2. Click **Publish**
-3. Select privacy: **Public**
-4. Confirm settings
-5. **Copy Island Code** (share with players)
+1. Open Phone Tool (Tab/Touchpad/View button)
+2. Navigate to **My Island** tab
+3. Click **Island Settings** button
+4. Click **Publish** button at bottom
+5. Select privacy setting: **Public** (or Private for testing)
+6. Confirm publication
+7. **Copy Island Code**: After publishing, click "Copy Code" button
+8. Share code with players (format: XXXX-XXXX-XXXX)
 
 ### Share Your Map
 - Post on r/FortniteCreative

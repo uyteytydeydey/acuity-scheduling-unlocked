@@ -244,7 +244,7 @@
 2. **Report Issues**: Use proper channels to report bugs or players
 3. **No Begging**: Don't beg for money, items, or promotions
 4. **Age Requirement**: Must be 13+ (or 16+ depending on server policy)
-5. **Language**: English/Arabic primary (adjust as needed)
+5. **Language**: Use server's primary language(s) - customize based on your community
 6. **Impersonation**: Don't impersonate staff or known players
 
 ### Character Rules

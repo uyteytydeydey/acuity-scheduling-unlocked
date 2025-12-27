@@ -681,7 +681,7 @@ Create the most immersive roleplay experience in Fortnite Creative by combining 
 3. **No Griefing**: Don't ruin others' experience
 4. **Follow Laws**: Respect city rules and police authority
 5. **No Cheating**: Don't exploit bugs or glitches
-6. **English/Arabic Communication**: Primary languages (adjust as needed)
+6. **Server Language**: Use primary language(s) defined by server administrators
 7. **Listen to Staff**: Follow admin and moderator instructions
 
 ### Roleplay Rules
