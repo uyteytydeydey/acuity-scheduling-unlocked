@@ -13,12 +13,12 @@ This repository contains comprehensive design documentation for multiple game pr
 👉 **[Technical Implementation](FORTNITE_TECHNICAL_GUIDE.md)** 👈
 
 ### Key Features
-- 🏙️ **6 Unique City Districts** - Downtown, Industrial, Residential, Entertainment, Emergency Services, Outskirts
-- 👔 **20+ Career Paths** - Police, EMS, Fire, Taxi, Business, and more
-- 💰 **Player-Driven Economy** - Buy vehicles, properties, and build your wealth
-- 🚗 **Vehicle System** - Own and customize personal vehicles
+- 🏙️ **3 Distinct Cities** - Al-Markaz (metropolis with skyscrapers & government palace), Paleto Bay (coastal town), Sandy Shores (desert outpost)
+- 👔 **20+ Career Paths** - Police, EMS, Fire, Taxi, Business, Fisherman, Pilot, and more
+- 💰 **Player-Driven Economy** - Buy vehicles, properties, and build your wealth across all cities
+- 🚗 **Vehicle System** - Cars, boats, planes - own and customize personal vehicles
 - ⚖️ **Law & Order** - Active police force with arrest and court systems
-- 🏠 **Property Ownership** - Buy homes and businesses
+- 🏠 **Property Ownership** - Buy homes and businesses in urban, coastal, or desert settings
 - 📱 **iFone 17 Pro Max** - 9 integrated apps including social media, ride-hailing, food delivery, and government services
 
 ---

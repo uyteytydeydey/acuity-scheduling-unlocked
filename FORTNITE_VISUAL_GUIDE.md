@@ -9,59 +9,144 @@ This document describes the visual design and aesthetic of the City of Legends r
 ## 🏙️ Overall Aesthetic
 
 ### Design Philosophy
-**"Modern Urban Meets Fortnite Style"**
+**"Three Worlds, One Map - GTA V Inspired"**
 
-City of Legends combines realistic city planning with Fortnite's vibrant, accessible art style. The map should feel like a living, breathing city while maintaining the playful energy that Fortnite is known for.
+City of Legends features 3 distinct cities inspired by GTA V locations, each with unique visual identities:
+- **Al-Markaz**: Modern skyscraper metropolis (Los Santos-inspired)
+- **Paleto Bay**: Coastal small-town charm (Paleto Bay-inspired)
+- **Sandy Shores**: Desert outpost aesthetic (Sandy Shores-inspired)
 
-### Color Palette
+### Color Palettes by City
 
-#### Downtown Financial District
-- **Primary Colors**: Steel gray, glass blue, professional white
-- **Accent Colors**: Gold trim, corporate blue, neon signs
-- **Atmosphere**: Clean, modern, prestigious
-- **Lighting**: Bright during day, neon glow at night
-- **Materials**: Glass, polished stone, steel, concrete
+#### 🏙️ Al-Markaz (Central Metropolis)
 
-#### Industrial Zone
-- **Primary Colors**: Rust brown, weathered metal gray, dark concrete
+**Downtown & Skyscraper District**
+- **Primary Colors**: Steel gray, reflective glass blue, gold accents
+- **Accent Colors**: Corporate blue, neon signs, royal purple (government palace)
+- **Atmosphere**: Towering, prestigious, modern luxury
+- **Lighting**: Bright sunlight reflecting off glass, vibrant neon at night
+- **Materials**: Glass curtain walls, polished steel, granite, marble
+- **Key Features**: 10+ skyscrapers (tallest 15+ floors), Government Palace (Qasr Al-Hukm)
+
+**Financial District**
+- **Primary Colors**: Professional gray, bank vault gold, trust blue
+- **Accent Colors**: Stock ticker green/red, money green
+- **Atmosphere**: Corporate, powerful, wealthy
+- **Lighting**: Bright office lighting, LED displays
+- **Materials**: Reinforced glass, steel, premium finishes
+
+**Entertainment Quarter**
+- **Primary Colors**: Neon pink, electric purple, laser blue
+- **Accent Colors**: RGB lighting, gold VIP areas, red carpet
+- **Atmosphere**: Vibrant nightlife, energy, excitement
+- **Lighting**: Dynamic neon, club lasers, spotlights
+- **Materials**: LED panels, chrome, modern glass
+
+**Port & Industrial**
+- **Primary Colors**: Shipping container colors (red, blue, orange), rusty metal
 - **Accent Colors**: Yellow warning stripes, safety orange
-- **Atmosphere**: Gritty, functional, working-class
-- **Lighting**: Harsh industrial lights, shadows
-- **Materials**: Corrugated metal, exposed brick, chain-link fencing
+- **Atmosphere**: Working port, industrial power, commerce
+- **Lighting**: Harsh industrial lights, port crane lights
+- **Materials**: Corrugated metal, shipping containers, concrete
 
-#### Residential Neighborhoods
-- **Primary Colors**: Warm beige, suburban green, family blue
-- **Accent Colors**: Colorful gardens, varied house colors
-- **Atmosphere**: Cozy, welcoming, lived-in
-- **Lighting**: Soft street lamps, home lighting
-- **Materials**: Wood, brick, vinyl siding, grass
+#### 🏖️ Paleto Bay (Coastal Town)
 
-#### Entertainment District
-- **Primary Colors**: Vibrant purple, neon pink, electric blue
-- **Accent Colors**: Gold accents, laser effects, RGB lighting
-- **Atmosphere**: Energetic, exciting, social
-- **Lighting**: Dynamic neon, spotlights, club lighting
-- **Materials**: Modern glass, LED panels, polished surfaces
+**Town Center**
+- **Primary Colors**: Coastal white, beach sand beige, ocean blue
+- **Accent Colors**: Wood brown, nautical red, sunny yellow
+- **Atmosphere**: Small-town charm, friendly, relaxed
+- **Lighting**: Natural sunlight, warm street lamps
+- **Materials**: Wood siding, brick, beach-weathered surfaces
 
-#### Emergency Services Hub
-- **Primary Colors**: Authority blue (police), medical red (hospital), fire red/yellow
-- **Accent Colors**: Warning yellow, official white
-- **Atmosphere**: Organized, professional, secure
-- **Lighting**: Bright institutional lighting, emergency lights
-- **Materials**: Reinforced concrete, security glass, steel
+**Beach & Marina**
+- **Primary Colors**: Sand yellow, ocean blue, sky cyan
+- **Accent Colors**: Lifeguard red, boat sail white, tropical green
+- **Atmosphere**: Vacation vibe, seaside relaxation, natural beauty
+- **Lighting**: Bright coastal sun, lighthouse beacon
+- **Materials**: Wooden docks, sailcloth, beach sand props
 
-#### Outskirts & Countryside
-- **Primary Colors**: Natural green, earth brown, sky blue
-- **Accent Colors**: Gas station colors, road signs
-- **Atmosphere**: Open, peaceful, transitional
-- **Lighting**: Natural sunlight, highway lights
-- **Materials**: Asphalt, grass, trees, rural structures
+**Fishing Industry**
+- **Primary Colors**: Boat blue, net gray, fish market silver
+- **Accent Colors**: Ice white, rust orange, seaweed green
+- **Atmosphere**: Working waterfront, maritime tradition
+- **Lighting**: Early morning light, working lamps
+- **Materials**: Weathered wood, fishing nets, boat metal
+
+#### 🌵 Sandy Shores (Desert Outpost)
+
+**Desert Town**
+- **Primary Colors**: Desert sand, dusty brown, faded red
+- **Accent Colors**: Rust orange, cactus green, hot sky blue
+- **Atmosphere**: Dry, dusty, frontier outpost
+- **Lighting**: Harsh desert sun, sparse street lights
+- **Materials**: Sun-bleached wood, corrugated metal, dust
+
+**Airstrip**
+- **Primary Colors**: Runway gray, hangar silver, aircraft white
+- **Accent Colors**: Aviation orange, danger red, propeller silver
+- **Atmosphere**: Small airport, adventurous, open sky
+- **Lighting**: Runway lights, hangar spotlights
+- **Materials**: Tarmac, metal hangars, aviation equipment
+
+**Off-Road Culture**
+- **Primary Colors**: Dirt brown, tire black, racing stripes
+- **Accent Colors**: Sponsor colors, checkered flag, dust clouds
+- **Atmosphere**: Adrenaline, dirt racing, rugged
+- **Lighting**: Floodlights for night races, dust particles
+- **Materials**: Dirt tracks, sand, off-road vehicle parts
+
+**Mining & Industrial**
+- **Primary Colors**: Rock gray, excavator yellow, mineral brown
+- **Accent Colors**: Danger stripes, mining gold, construction orange
+- **Atmosphere**: Resource extraction, hard work, remote
+- **Lighting**: Work lights, excavator spotlights
+- **Materials**: Raw rock, mining equipment, industrial metal
 
 ---
 
 ## 🏢 Key Landmark Designs
 
-### 1. Police Station - "CLPD Headquarters"
+### 0. Qasr Al-Hukm (Government Palace) - Al-Markaz
+
+**Exterior Design**:
+- **Massive royal palace** - Largest single structure on map
+- Traditional Middle Eastern/Islamic architecture with modern touches
+- **Central dome** (golden or decorated) as centerpiece
+- **Multiple wings** for different government departments
+- Grand entrance with columns and archways
+- **Palace gardens** with fountains and pathways
+- High security walls and gates
+- **Flag plaza** with multiple flagpoles
+- Guard towers at corners
+
+**Interior Design**:
+- **Grand Hall**: 
+  - Massive central atrium with chandelier
+  - Throne room or Presidential office
+  - Ceremonial spaces
+- **Government Offices**:
+  - Ministry offices
+  - Meeting chambers
+  - Council rooms
+- **Security Wing**:
+  - Palace guard headquarters
+  - Control room
+  - VIP protection area
+
+**Atmosphere**:
+- Regal, powerful, prestigious
+- Gold and royal purple accents
+- Traditional patterns and decorations
+- Symbol of governmental authority
+- Restricted access areas
+
+**Roleplay Uses**:
+- Mayor's office and government meetings
+- Court sessions and trials
+- VIP events and ceremonies
+- Political roleplay headquarters
+
+### 1. Police Station - "CLPD Headquarters" - Al-Markaz
 
 **Exterior Design**:
 - 3-story modern police building

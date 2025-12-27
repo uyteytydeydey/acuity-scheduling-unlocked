@@ -32,25 +32,59 @@ This guide will help you create a basic functioning roleplay map in Fortnite Cre
 3. Set **Grid Size** to 1 unit for detailed work
 4. Enable **Fly Mode** for easy navigation
 
-### Step 3: Plan Your Districts
-**Mark out these 6 areas on your island:**
-1. **Downtown** (Center) - 8x8 grid squares
-2. **Industrial Zone** (Northeast) - 6x6 grid squares
-3. **Residential** (Southeast & Southwest) - 10x10 combined
-4. **Entertainment** (West) - 4x4 grid squares
-5. **Emergency Services** (North-Center) - 3x3 grid squares
-6. **Outskirts** (Outer edges) - Remaining space
+### Step 3: Plan Your 3 Cities
+**Mark out these 3 distinct city areas on your island:**
+
+1. **Al-Markaz (Central City)** - 50% of map (Center and North)
+   - Downtown with skyscrapers - 12x12 grid squares
+   - Government Palace (Qasr Al-Hukm) - 4x4 grid squares (tallest structures)
+   - Financial district - 6x6 grid squares
+   - Entertainment quarter - 4x4 grid squares
+   - Port & industrial - 6x6 grid squares
+   - Emergency services - 3x3 grid squares
+
+2. **Paleto Bay (Coastal Town)** - 25% of map (East/Southeast)
+   - Town center - 4x4 grid squares
+   - Beach & marina - 6x4 grid squares (include water edge)
+   - Residential coastal - 4x4 grid squares
+   - Fishing industry - 3x3 grid squares
+
+3. **Sandy Shores (Desert Outpost)** - 25% of map (West/Southwest)
+   - Desert town center - 3x3 grid squares
+   - Airstrip with runway - 8x2 grid squares (long runway)
+   - Off-road track - 4x4 grid squares
+   - Mining/industrial - 3x3 grid squares
+
+**Connection**: Main highway connecting all 3 cities (2-wide road grid)
 
 **Use colored props to mark boundaries temporarily!**
 
 ---
 
-## 🏗️ Phase 2: Build Core Structures (2 hours)
+## 🏗️ Phase 2: Build Core Structures (3 hours)
 
-### Essential Buildings (Priority Order)
+### Priority Buildings by City
 
-#### 1. Police Station (30 min)
-**Location**: Emergency Services Hub
+#### Al-Markaz (Central City) - Build First (2 hours)
+
+##### 1. Qasr Al-Hukm (Government Palace) - 40 min
+**Location**: Center of Al-Markaz (most prominent location)
+**Required Elements**:
+- Main palace building with dome (use largest gallery buildings)
+- Grand entrance with columns
+- Palace gardens
+- Security gates
+- Multiple floors/wings
+
+**Devices Needed**:
+- 1x Team Spawner (government officials spawn)
+- 2x Button Device (access restricted areas)
+- 1x Item Granter (government IDs)
+- 2x Barrier Device (secure areas)
+- 1x HUD Message (welcome to palace)
+
+##### 2. Police HQ (30 min)
+**Location**: Al-Markaz Emergency Services
 **Required Elements**:
 - Main building (use Downtown Gallery buildings)
 - Vehicle garage (3 spawn points)
@@ -146,6 +180,84 @@ This guide will help you create a basic functioning roleplay map in Fortnite Cre
 - 1x Item Granter (property key)
 - 1x Barrier Device (locked door)
 - 1x Trigger Device (key detection)
+
+#### Paleto Bay (Coastal Town) - Build Second (45 min)
+
+##### 8. Paleto Bay Town Center (15 min)
+**Location**: Center of Paleto Bay
+**Required Elements**:
+- Small police satellite station
+- Medical clinic
+- General store
+- Town square
+
+**Devices Needed**:
+- 1x Team Spawner (local police)
+- 1x Button Device (job join)
+- 1x Vending Machine (store)
+
+##### 9. Beach & Marina (20 min)
+**Location**: Waterfront of Paleto Bay
+**Required Elements**:
+- Boardwalk
+- Boat docks (use platform props)
+- Lighthouse
+- Beach area
+
+**Devices Needed**:
+- 2x Spawner Device (boats for fishing)
+- 1x Button Device (boat rental)
+- Props for beach atmosphere
+
+##### 10. Fishing Industry (10 min)
+**Location**: Working dock area
+**Required Elements**:
+- Fish market
+- Boat repair shop
+- Ice storage
+
+**Devices Needed**:
+- 1x Vending Machine (sell fish)
+- 1x Button Device (repair boats)
+
+#### Sandy Shores (Desert Outpost) - Build Third (30 min)
+
+##### 11. Sandy Shores Airfield (15 min)
+**Location**: Desert area with long open space
+**Required Elements**:
+- Runway (long flat area - use road props)
+- Hangar building
+- Control tower (small)
+- Aircraft parking
+
+**Devices Needed**:
+- 2x Spawner Device (small planes/helicopters)
+- 1x Button Device (rent aircraft)
+- 1x Team Spawner (pilot job)
+
+##### 12. Desert Town Center (10 min)
+**Location**: Sandy Shores center
+**Required Elements**:
+- Sheriff's station (small)
+- General store & gas station
+- Motel
+- Diner
+
+**Devices Needed**:
+- 1x Team Spawner (sheriff deputy)
+- 1x Vending Machine (store/gas)
+- 1x Button Device (job join)
+
+##### 13. Off-Road Track (5 min)
+**Location**: Open desert area
+**Required Elements**:
+- Dirt racing track (mark with props)
+- Start/finish line
+- Spectator area
+
+**Devices Needed**:
+- 1x Trigger Device (race start)
+- 1x Timer Device (race timer)
 
 ---
 
@@ -530,13 +642,26 @@ For each job, place a **Button Device**:
 ## 🎯 Quick Reference Checklist
 
 ### Core Buildings
-- [ ] Police Station (with jail cells)
+**Al-Markaz (Central City)**:
+- [ ] Qasr Al-Hukm (Government Palace)
+- [ ] Police HQ (with jail cells)
 - [ ] Hospital (with ambulances)
 - [ ] Fire Station (with fire trucks)
 - [ ] City Hall / Employment Center
 - [ ] Bank (with ATMs)
 - [ ] Car Dealership
-- [ ] 3-4 Sample Properties
+- [ ] Skyscrapers (3-5 tall buildings)
+- [ ] 2-3 Sample Properties
+
+**Paleto Bay (Coastal)**:
+- [ ] Town center with police station
+- [ ] Beach & Marina
+- [ ] Fishing industry buildings
+
+**Sandy Shores (Desert)**:
+- [ ] Airfield with runway
+- [ ] Desert town center
+- [ ] Off-road track
 
 ### Essential Devices
 - [ ] 10+ Job selection buttons

@@ -34,11 +34,12 @@ Create the most immersive roleplay experience in Fortnite Creative by combining 
 
 ### Key Features
 
-🏙️ **Massive Urban Environment** - Complete city with distinct districts  
-👔 **20+ Career Paths** - From police officer to business owner  
-💰 **Player-Driven Economy** - Earn, spend, and trade currency  
-🚗 **Vehicle System** - Personal and job-specific vehicles  
-🏠 **Property Ownership** - Buy, sell, and customize homes and businesses  
+🏙️ **3 Unique Cities** - Al-Markaz (Los Santos-style metropolis), Paleto Bay (coastal town), Sandy Shores (desert outpost)  
+🏢 **Government Palace** - Qasr Al-Hukm in central city with skyscrapers  
+👔 **20+ Career Paths** - From police officer to fisherman to pilot  
+💰 **Player-Driven Economy** - Earn, spend, and trade currency across all cities  
+🚗 **Vehicle System** - Personal and job-specific vehicles, including boats and planes  
+🏠 **Property Ownership** - Buy, sell, and customize homes across 3 distinct cities  
 ⚖️ **Law & Order System** - Police, courts, and consequences  
 🎭 **Character Progression** - Level up skills and unlock new opportunities  
 📱 **Communication Systems** - Text chat, radio channels, and emergency services  
@@ -47,71 +48,211 @@ Create the most immersive roleplay experience in Fortnite Creative by combining 
 
 ## 🗺️ Map Layout
 
-### City Districts
+The map is divided into **3 distinct cities**, each with unique characteristics inspired by GTA V locations, connected by highways and travel routes.
 
-#### 1. **Downtown Financial District**
-- **Size**: Central area, 25% of map
-- **Key Locations**:
-  - City Hall (government headquarters)
-  - Central Bank (economy hub)
-  - Corporate Offices (business jobs)
-  - Stock Exchange
-  - Luxury Apartments
-- **Jobs Available**: Banker, Lawyer, Business Executive, Security Guard
-- **Features**: High-rise buildings, professional atmosphere, premium shops
+---
 
-#### 2. **Industrial Zone**
-- **Size**: Northeast sector, 20% of map
-- **Key Locations**:
-  - Manufacturing Plants
-  - Warehouse District
-  - Loading Docks
-  - Workshop Garages
-  - Storage Facilities
-- **Jobs Available**: Factory Worker, Warehouse Manager, Mechanic, Truck Driver
-- **Features**: Heavy machinery, cargo areas, vehicle repair stations
+### 🏙️ City 1: Al-Markaz (The Central City)
+**Inspiration**: Los Santos (GTA V) - Major metropolitan area  
+**Size**: 50% of total map  
+**Theme**: Modern urban metropolis with skyscrapers and government center
 
-#### 3. **Residential Neighborhoods**
-- **Size**: Southeast and Southwest, 25% of map
+#### Downtown Core - Government Palace District
 - **Key Locations**:
-  - Suburban Houses
-  - Apartment Complexes
-  - Community Parks
-  - Shopping Centers
-  - Schools
+  - **Qasr Al-Hukm (Government Palace)**: Massive royal palace with traditional architecture
+  - City Hall & Government Complex
+  - Supreme Court & Justice Ministry
+  - Police Headquarters (Main HQ)
+  - Central Bank & Financial District
+  - Stock Exchange Tower
+- **Skyscraper Zone**:
+  - 10+ High-rise buildings (tallest structures on map)
+  - Corporate office towers
+  - Luxury penthouses and apartments
+  - Rooftop helipads
+  - Sky bridges connecting buildings
+- **Jobs Available**: Government Officials, Police Chief, Bankers, Lawyers, Business Executives, Security
+- **Features**: Dense urban environment, heavy traffic, premium shopping, exclusive restaurants
+
+#### Financial & Business District
+- **Key Locations**:
+  - International Bank Tower
+  - Corporate headquarters (5-6 major buildings)
+  - Business plaza and convention center
+  - Luxury hotel
+  - Premium shopping mall
+- **Jobs Available**: Investment Banker, Accountant, Business Manager, Stock Trader
+- **Features**: Professional atmosphere, suited professionals, high-end services
+
+#### Entertainment & Nightlife Quarter
+- **Key Locations**:
+  - Night clubs and bars (3-4 venues)
+  - Upscale restaurants and cafes
+  - Movie theater complex
+  - Sports stadium
+  - Casino resort
+  - Concert venue
+- **Jobs Available**: DJ, Chef, Bartender, Casino Dealer, Entertainer, Security
+- **Features**: Neon lights, active nightlife, social hotspots
+
+#### Residential - Urban Apartments
+- **Key Locations**:
+  - High-rise apartment complexes
+  - Gated communities
+  - Shopping centers
+  - Parks and plazas
+  - Schools and community centers
 - **Jobs Available**: Real Estate Agent, Store Clerk, Delivery Driver
-- **Features**: Purchasable properties, community gathering spots
+- **Features**: Dense housing, middle-upper class neighborhoods
 
-#### 4. **Entertainment District**
-- **Size**: West sector, 15% of map
+#### Port & Industrial Zone
 - **Key Locations**:
-  - Night Clubs
-  - Restaurants & Cafes
-  - Movie Theater
-  - Sports Arena
-  - Casino
-- **Jobs Available**: DJ, Chef, Bartender, Security, Entertainer
-- **Features**: Social hotspots, mini-games, performances
+  - Commercial shipping port
+  - Container yards
+  - Warehouse district
+  - Manufacturing plants
+  - Loading docks
+- **Jobs Available**: Dock Worker, Warehouse Manager, Factory Worker, Truck Driver, Crane Operator
+- **Features**: Heavy machinery, cargo operations, industrial aesthetic
 
-#### 5. **Emergency Services Hub**
-- **Size**: Central-North, 10% of map
+#### Emergency Services Central
 - **Key Locations**:
-  - Police Department (HQ)
-  - Fire Station
-  - Hospital & Medical Center
+  - Main Police Department HQ
+  - Central Fire Station
+  - Major Hospital & Trauma Center
   - Emergency Dispatch Center
-- **Jobs Available**: Police Officer, Firefighter, Paramedic, 911 Dispatcher
-- **Features**: Emergency vehicles, holding cells, medical facilities
+  - Training facilities
+- **Jobs Available**: Police Officer, Firefighter, Paramedic, Dispatcher, Detective
+- **Features**: Multiple emergency vehicle bays, jail cells, medical equipment
 
-#### 6. **Outskirts & Countryside**
-- **Size**: Outer edges, 5% of map
+---
+
+### 🏖️ City 2: Paleto Bay (Coastal Town)
+**Inspiration**: Paleto Bay (GTA V) - Small coastal community  
+**Size**: 25% of total map  
+**Theme**: Peaceful seaside town with beaches and fishing industry
+
+#### Coastal Village Center
 - **Key Locations**:
-  - Gas Stations
-  - Highway System
-  - Rural Properties
-  - Hidden Areas
-- **Jobs Available**: Gas Station Attendant, Farmer
-- **Features**: Connect all districts, travel routes
+  - Town square with local shops
+  - Small police station (satellite office)
+  - Fire station (volunteer)
+  - Medical clinic
+  - Community center
+  - Local bank branch
+- **Jobs Available**: Local Police Officer, Volunteer Firefighter, Nurse, Shop Owner
+- **Features**: Small-town atmosphere, friendly community, slower pace
+
+#### Beach & Marina
+- **Key Locations**:
+  - Public beach with boardwalk
+  - Marina with boat docks
+  - Fishing pier
+  - Beach shops and restaurants
+  - Lighthouse
+  - Surf shop
+- **Jobs Available**: Lifeguard, Boat Rental, Fisherman, Restaurant Server, Beach Vendor
+- **Features**: Scenic ocean views, water activities, tourist attractions
+
+#### Residential - Coastal Homes
+- **Key Locations**:
+  - Beachfront properties
+  - Small houses and cottages
+  - Mobile home park
+  - Coastal apartments
+- **Jobs Available**: Real Estate Agent (coastal properties)
+- **Features**: Affordable housing, vacation rentals, peaceful neighborhoods
+
+#### Fishing Industry
+- **Key Locations**:
+  - Fish processing plant
+  - Fishing supply store
+  - Boat repair shop
+  - Seafood market
+  - Ice storage
+- **Jobs Available**: Fisherman, Fish Processor, Boat Mechanic, Market Vendor
+- **Features**: Working waterfront, fishing boats, maritime operations
+
+---
+
+### 🌵 City 3: Sandy Shores (Desert Outpost)
+**Inspiration**: Sandy Shores (GTA V) - Rural desert area  
+**Size**: 25% of total map  
+**Theme**: Desert town with airstrip, motels, and off-road culture
+
+#### Desert Town Center
+- **Key Locations**:
+  - Small sheriff's station (rural police)
+  - Desert medical post
+  - General store
+  - Gas station & truck stop
+  - Diner
+  - Motel
+- **Jobs Available**: Sheriff Deputy, Desert Medic, Store Clerk, Gas Attendant, Cook
+- **Features**: Dusty roads, desert aesthetic, sparse buildings
+
+#### Airstrip & Aviation
+- **Key Locations**:
+  - Sandy Shores Airfield (small runway)
+  - Hangar and aircraft parking
+  - Aviation fuel station
+  - Flight school office
+  - Cargo loading area
+- **Jobs Available**: Pilot, Aircraft Mechanic, Air Traffic Controller, Cargo Handler
+- **Features**: Small planes and helicopters, aerial tours, cargo flights
+
+#### Off-Road & Motorsports
+- **Key Locations**:
+  - Off-road racing track
+  - Dirt bike trails
+  - Auto repair shop specializing in off-road vehicles
+  - ATV/Dirt bike rental
+  - Racing club headquarters
+- **Jobs Available**: Race Organizer, Mechanic (off-road specialist), Vehicle Rental
+- **Features**: Desert racing events, dirt tracks, rugged vehicles
+
+#### Rural Properties
+- **Key Locations**:
+  - Ranch properties
+  - Trailer parks
+  - Desert homes
+  - Abandoned buildings (roleplay locations)
+  - Underground bunker entrance
+- **Jobs Available**: Ranch Hand, Property Caretaker
+- **Features**: Large plots of land, rural lifestyle, hidden locations
+
+#### Mining & Resources
+- **Key Locations**:
+  - Small mining operation
+  - Quarry
+  - Construction supply yard
+  - Scrapyard
+- **Jobs Available**: Miner, Quarry Worker, Scrap Dealer, Construction Worker
+- **Features**: Industrial desert operations, heavy equipment
+
+---
+
+### 🛣️ Connecting Infrastructure
+
+#### Highway System
+- **Main Highway**: Connects all 3 cities (Al-Markaz ↔ Paleto Bay ↔ Sandy Shores)
+- **Coastal Road**: Scenic route along Paleto Bay coastline
+- **Desert Highway**: Fast route through Sandy Shores
+- **Urban Freeways**: Multiple lanes through Al-Markaz
+- **Features**: Gas stations, rest stops, scenic viewpoints, toll booths
+
+#### Transportation Hubs
+- **Al-Markaz Central Station**: Bus and taxi hub
+- **Paleto Bay Marina**: Boat transport
+- **Sandy Shores Airfield**: Air travel
+- **Features**: Fast travel points, vehicle spawns, transportation jobs
+
+#### Notable Landmarks Between Cities
+- **Wind Farm**: Between Al-Markaz and Sandy Shores
+- **Mountain Pass**: Elevated road with city views
+- **Bridge**: Connects Al-Markaz to Paleto Bay
+- **Desert Gas Stations**: Multiple stops along desert highway
+- **Abandoned Military Base**: Hidden location in desert (restricted area)
 
 ---
 
