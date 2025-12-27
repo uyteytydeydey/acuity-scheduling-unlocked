@@ -948,6 +948,48 @@ If Governor is unavailable:
 - **Pricing**: Distance-based fare calculation
 - **Tips**: Option to tip driver after ride
 
+##### 10. **Masraf Al Rajhi** (مصرف الراجحي - Banking App)
+- **Purpose**: Complete banking services for managing money in City of Legends
+- **Features**:
+  - **Account Balance Display**: View current Legend Coins balance in real-time
+  - **Money Transfers**: Send Legend Coins to other players instantly
+    - Enter recipient's account number or phone contact
+    - Add transfer notes/descriptions
+    - Confirmation screen before sending
+    - Instant transfer notification to recipient
+  - **Salary Receipt**: Automatic deposits from job salaries
+    - View last salary deposit date and amount
+    - Salary schedule display (hourly/daily/weekly)
+    - Job title and employer information
+    - Direct deposit confirmation messages
+  - **Transaction History**: Complete record of all financial activities
+    - Date and time stamps
+    - Transaction type (deposit, withdrawal, transfer, payment)
+    - Amount and recipient/sender information
+    - Running balance after each transaction
+    - Filter by date range or transaction type
+    - Export monthly statements
+  - **Account Management**:
+    - Account number display
+    - Account holder name
+    - Account creation date
+    - Security settings
+  - **Additional Features**:
+    - **Bill Payments**: Pay utility bills, fines, and services
+    - **Loan Services**: View loan eligibility and apply for personal loans
+    - **Savings Goals**: Set and track financial goals
+    - **Notifications**: Push alerts for transactions, low balance warnings, salary deposits
+    - **Quick Transfer**: Save frequent recipients for fast transfers
+    - **Security PIN**: Optional PIN protection for transfers
+- **Usage**: Primary banking app for all financial transactions
+- **Integration**: 
+  - Links with Absher for fine payments
+  - Connects to job system for salary automation
+  - Payment method for Keeta, Newber, and Haraj
+  - ATM withdrawals sync with app balance
+- **Realistic Banking**: Mimics real Al Rajhi Bank interface for immersive Saudi Arabian theme
+- **Transaction Fees**: No fees for player-to-player transfers, 2% fee for business transactions
+
 #### Phone System Technical Implementation
 
 **Fortnite Creative Implementation**:
@@ -961,7 +1003,7 @@ If Governor is unavailable:
 
 **Phone Menu Navigation**:
 - Players access phone via inventory item or button
-- Grid menu showing all 9 apps
+- Grid menu showing all 10 apps
 - Each app opens sub-menu with features
 - Back button to return to home screen
 - Notification badges on apps with updates

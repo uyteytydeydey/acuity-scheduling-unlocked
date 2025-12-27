@@ -671,7 +671,7 @@ For each job, place a **Button Device**:
 - [ ] Property purchase system (Conditional Button + Key)
 - [ ] Arrest system (Conditional Button + Jail + Timer)
 - [ ] Economy system (Vending Machines, ATMs)
-- [ ] Phone system (iFone with 9 apps)
+- [ ] Phone system (iFone with 10 apps including Masraf Al Rajhi)
 - [ ] Streak tracking (New Chat app)
 - [ ] Ride-hailing system (Newber app)
 

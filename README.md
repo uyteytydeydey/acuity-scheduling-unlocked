@@ -21,7 +21,7 @@ This repository contains comprehensive design documentation for multiple game pr
 - 🚗 **Vehicle System** - Cars, boats, planes - own and customize personal vehicles
 - ⚖️ **Law & Order** - Active police force with arrest and court systems
 - 🏠 **Property Ownership** - Buy homes and businesses in urban, coastal, or desert settings
-- 📱 **iFone 17 Pro Max** - 9 integrated apps including social media, ride-hailing, food delivery, and government services
+- 📱 **iFone 17 Pro Max** - 10 integrated apps including social media, ride-hailing, food delivery, banking (Masraf Al Rajhi), and government services
 - 🏛️ **Government System** - Governor and Cabinet Ministers with full powers
 
 ---

@@ -816,6 +816,257 @@ CalculateDistance(Loc1 : vector3, Loc2 : vector3):float=
     0.0
 ```
 
+### Masraf Al Rajhi App (مصرف الراجحي)
+
+```verse
+using { /Verse.org/Simulation }
+using { /UnrealEngine.com/Temporary/Diagnostics }
+
+masraf_al_rajhi_app := class(phone_app):
+    
+    # Transaction history
+    var TransactionHistory : [player][]transaction = map{}
+    var PlayerBalances : [player]int = map{}  # Cache for quick access
+    
+    @editable
+    EconomyManager : economy_manager = economy_manager{}
+    
+    @editable
+    JobManager : job_manager = job_manager{}
+    
+    Open<override>(Player : player):void=
+        Print("Opening Masraf Al Rajhi for {Player}")
+        UpdatePlayerBalance(Player)
+        ShowMainMenu(Player)
+    
+    # Display account balance
+    ShowBalance(Player : player):void=
+        if (Balance := EconomyManager.GetBalance(Player)):
+            Print("Account Balance: {Balance} LC")
+            ShowAccountDetails(Player, Balance)
+        else:
+            Print("Unable to retrieve balance")
+    
+    # Show detailed account information
+    ShowAccountDetails(Player : player, Balance : int):void=
+        # Display account number (player ID)
+        # Display account holder name
+        # Display balance with formatting
+        # Show last transaction date
+             Print("══════════════════════════════════")
+        Print("  Masraf Al Rajhi - مصرف الراجحي  ")
+        Print("══════════════════════════════════")
+        Print("Account Holder: {Player}")
+        Print("Balance: {Balance} LC")
+        Print("══════════════════════════════════")
+    
+    # Transfer money to another player
+    TransferMoney(Sender : player, Recipient : player, Amount : int)<suspends>:bool=
+        # Check sender balance
+        if (SenderBalance := EconomyManager.GetBalance(Sender)):
+            if (SenderBalance >= Amount):
+                # Process transfer
+                if (EconomyManager.Transfer(Sender, Recipient, Amount)):
+                    # Log transaction for sender
+                    LogTransaction(Sender, transaction{
+                        Type := "Transfer Out",
+                        Amount := -Amount,
+                        Recipient := Recipient,
+                        Timestamp := GetCurrentTime(),
+                        Description := "Transfer to {Recipient}"
+                    })
+                    
+                    # Log transaction for recipient
+                    LogTransaction(Recipient, transaction{
+                        Type := "Transfer In",
+                        Amount := Amount,
+                        Sender := Sender,
+                        Timestamp := GetCurrentTime(),
+                        Description := "Transfer from {Sender}"
+                    })
+                    
+                    # Send notifications
+                    NotifyPlayer(Sender, "✓ Transfer sent: {Amount} LC to {Recipient}")
+                    NotifyPlayer(Recipient, "💰 Received {Amount} LC from {Sender}")
+                    
+                    return true
+                else:
+                    NotifyPlayer(Sender, "✗ Transfer failed")
+                    return false
+            else:
+                NotifyPlayer(Sender, "✗ Insufficient funds. Balance: {SenderBalance} LC")
+                return false
+        
+        return false
+    
+    # Process salary deposit
+    DepositSalary(Player : player, Amount : int, JobTitle : string)<suspends>:void=
+        # Add money to player account
+        EconomyManager.GiveMoney(Player, Amount)
+        
+        # Log transaction
+        LogTransaction(Player, transaction{
+            Type := "Salary Deposit",
+            Amount := Amount,
+            Timestamp := GetCurrentTime(),
+            Description := "Salary from {JobTitle}"
+        })
+        
+        # Send notification
+        NotifyPlayer(Player, "💰 Salary deposited: {Amount} LC")
+        
+        # Update cached balance
+        UpdatePlayerBalance(Player)
+    
+    # View transaction history
+    ShowTransactionHistory(Player : player):void=
+        if (History := TransactionHistory[Player]):
+            Print("══════════════════════════════════")
+            Print("    Transaction History            ")
+            Print("══════════════════════════════════")
+            
+            # Show last 20 transactions
+            RecentTransactions := GetRecentTransactions(History, 20)
+            
+            for (Trans : RecentTransactions):
+                TransAmount := if (Trans.Amount >= 0) "+{Trans.Amount}" else "{Trans.Amount}"
+                Print("{Trans.Type} | {TransAmount} LC | {Trans.Description}")
+            
+            Print("══════════════════════════════════")
+        else:
+            Print("No transaction history found")
+    
+    # Get recent transactions
+    GetRecentTransactions(History : []transaction, Count : int):[]transaction=
+        # Return last N transactions
+        if (History.Length <= Count):
+            return History
+        
+        # Get last Count items
+        StartIndex := History.Length - Count
+        History
+    
+    # Show salary information
+    ShowSalaryInfo(Player : player):void=
+        if (JobTitle := JobManager.GetPlayerJob(Player)):
+            Salary := JobManager.GetJobSalary(JobTitle)
+            
+            Print("══════════════════════════════════")
+            Print("    Salary Information             ")
+            Print("══════════════════════════════════")
+            Print("Job: {JobTitle}")
+            Print("Salary Rate: {Salary} LC/hour")
+            Print("Payment Schedule: Hourly")
+            Print("══════════════════════════════════")
+            
+            # Show last salary deposit
+            if (History := TransactionHistory[Player]):
+                LastSalary := GetLastSalaryTransaction(History)
+                if (LastSalary.Amount > 0):
+                    Print("Last Deposit: {LastSalary.Amount} LC")
+        else:
+            Print("No active job")
+    
+    # Get last salary transaction
+    GetLastSalaryTransaction(History : []transaction):transaction=
+        # Find most recent salary deposit
+        for (Trans : History):
+            if (Trans.Type = "Salary Deposit"):
+                return Trans
+        
+        # Return empty transaction if none found
+        transaction{}
+    
+    # Pay bills through bank
+    PayBill(Player : player, BillType : string, Amount : int)<suspends>:bool=
+        if (Balance := EconomyManager.GetBalance(Player)):
+            if (Balance >= Amount):
+                # Deduct payment
+                EconomyManager.TakeMoney(Player, Amount)
+                
+                # Log transaction
+                LogTransaction(Player, transaction{
+                    Type := "Bill Payment",
+                    Amount := -Amount,
+                    Timestamp := GetCurrentTime(),
+                    Description := "Paid {BillType}"
+                })
+                
+                NotifyPlayer(Player, "✓ Bill paid: {Amount} LC")
+                return true
+            else:
+                NotifyPlayer(Player, "✗ Insufficient funds")
+                return false
+        
+        return false
+    
+    # Log transaction in history
+    LogTransaction(Player : player, Trans : transaction):void=
+        if (History := TransactionHistory[Player]):
+            # Add to existing history
+            set TransactionHistory[Player] = History + array{Trans}
+        else:
+            # Create new history
+            set TransactionHistory[Player] = array{Trans}
+        
+        Print("Transaction logged for {Player}")
+    
+    # Update cached balance
+    UpdatePlayerBalance(Player : player):void=
+        if (Balance := EconomyManager.GetBalance(Player)):
+            set PlayerBalances[Player] = Balance
+    
+    # Send notification to player
+    NotifyPlayer(Player : player, Message : string):void=
+        Print("[Masraf Al Rajhi] {Player}: {Message}")
+        # In real implementation, this would send HUD message
+    
+    # Get current timestamp
+    GetCurrentTime():string=
+        "12/27/2025 8:45 PM"  # Placeholder
+    
+    ShowMainMenu(Player : player):void=
+        Print("Masraf Al Rajhi Main Menu:")
+        Print("1. View Balance")
+        Print("2. Transfer Money")
+        Print("3. Transaction History")
+        Print("4. Salary Information")
+        Print("5. Pay Bills")
+
+# Transaction structure
+transaction := struct:
+    Type : string = ""
+    Amount : int = 0
+    Sender : ?player = false
+    Recipient : ?player = false
+    Timestamp : string = ""
+    Description : string = ""
+```
+
+**Integration Example**:
+
+```verse
+# Salary automation with Masraf Al Rajhi
+game_manager := class(creative_device):
+    
+    @editable
+    MasrafAlRajhi : masraf_al_rajhi_app = masraf_al_rajhi_app{}
+    
+    @editable
+    JobManager : job_manager = job_manager{}
+    
+    # Pay salaries every hour
+    PaySalaries()<suspends>:void=
+        AllPlayers := GetAllPlayers()
+        
+        for (Player : AllPlayers):
+            if (JobTitle := JobManager.GetPlayerJob(Player)):
+                Salary := JobManager.GetJobSalary(JobTitle)
+                
+                # Deposit salary through Masraf Al Rajhi
+                MasrafAlRajhi.DepositSalary(Player, Salary, JobTitle)
+```
+
 ---
 
 ## 🏠 Property System (Verse)

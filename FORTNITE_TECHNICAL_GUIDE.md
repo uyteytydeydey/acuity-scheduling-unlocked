@@ -1288,6 +1288,211 @@ Button "Request Ride"
 → Button "Add Tip" (optional $5-20)
 ```
 
+### App 10: Masraf Al Rajhi (مصرف الراجحي - Banking App)
+
+**Complete Banking System Implementation**:
+
+**Devices Required**:
+- **HUD Message Device** (display balance, transaction history)
+- **Button Device** (transfer money, view history, menu navigation)
+- **Conditional Button** (check balance before transfers)
+- **Accolade Device** (process money transfers and deposits)
+- **Tracker Device** (store transaction history, account balances)
+- **Timer Device** (salary deposit automation)
+- **Item Granter** (visual bank card item)
+
+**Implementation**:
+
+1. **Account Balance Display**:
+   ```
+   Button "Open Masraf Al Rajhi"
+   → Tracker (read player's Legend Coins balance)
+   → HUD Message: "Balance: [Amount] LC"
+   → Display account number (Player ID)
+   → Display account holder name
+   → Show last transaction date/time
+   ```
+
+2. **Money Transfer System**:
+   ```
+   Button "Transfer Money"
+   → Input: Recipient name or account number
+   → Input: Transfer amount
+   → HUD: Recipient details confirmation
+   → Conditional Button (check sender balance >= amount)
+   
+   If balance sufficient:
+   → Button "Confirm Transfer"
+   → Accolade (deduct from sender: -amount)
+   → Accolade (add to recipient: +amount)
+   → Tracker (log transaction for both players)
+   → HUD (sender): "Transfer successful to [Name]"
+   → HUD (recipient): "Received [Amount] LC from [Name]"
+   → Push notification to recipient phone
+   
+   If insufficient balance:
+   → HUD: "Insufficient funds. Balance: [Amount]"
+   → Button "Cancel"
+   ```
+
+3. **Salary Receipt System**:
+   ```
+   Timer Device (hourly salary automation)
+   → Trigger every game hour
+   → Check player's job from Job Manager
+   → Calculate salary based on job
+   
+   Salary Deposit:
+   → Accolade (add salary amount to player)
+   → Tracker (log transaction)
+   → HUD: "Salary deposited: [Amount] LC from [Employer]"
+   → Push notification: "💰 Salary received!"
+   → Update balance display in real-time
+   
+   Bank App View:
+   → Button "View Salary Info"
+   → HUD: "Last Salary: [Amount] on [Date]"
+   → HUD: "Next Salary: [Time]"
+   → HUD: "Job: [Title] | Employer: [Name]"
+   → HUD: "Salary Rate: [Amount]/hour"
+   ```
+
+4. **Transaction History System**:
+   ```
+   Button "Transaction History"
+   → Tracker (retrieve last 50 transactions)
+   
+   Display format:
+   ┌─────────────────────────────────────────┐
+   │ Date/Time | Type      | Amount | Balance│
+   ├─────────────────────────────────────────┤
+   │ 12/27 3:45PM | Salary   | +$200 | $1,450│
+   │ 12/27 3:30PM | Transfer | -$50  | $1,250│
+   │ 12/27 3:15PM | Deposit  | +$100 | $1,300│
+   │ 12/27 3:00PM | Payment  | -$75  | $1,200│
+   └─────────────────────────────────────────┘
+   
+   For each transaction:
+   → Show transaction ID
+   → Show type (Salary/Transfer/Payment/Deposit)
+   → Show amount (+ for credit, - for debit)
+   → Show running balance after transaction
+   → Show recipient/sender name (if transfer)
+   → Show description/notes
+   
+   Filters:
+   → Button "Filter by Date" (last 7/30/90 days)
+   → Button "Filter by Type" (all/transfers/salary/payments)
+   → Button "Export Statement" (save to player data)
+   ```
+
+5. **Additional Banking Features**:
+   
+   **Bill Payments**:
+   ```
+   Button "Pay Bills"
+   → Display bills list (fines from Absher, utilities)
+   → Select bill to pay
+   → Conditional (check balance)
+   → Accolade (deduct amount)
+   → HUD: "Bill paid successfully"
+   → Update Absher app (clear fine)
+   ```
+   
+   **Loan Services**:
+   ```
+   Button "Loan Application"
+   → Check player level and job status
+   → Calculate loan eligibility (max 3x weekly salary)
+   → Display loan terms (interest rate, duration)
+   → Button "Apply"
+   → Tracker (mark loan active)
+   → Accolade (deposit loan amount)
+   → Timer (weekly repayment auto-deduct)
+   ```
+   
+   **Savings Goals**:
+   ```
+   Button "Set Savings Goal"
+   → Input target amount and name
+   → Tracker (store goal)
+   → HUD: Show progress bar
+   → Optional auto-transfer % of salary to savings
+   ```
+
+6. **Security & Notifications**:
+   ```
+   Security PIN Setup:
+   → Button "Set PIN"
+   → Input 4-digit code
+   → Tracker (store encrypted PIN)
+   → Required for transfers over $500
+   
+   Push Notifications:
+   → Low balance warning (<$100 LC)
+   → Salary deposit alerts
+   → Transfer received alerts
+   → Large withdrawal alerts (>$1000)
+   → Suspicious activity warnings
+   ```
+
+**Integration with Other Apps**:
+
+```
+Payment Integration:
+→ Absher: Pay fines via Masraf Al Rajhi
+→ Keeta: Food payment deducted from bank balance
+→ Newber: Ride fare auto-deducted from account
+→ Haraj: Vehicle purchase payment through bank
+→ ATMs: Cash withdrawal syncs with app balance
+→ Stores: Purchase payments tracked in history
+
+Salary Integration:
+→ Job System → Timer → Masraf Al Rajhi Deposit
+→ All job salaries automatically deposited
+→ Real-time balance updates
+→ Employer name shown in transaction
+```
+
+**Channel Allocation**:
+- Channel 165: Bank balance updates
+- Channel 166: Transfer notifications
+- Channel 167: Salary deposits
+- Channel 168: Transaction logging
+
+**Device Chain Example**:
+```
+Player Opens Bank App
+↓
+Button Device (Main Menu)
+├── Button "View Balance"
+│   └→ Tracker → HUD (display balance)
+├── Button "Transfer Money"
+│   ├→ Input recipient & amount
+│   ├→ Conditional (check balance)
+│   └→ Accolade (process transfer)
+├── Button "Transaction History"
+│   └→ Tracker → HUD (display last 20)
+├── Button "Salary Info"
+│   └→ HUD (display job & next payment)
+└── Button "Pay Bills"
+    └→ Link to Absher fines
+    
+Background Process:
+Timer (hourly) → Check jobs → Accolade (salary) → Notification
+```
+
+**Realistic Saudi Banking Theme**:
+- Masraf Al Rajhi green color scheme (#00853E)
+- Arabic/English bilingual interface
+- Islamic banking terminology (no interest, profit-sharing)
+- Traditional Saudi financial features
+- Prayer time reminders
+- Zakat calculator
+
+**Memory Allocation**: ~8,000 memory (for transaction tracking)
+
+
 ### Phone System Device Budget
 
 **Memory Allocation**:
