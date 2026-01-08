@@ -915,6 +915,7 @@ Timer (24h loop) → Trigger (check message sent)
 - **Conditional Button** (pay fine - requires gold bars)
 - **Accolade Device** (deduct payment)
 - **HUD Message** (receipt confirmation)
+- **Tracker Device** (store military rank for Police/SWAT) ⭐ **NEW**
 
 **Implementation**:
 1. **View Fines**:
@@ -922,7 +923,39 @@ Timer (24h loop) → Trigger (check message sent)
    - Display Tracker value (total fines)
    - List violations with amounts
 
-2. **Pay Fine**:
+2. **Military Rank Display** ⭐ **NEW** (Police/SWAT Only):
+   - Button: "View My Rank" (visible only to Police/SWAT)
+   - Display rank information from Tracker:
+     ```
+     Button "View My Rank" (Conditional - Police/SWAT only)
+     → Read Rank Tracker (1-17)
+     → Read Force Type Tracker (1=Police, 2=SWAT)
+     → Display Rank Info HUD:
+       "════════════════════════════"
+       "معلومات الرتبة العسكرية"
+       "MILITARY RANK INFORMATION"
+       "════════════════════════════"
+       "الجهة: [Police/SWAT]"
+       "الرتبة: [Rank Name in Arabic]"
+       "الفئة: [Enlisted/Officers]"
+       "الراتب: $[Amount]/hour"
+       "رقم الرتبة: [X] من 17"
+       "الرتبة التالية: [Next Rank]"
+       "════════════════════════════"
+     ```
+   - Rank Tracker values:
+     - 1-7: Enlisted ranks (أفراد)
+     - 8-17: Officer ranks (ضباط)
+   - Rank names by value:
+     - 1: جندي | 2: جندي أول | 3: عريف
+     - 4: وكيل رقيب | 5: رقيب | 6: رقيب أول
+     - 7: رئيس رقباء | 8: ملازم | 9: ملازم أول
+     - 10: نقيب | 11: رائد | 12: مقدم
+     - 13: عقيد | 14: عميد | 15: لواء
+     - 16: فريق | 17: فريق أول
+   - Salary display from separate Tracker
+
+3. **Pay Fine**:
    ```
    Button "Pay Fine" (Conditional)
    → Check gold bar balance
@@ -931,13 +964,13 @@ Timer (24h loop) → Trigger (check message sent)
    → HUD: "Fine Paid: $200 LC"
    ```
 
-3. **Identity Documents**:
+4. **Identity Documents**:
    - Button: "Apply for ID"
    - Cost: $50 LC
    - Grant item: "City ID Card"
    - Required for certain jobs
 
-4. **Police Integration**:
+5. **Police Integration**:
    - Police can add fines via special device
    - Trigger → Increment player's fine Tracker
    - Notification sent to player's phone
@@ -953,6 +986,13 @@ Player Button "Pay Fine" (Conditional)
 → Check Balance (gold bars >= fine amount)
 → Accolade (deduct payment)
 → Tracker (reset fine to 0)
+
+Military Rank Display (NEW):
+→ Conditional Button (visible to Police/SWAT only)
+→ Read Rank Tracker (1-17)
+→ Read Force Tracker (1=Police, 2=SWAT)  
+→ HUD Message (display formatted rank info)
+→ Auto-calculate salary from rank
 ```
 
 ### App 4: NewSab (WhatsApp Clone)

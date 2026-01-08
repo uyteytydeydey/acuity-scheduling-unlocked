@@ -889,6 +889,142 @@ GetCurrentTime():float=
     0.0
 ```
 
+### Absher App (Government Services with Rank Display)
+
+```verse
+absher_app := class(phone_app):
+    
+    # Reference to rank system
+    @editable
+    RankSystem : rank_system = rank_system{}
+    
+    # Reference to police system
+    @editable
+    JobManager : job_manager = job_manager{}
+    
+    # Fines and violations
+    var PlayerFines : [player][]violation = map{}
+    var TotalFines : [player]int = map{}
+    
+    Open<override>(Player : player):void=
+        Print("Opening Absher for {Player}")
+        ShowAbsherMenu(Player)
+    
+    # Show main Absher menu
+    ShowAbsherMenu(Player : player):void=
+        # Check if player is military (Police or SWAT)
+        if (IsMilitaryPersonnel(Player)):
+            ShowMilitaryRankInfo(Player)
+        
+        # Show other services
+        ShowFinesList(Player)
+        ShowDocuments(Player)
+    
+    # Check if player is Police or SWAT
+    IsMilitaryPersonnel(Player : player):logic=
+        if (Job := JobManager.GetPlayerJob(Player)):
+            if (Job = "Police" or Job = "SWAT"):
+                return true
+        return false
+    
+    # Display military rank information ⭐ NEW
+    ShowMilitaryRankInfo(Player : player):void=
+        # Check Police rank
+        if (PoliceRank := RankSystem.GetPoliceRank(Player)):
+            if (RankNameArabic := RankSystem.RankNamesArabic[PoliceRank]):
+                if (Salary := RankSystem.GetPoliceSalary(Player)):
+                    var RankCategory : string = "أفراد (Enlisted)"
+                    var RankValue : int = PoliceRank
+                    if (RankValue >= 8):
+                        set RankCategory = "ضباط (Officers)"
+                    
+                    # Display rank information
+                    Print("╔══════════════════════════════════╗")
+                    Print("║     معلومات الرتبة العسكرية     ║")
+                    Print("║    MILITARY RANK INFORMATION     ║")
+                    Print("╠══════════════════════════════════╣")
+                    Print("║ الجهة: الشرطة (Police)          ║")
+                    Print("║ الرتبة: {RankNameArabic}        ║")
+                    Print("║ الفئة: {RankCategory}            ║")
+                    Print("║ الراتب: ${Salary}/hour          ║")
+                    Print("║ رقم الرتبة: {RankValue} من 17   ║")
+                    
+                    # Show next rank info
+                    if (RankValue < 17):
+                        var NextRankValue : int = RankValue + 1
+                        var NextRank : police_rank = NextRankValue
+                        if (NextRankName := RankSystem.RankNamesArabic[NextRank]):
+                            Print("║ الرتبة التالية: {NextRankName} ║")
+                    else:
+                        Print("║ أعلى رتبة (Maximum Rank)        ║")
+                    
+                    Print("╚══════════════════════════════════╝")
+                    return
+        
+        # Check SWAT rank
+        if (SWATRank := RankSystem.GetSWATRank(Player)):
+            if (RankNameArabic := RankSystem.RankNamesArabic[SWATRank]):
+                if (Salary := RankSystem.GetSWATSalary(Player)):
+                    var RankCategory : string = "أفراد (Enlisted)"
+                    var RankValue : int = SWATRank
+                    if (RankValue >= 8):
+                        set RankCategory = "ضباط (Officers)"
+                    
+                    # Display rank information
+                    Print("╔══════════════════════════════════╗")
+                    Print("║     معلومات الرتبة العسكرية     ║")
+                    Print("║    MILITARY RANK INFORMATION     ║")
+                    Print("╠══════════════════════════════════╣")
+                    Print("║ الجهة: السوات (SWAT)            ║")
+                    Print("║ الرتبة: {RankNameArabic}        ║")
+                    Print("║ الفئة: {RankCategory}            ║")
+                    Print("║ الراتب: ${Salary}/hour          ║")
+                    Print("║ رقم الرتبة: {RankValue} من 17   ║")
+                    
+                    # Show next rank info
+                    if (RankValue < 17):
+                        var NextRankValue : int = RankValue + 1
+                        var NextRank : police_rank = NextRankValue
+                        if (NextRankName := RankSystem.RankNamesArabic[NextRank]):
+                            Print("║ الرتبة التالية: {NextRankName} ║")
+                    else:
+                        Print("║ أعلى رتبة (Maximum Rank)        ║")
+                    
+                    Print("╚══════════════════════════════════╝")
+    
+    # Show fines list
+    ShowFinesList(Player : player):void=
+        if (Fines := PlayerFines[Player]):
+            Print("Your outstanding fines: {Fines.Length()}")
+        else:
+            Print("No outstanding fines")
+    
+    # Show documents
+    ShowDocuments(Player : player):void=
+        Print("Showing documents for {Player}")
+    
+    # Pay fine
+    PayFine(Player : player, FineID : int, EconomyManager : economy_manager)<suspends>:logic=
+        if (TotalAmount := TotalFines[Player]):
+            if (EconomyManager.HasMoney(Player, TotalAmount)):
+                EconomyManager.TakeMoney(Player, TotalAmount).Await()
+                
+                # Clear fines
+                set PlayerFines[Player] = array{}
+                set TotalFines[Player] = 0
+                
+                Print("{Player} paid fines: ${TotalAmount}")
+                return true
+        return false
+
+# Violation structure
+violation := struct:
+    Type : string
+    Amount : int
+    Date : float
+    Location : string
+```
+
 ### Newber App (Ride-Hailing)
 
 ```verse

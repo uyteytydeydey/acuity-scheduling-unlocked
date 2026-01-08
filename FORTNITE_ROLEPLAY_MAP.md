@@ -917,8 +917,15 @@ If Governor is unavailable:
   - **License Management**: View driving license status
   - **Fine History**: Complete record of all violations
   - **Payment Portal**: Direct payment using New Coins
+  - **Military Rank Display**: ⭐ **NEW** - View your current military rank (Police/SWAT only)
+    - Shows rank name in Arabic and English
+    - Displays current salary based on rank
+    - Shows rank category (Enlisted/Officer)
+    - Rank progression history
+    - Next rank requirements
 - **Usage**: Essential for law-abiding citizens and legal compliance
 - **Police Integration**: Police can check player status through this system
+- **Military Personnel**: Police and SWAT members can view their rank and salary information
 
 ##### 4. **NewSab** (Messaging - WhatsApp Alternative)
 - **Purpose**: Primary messaging app for private conversations
