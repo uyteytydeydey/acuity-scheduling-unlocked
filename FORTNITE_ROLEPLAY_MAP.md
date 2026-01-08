@@ -619,7 +619,7 @@ If Governor is unavailable:
 
 ## 💰 Economy System
 
-### Currency: "Legend Coins" (LC)
+### Currency: "New Coins" (NC)
 
 #### Earning Money
 1. **Job Salaries**: Paid every in-game hour (10 real minutes)
@@ -630,17 +630,17 @@ If Governor is unavailable:
 6. **Side Activities**: Mini-games and challenges
 
 #### Spending Money
-1. **Property Purchase**: Homes ($5,000-$50,000 LC) and Businesses ($10,000-$100,000 LC)
-2. **Vehicle Purchase**: Cars ($2,000-$25,000 LC)
+1. **Property Purchase**: Homes ($5,000-$50,000 NC) and Businesses ($10,000-$100,000 NC)
+2. **Vehicle Purchase**: Cars ($2,000-$25,000 NC)
 3. **Customization**: Clothing, accessories, home décor
 4. **Services**: Medical treatment, repairs, legal services
 5. **Entertainment**: Restaurants, clubs, casino
 6. **Taxes**: Property and business taxes (1% per in-game day)
 
 #### Starting Balance
-- **New Players**: $2,000 LC
-- **First Job Bonus**: $1,000 LC
-- **Daily Login**: $500 LC
+- **New Players**: $2,000 NC
+- **First Job Bonus**: $1,000 NC
+- **Daily Login**: $500 NC
 
 #### Banking System
 - **Bank Accounts**: Secure money storage
@@ -862,7 +862,7 @@ If Governor is unavailable:
   - **Vehicle Registration**: Register new vehicles
   - **License Management**: View driving license status
   - **Fine History**: Complete record of all violations
-  - **Payment Portal**: Direct payment using Legend Coins
+  - **Payment Portal**: Direct payment using New Coins
 - **Usage**: Essential for law-abiding citizens and legal compliance
 - **Police Integration**: Police can check player status through this system
 
@@ -940,7 +940,7 @@ If Governor is unavailable:
   - Fare estimate before booking
   - Track driver arrival
   - Driver rating system
-  - Payment through phone (auto-deduct LC)
+  - Payment through phone (auto-deduct NC)
   - Ride history
   - Split fare with friends
   - Favorite drivers
@@ -951,8 +951,8 @@ If Governor is unavailable:
 ##### 10. **Masraf Al Rajhi** (مصرف الراجحي - Banking App)
 - **Purpose**: Complete banking services for managing money in City of Legends
 - **Features**:
-  - **Account Balance Display**: View current Legend Coins balance in real-time
-  - **Money Transfers**: Send Legend Coins to other players instantly
+  - **Account Balance Display**: View current New Coins balance in real-time
+  - **Money Transfers**: Send New Coins to other players instantly
     - Enter recipient's account number or phone contact
     - Add transfer notes/descriptions
     - Confirmation screen before sending
@@ -1064,7 +1064,7 @@ If Governor is unavailable:
 - **Custom UI Devices**: Display menus and information
 
 #### Money System Implementation
-- **Bars (Gold)**: Represents Legend Coins (LC)
+- **Bars (Gold)**: Represents New Coins (NC)
 - **Vending Machines**: Purchase vehicles, properties, items
 - **Accolades**: Track XP and levels
 - **Scoreboards**: Display wealth, reputation, stats
@@ -1107,7 +1107,7 @@ If Governor is unavailable:
 1. **Join the Island**: Use map code (TBD)
 2. **Read Tutorial**: Complete orientation at City Hall
 3. **Choose Starting Job**: Visit Employment Center
-4. **Receive Starter Kit**: $2,000 LC + basic supplies
+4. **Receive Starter Kit**: $2,000 NC + basic supplies
 5. **Explore the City**: Familiarize yourself with districts
 6. **Start Working**: Begin earning and building your story
 

@@ -185,7 +185,7 @@
 
 ### Currency Implementation
 
-#### Using Gold Bars as "Legend Coins"
+#### Using Gold Bars as "New Coins"
 Fortnite Creative uses **Gold Bars** as the primary currency system.
 
 **Setup**:
@@ -1306,7 +1306,7 @@ Button "Request Ride"
 1. **Account Balance Display**:
    ```
    Button "Open Masraf Al Rajhi"
-   → Tracker (read player's Legend Coins balance)
+   → Tracker (read player's New Coins balance)
    → HUD Message: "Balance: [Amount] LC"
    → Display account number (Player ID)
    → Display account holder name
