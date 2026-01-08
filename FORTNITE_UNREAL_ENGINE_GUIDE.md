@@ -1,8 +1,8 @@
-# City of Legends - Unreal Engine Implementation Guide
+# New Live - Unreal Engine Implementation Guide
 
 ## 🎮 UEFN (Unreal Editor for Fortnite) Development
 
-This guide covers implementing "City of Legends" using **Unreal Engine 5** with **UEFN (Unreal Editor for Fortnite)** for full programming control, instead of basic Creative devices.
+This guide covers implementing "New Live" using **Unreal Engine 5** with **UEFN (Unreal Editor for Fortnite)** for full programming control, instead of basic Creative devices.
 
 ---
 
@@ -34,7 +34,7 @@ This guide covers implementing "City of Legends" using **Unreal Engine 5** with 
 | **Complexity** | Simple systems | Complex game mechanics |
 | **Learning Curve** | Easy | Moderate (requires programming) |
 
-### UEFN Advantages for City of Legends
+### UEFN Advantages for New Live
 
 ✅ **Custom Phone UI** - Real smartphone interface with touch interactions  
 ✅ **Advanced Economy** - Complex transactions, stock market, business logic  
@@ -128,7 +128,7 @@ hello_world := class(creative_device):
     MessageDevice : hud_message_device = hud_message_device{}
     
     OnBegin<override>()<suspends>:void=
-        MessageDevice.SetText("Welcome to City of Legends!")
+        MessageDevice.SetText("Welcome to New Live!")
         MessageDevice.Show(AllPlayers)
 ```
 
@@ -188,7 +188,7 @@ city_of_legends_manager := class(creative_device):
     
     # Initialization
     OnBegin<override>()<suspends>:void=
-        Print("City of Legends - Initializing...")
+        Print("New Live - Initializing...")
         
         # Start all systems
         EconomySystem.Initialize()
@@ -200,7 +200,7 @@ city_of_legends_manager := class(creative_device):
         GetPlayspace().PlayerAddedEvent().Subscribe(OnPlayerJoined)
         GetPlayspace().PlayerRemovedEvent().Subscribe(OnPlayerLeft)
         
-        Print("City of Legends - Ready!")
+        Print("New Live - Ready!")
     
     # Player Events
     OnPlayerJoined(Player : player):void=
@@ -234,7 +234,7 @@ city_of_legends_manager := class(creative_device):
     
     ShowWelcomeMessage(Player : player):void=
         # Display welcome UI
-        Print("Welcome to City of Legends, {Player}!")
+        Print("Welcome to New Live, {Player}!")
 ```
 
 ---
@@ -1299,7 +1299,7 @@ Distance(A : vector3, B : vector3):float=
 
 <div align="center">
 
-**City of Legends - Unreal Engine Implementation**  
+**New Live - Unreal Engine Implementation**  
 Version 1.0 | December 2025
 
 *Professional Game Development with UEFN*

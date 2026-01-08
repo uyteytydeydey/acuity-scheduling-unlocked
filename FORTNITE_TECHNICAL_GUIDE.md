@@ -1,4 +1,4 @@
-# City of Legends - Technical Implementation Guide
+# New Live - Technical Implementation Guide
 
 ## 📋 Table of Contents
 1. [Fortnite Creative Basics](#fortnite-creative-basics)
@@ -1551,7 +1551,7 @@ Timer (hourly) → Check jobs → Accolade (salary) → Notification
 
 <div align="center">
 
-**City of Legends - Technical Guide**  
+**New Live - Technical Guide**  
 Version 1.0 | December 2025
 
 *Build Your City. Live Your Story.*

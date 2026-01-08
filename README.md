@@ -2,7 +2,7 @@
 
 This repository contains comprehensive design documentation for multiple game projects:
 
-## 🌆 Featured Project: City of Legends - Fortnite Creative Roleplay Map
+## 🌆 Featured Project: New Live - Fortnite Creative Roleplay Map
 
 [![Platform](https://img.shields.io/badge/Platform-Fortnite%20Creative-7C3AED)](FORTNITE_ROLEPLAY_MAP.md) [![Players](https://img.shields.io/badge/Players-32%2B-green)]() [![Mode](https://img.shields.io/badge/Mode-Roleplay-orange)]() [![Status](https://img.shields.io/badge/Status-Design%20Phase-blue)]()
 

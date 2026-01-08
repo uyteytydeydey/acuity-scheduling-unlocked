@@ -1,10 +1,10 @@
-# Fortnite Creative Roleplay Map - "City of Legends"
+# Fortnite Creative Roleplay Map - "New Live"
 
 [![Platform](https://img.shields.io/badge/Platform-Fortnite%20Creative-7C3AED)](https://www.fortnite.com) [![Players](https://img.shields.io/badge/Players-32%2B-green)]() [![Mode](https://img.shields.io/badge/Mode-Roleplay-orange)]() [![Status](https://img.shields.io/badge/Status-Design%20Phase-blue)]()
 
 ## 🎮 Overview
 
-**City of Legends** is an ambitious Fortnite Creative roleplay map inspired by FiveM's roleplay servers, designed to support 32+ players in a persistent, immersive city environment. Players can choose from multiple careers, interact with a dynamic economy, customize their characters, and create their own stories in a living, breathing virtual city.
+**New Live** is an ambitious Fortnite Creative roleplay map inspired by FiveM's roleplay servers, designed to support 32+ players in a persistent, immersive city environment. Players can choose from multiple careers, interact with a dynamic economy, customize their characters, and create their own stories in a living, breathing virtual city.
 
 ### 📚 Complete Documentation
 
@@ -29,7 +29,7 @@
 
 | Aspect | Details |
 |--------|---------|
-| **Map Name** | City of Legends |
+| **Map Name** | New Live |
 | **Platform** | Fortnite Creative |
 | **Max Players** | 32+ (supports up to 40 players) |
 | **Game Mode** | Roleplay / Sandbox |
@@ -273,7 +273,7 @@ The map is divided into **3 distinct cities**, each with unique characteristics 
 ### 🏛️ Government Leadership (Elected/Appointed Positions)
 
 #### 0. **Governor (الحاكم)** (1 player - Elected)
-**Full Title**: Governor of City of Legends / حاكم مدينة الأساطير
+**Full Title**: Governor of New Live / حاكم مدينة الأساطير
 
 **Powers & Authorities**:
 - **Supreme Executive Authority**: Highest decision-maker in the city
@@ -835,7 +835,7 @@ If Governor is unavailable:
   - Post status updates (140 character limit)
   - Follow other players
   - Like and repost content
-  - Trending topics in City of Legends
+  - Trending topics in New Live
   - Direct messages to other users
 - **Usage**: Share news, advertise businesses, social interactions
 - **In-Game Implementation**: Text-based feed with HUD display
@@ -949,7 +949,7 @@ If Governor is unavailable:
 - **Tips**: Option to tip driver after ride
 
 ##### 10. **Masraf Al Rajhi** (مصرف الراجحي - Banking App)
-- **Purpose**: Complete banking services for managing money in City of Legends
+- **Purpose**: Complete banking services for managing money in New Live
 - **Features**:
   - **Account Balance Display**: View current New Coins balance in real-time
   - **Money Transfers**: Send New Coins to other players instantly
@@ -1234,9 +1234,9 @@ If Governor is unavailable:
 
 ---
 
-## 📊 Comparison: FiveM vs City of Legends
+## 📊 Comparison: FiveM vs New Live
 
-| Feature | FiveM (GTA V) | City of Legends (Fortnite) |
+| Feature | FiveM (GTA V) | New Live (Fortnite) |
 |---------|---------------|----------------------------|
 | **Max Players** | 32-256 | 32-40 |
 | **Platform** | PC | All platforms (PC, Console, Mobile) |
@@ -1249,7 +1249,7 @@ If Governor is unavailable:
 | **Setup Complexity** | High (server hosting) | Low (Creative island) |
 | **Cost** | Requires GTA V + hosting | Free to play |
 
-**City of Legends** brings the best of FiveM roleplay to Fortnite's accessible, cross-platform Creative mode!
+**New Live** brings the best of FiveM roleplay to Fortnite's accessible, cross-platform Creative mode!
 
 ---
 
@@ -1272,7 +1272,7 @@ If Governor is unavailable:
 
 ### "Every Legend Has a Story. What's Yours?"
 
-**City of Legends** - Fortnite Creative Roleplay Redefined
+**New Live** - Fortnite Creative Roleplay Redefined
 
 ---
 

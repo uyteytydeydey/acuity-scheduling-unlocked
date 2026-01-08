@@ -1,4 +1,4 @@
-# City of Legends - Quick Setup Guide
+# New Live - Quick Setup Guide
 
 ## 🚀 Get Started in 30 Minutes
 
@@ -596,10 +596,10 @@ For each job, place a **Button Device**:
 ## 📢 Phase 7: Publishing (15 min)
 
 ### Prepare for Launch
-1. **Set Island Name**: "City of Legends RP"
+1. **Set Island Name**: "New Live RP"
 2. **Write Description**:
    ```
-   🌆 City of Legends - Fortnite Roleplay
+   🌆 New Live - Fortnite Roleplay
    
    32+ player roleplay server with jobs, economy, and properties!
    
@@ -764,7 +764,7 @@ You've created your first Fortnite Roleplay server!
 
 ---
 
-**City of Legends - Quick Setup Guide**  
+**New Live - Quick Setup Guide**  
 Version 1.0 | December 2025
 
 </div>

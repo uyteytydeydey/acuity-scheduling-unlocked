@@ -1,4 +1,4 @@
-# City of Legends - Server Rules & Moderation Guide
+# New Live - Server Rules & Moderation Guide
 
 ## 📜 Official Server Rules
 
@@ -483,7 +483,7 @@
 
 ---
 
-**City of Legends - Server Rules**  
+**New Live - Server Rules**  
 Version 1.0 | December 2025
 
 *Play Fair. Roleplay Well. Respect Everyone.*

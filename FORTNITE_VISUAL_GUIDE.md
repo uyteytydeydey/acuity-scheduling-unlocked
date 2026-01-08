@@ -1,8 +1,8 @@
-# City of Legends - Visual Concept Guide
+# New Live - Visual Concept Guide
 
 ## 🎨 Map Visualization & Design Concepts
 
-This document describes the visual design and aesthetic of the City of Legends roleplay map.
+This document describes the visual design and aesthetic of the New Live roleplay map.
 
 ---
 
@@ -11,7 +11,7 @@ This document describes the visual design and aesthetic of the City of Legends r
 ### Design Philosophy
 **"Three Worlds, One Map - GTA V Inspired"**
 
-City of Legends features 3 distinct cities inspired by GTA V locations, each with unique visual identities:
+New Live features 3 distinct cities inspired by GTA V locations, each with unique visual identities:
 - **Al-Markaz**: Modern skyscraper metropolis (Los Santos-inspired)
 - **Paleto Bay**: Coastal small-town charm (Paleto Bay-inspired)
 - **Sandy Shores**: Desert outpost aesthetic (Sandy Shores-inspired)
@@ -181,7 +181,7 @@ City of Legends features 3 distinct cities inspired by GTA V locations, each wit
 - Wanted posters on walls
 - City map on wall showing districts
 
-### 2. Hospital - "City of Legends Medical Center"
+### 2. Hospital - "New Live Medical Center"
 
 **Exterior Design**:
 - Modern 4-story medical building
@@ -571,7 +571,7 @@ City of Legends features 3 distinct cities inspired by GTA V locations, each wit
 
 ## 🎨 "Build a City. Tell a Story."
 
-**City of Legends - Visual Concept Guide**  
+**New Live - Visual Concept Guide**  
 Version 1.0 | December 2025
 
 *Where every building has a purpose and every player has a role.*

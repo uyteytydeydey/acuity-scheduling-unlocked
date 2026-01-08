@@ -1,4 +1,4 @@
-# City of Legends - Map Visualization
+# New Live - Map Visualization
 
 ## 🗺️ Complete Map Overview
 
@@ -632,7 +632,7 @@ Watch for traffic!
 
 ## 🗺️ This Is Your Map!
 
-**City of Legends awaits...**
+**New Live awaits...**
 
 *3 Cities. Infinite Stories.*
 
