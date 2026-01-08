@@ -442,6 +442,161 @@ job_manager := class(creative_device):
         # Grant medical items
         Print("Giving medical equipment to {Player}")
 
+# Military Rank System for Police and SWAT
+police_rank := enum:
+    # Enlisted Ranks (أفراد)
+    Jundi = 1          # جندي - Soldier/Private
+    JundiAwwal = 2     # جندي أول - Private First Class
+    Areef = 3          # عريف - Corporal
+    WakilRaqib = 4     # وكيل رقيب - Sergeant Assistant
+    Raqib = 5          # رقيب - Sergeant
+    RaqibAwwal = 6     # رقيب أول - Staff Sergeant
+    RaeesRuqabaa = 7   # رئيس رقباء - Master Sergeant
+    # Officer Ranks (ضباط)
+    Mulazim = 8        # ملازم - Lieutenant
+    MulazimAwwal = 9   # ملازم أول - First Lieutenant
+    Naqib = 10         # نقيب - Captain
+    Raed = 11          # رائد - Major
+    Muqaddam = 12      # مقدم - Lieutenant Colonel
+    Aqeed = 13         # عقيد - Colonel
+    Ameed = 14         # عميد - Brigadier
+    Liwa = 15          # لواء - Major General
+    Fareq = 16         # فريق - Lieutenant General
+    FareqAwwal = 17    # فريق أول - General/Chief
+
+rank_system := class(creative_device):
+    
+    # Player ranks storage
+    var PlayerPoliceRanks : [player]police_rank = map{}
+    var PlayerSWATRanks : [player]police_rank = map{}
+    
+    # Rank salaries (per hour)
+    var PoliceRankSalaries : [police_rank]int = map{
+        police_rank.Jundi -> 150,
+        police_rank.JundiAwwal -> 160,
+        police_rank.Areef -> 170,
+        police_rank.WakilRaqib -> 180,
+        police_rank.Raqib -> 190,
+        police_rank.RaqibAwwal -> 210,
+        police_rank.RaeesRuqabaa -> 230,
+        police_rank.Mulazim -> 250,
+        police_rank.MulazimAwwal -> 260,
+        police_rank.Naqib -> 270,
+        police_rank.Raed -> 280,
+        police_rank.Muqaddam -> 290,
+        police_rank.Aqeed -> 300,
+        police_rank.Ameed -> 320,
+        police_rank.Liwa -> 340,
+        police_rank.Fareq -> 360,
+        police_rank.FareqAwwal -> 400
+    }
+    
+    var SWATRankSalaries : [police_rank]int = map{
+        police_rank.Jundi -> 200,
+        police_rank.JundiAwwal -> 220,
+        police_rank.Areef -> 240,
+        police_rank.WakilRaqib -> 260,
+        police_rank.Raqib -> 280,
+        police_rank.RaqibAwwal -> 300,
+        police_rank.RaeesRuqabaa -> 320,
+        police_rank.Mulazim -> 340,
+        police_rank.MulazimAwwal -> 360,
+        police_rank.Naqib -> 380,
+        police_rank.Raed -> 400,
+        police_rank.Muqaddam -> 420,
+        police_rank.Aqeed -> 450,
+        police_rank.Ameed -> 480,
+        police_rank.Liwa -> 500,
+        police_rank.Fareq -> 530,
+        police_rank.FareqAwwal -> 550
+    }
+    
+    # Rank names in Arabic
+    var RankNamesArabic : [police_rank]string = map{
+        police_rank.Jundi -> "جندي",
+        police_rank.JundiAwwal -> "جندي أول",
+        police_rank.Areef -> "عريف",
+        police_rank.WakilRaqib -> "وكيل رقيب",
+        police_rank.Raqib -> "رقيب",
+        police_rank.RaqibAwwal -> "رقيب أول",
+        police_rank.RaeesRuqabaa -> "رئيس رقباء",
+        police_rank.Mulazim -> "ملازم",
+        police_rank.MulazimAwwal -> "ملازم أول",
+        police_rank.Naqib -> "نقيب",
+        police_rank.Raed -> "رائد",
+        police_rank.Muqaddam -> "مقدم",
+        police_rank.Aqeed -> "عقيد",
+        police_rank.Ameed -> "عميد",
+        police_rank.Liwa -> "لواء",
+        police_rank.Fareq -> "فريق",
+        police_rank.FareqAwwal -> "فريق أول"
+    }
+    
+    # Assign rank to player
+    AssignPoliceRank(Player : player, Rank : police_rank)<suspends>:void=
+        set PlayerPoliceRanks[Player] = Rank
+        if (RankName := RankNamesArabic[Rank]):
+            if (Salary := PoliceRankSalaries[Rank]):
+                ShowMessage(Player, "تم ترقيتك إلى رتبة {RankName} - الراتب: ${Salary}/hour")
+    
+    AssignSWATRank(Player : player, Rank : police_rank)<suspends>:void=
+        set PlayerSWATRanks[Player] = Rank
+        if (RankName := RankNamesArabic[Rank]):
+            if (Salary := SWATRankSalaries[Rank]):
+                ShowMessage(Player, "تم ترقيتك في السوات إلى رتبة {RankName} - الراتب: ${Salary}/hour")
+    
+    # Get player rank
+    GetPoliceRank(Player : player):?police_rank=
+        PlayerPoliceRanks[Player]
+    
+    GetSWATRank(Player : player):?police_rank=
+        PlayerSWATRanks[Player]
+    
+    # Get salary by rank
+    GetPoliceSalary(Player : player):int=
+        if (Rank := PlayerPoliceRanks[Player]):
+            if (Salary := PoliceRankSalaries[Rank]):
+                return Salary
+        return 150  # Default starting salary
+    
+    GetSWATSalary(Player : player):int=
+        if (Rank := PlayerSWATRanks[Player]):
+            if (Salary := SWATRankSalaries[Rank]):
+                return Salary
+        return 200  # Default starting salary
+    
+    # Promote player
+    PromotePoliceOfficer(Player : player, PromotedBy : player)<suspends>:void=
+        if (CurrentRank := PlayerPoliceRanks[Player]):
+            var RankValue : int = CurrentRank
+            if (RankValue < 17):  # Not already at max rank
+                var NewRank : police_rank = RankValue + 1
+                set PlayerPoliceRanks[Player] = NewRank
+                if (RankName := RankNamesArabic[NewRank]):
+                    ShowMessage(Player, "مبروك! تمت ترقيتك إلى {RankName}")
+    
+    PromoteSWATOfficer(Player : player, PromotedBy : player)<suspends>:void=
+        if (CurrentRank := PlayerSWATRanks[Player]):
+            var RankValue : int = CurrentRank
+            if (RankValue < 17):  # Not already at max rank
+                var NewRank : police_rank = RankValue + 1
+                set PlayerSWATRanks[Player] = NewRank
+                if (RankName := RankNamesArabic[NewRank]):
+                    ShowMessage(Player, "مبروك! تمت ترقيتك في السوات إلى {RankName}")
+    
+    # Check if player can promote others (officers only - rank 8+)
+    CanPromoteOthers(Player : player):logic=
+        if (Rank := PlayerPoliceRanks[Player]):
+            var RankValue : int = Rank
+            return RankValue >= 8  # Officer ranks and above
+        if (Rank := PlayerSWATRanks[Player]):
+            var RankValue : int = Rank
+            return RankValue >= 8  # Officer ranks and above
+        return false
+
+    ShowMessage(Player : player, Message : string):void=
+        Print(Message)  # Replace with HUD message in actual implementation
+
 # Government positions structure
 government_position := struct:
     Title : string

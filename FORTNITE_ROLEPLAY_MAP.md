@@ -335,8 +335,10 @@ The map is divided into **3 distinct cities**, each with unique characteristics 
 
 **Chain of Command**:
 ```
-Governor → Minister of Interior → Police Chiefs → Officers
+Governor → Minister of Interior → فريق أول (Police Chief) → Lower Ranks
 ```
+
+**Rank Progression**: 17 ranks from جندي to فريق أول
 
 **Equipment**:
 - Ministry Office in Government Palace
@@ -379,15 +381,41 @@ Governor → Minister of Interior → Police Chiefs → Officers
 
 **Chain of Command**:
 ```
-Governor → Minister of Defense → SWAT Commander → Tactical Units
+Governor → Minister of Defense → فريق أول (SWAT Commander) → Lower SWAT Ranks
 ```
 
+**Rank Progression**: 17 ranks from جندي to فريق أول
+
 **Special Units Under Defense**:
-- SWAT Team (4 players)
-- Air Support Unit (2 pilots)
-- Tactical Response Team
-- VIP Protection Unit
-- Explosives Disposal Unit
+
+**SWAT Team Military Rank System** (نظام رتب السوات):
+
+**Enlisted Ranks (أفراد SWAT)**:
+1. **جندي** (SWAT Operator) - $200/hour - Entry tactical operator
+2. **جندي أول** (Senior Operator) - $220/hour - Experienced operator
+3. **عريف** (Team Member) - $240/hour - Specialized role (Breacher/Sniper)
+4. **وكيل رقيب** (Squad Leader Assistant) - $260/hour - Second-in-command of squad
+5. **رقيب** (Squad Leader) - $280/hour - Leads 4-man squad
+6. **رقيب أول** (Senior Squad Leader) - $300/hour - Leads multiple squads
+7. **رئيس رقباء** (Master Sergeant) - $320/hour - Training and operations NCO
+
+**Officer Ranks (ضباط SWAT)**:
+8. **ملازم** (Platoon Leader) - $340/hour - Tactical operations leader
+9. **ملازم أول** (Senior Platoon Leader) - $360/hour - Advanced operations
+10. **نقيب** (Company Commander) - $380/hour - SWAT unit commander
+11. **رائد** (Operations Major) - $400/hour - Strategic planning
+12. **مقدم** (Deputy SWAT Commander) - $420/hour - Second-in-command
+13. **عقيد** (SWAT Commander) - $450/hour - SWAT team leader
+14. **عميد** (Special Operations Chief) - $480/hour - All tactical units
+15. **لواء** (Tactical Director) - $500/hour - Strategic operations
+16. **فريق** (Counter-Terrorism Chief) - $530/hour - High-risk operations
+17. **فريق أول** (SWAT General Commander) - $550/hour - **قائد السوات** (Supreme SWAT Commander)
+
+**Other Defense Units**:
+- Air Support Unit (2 pilots) - $350/hour
+- Tactical Response Team - Varies by SWAT rank
+- VIP Protection Unit - Specialized SWAT officers
+- Explosives Disposal Unit - Specialized SWAT officers
 
 **Equipment**:
 - Defense Ministry Office in Government Palace
@@ -428,30 +456,56 @@ Governor → Minister of Defense → SWAT Commander → Tactical Units
 If Governor is unavailable:
 1. Minister of Interior becomes Acting Governor
 2. Minister of Defense becomes Acting Governor (if Interior absent)
-3. Police Chief becomes Acting Governor (if all ministers absent)
+3. فريق أول (Police Chief/General) becomes Acting Governor (if all ministers absent)
 
 ---
 
 ### Legal Careers
 
 #### 1. **Law Enforcement** (Max 8 players)
-**Roles**: Chief, Captain, Officer, Detective, Traffic Cop
 
-**Responsibilities**:
+**Military-Style Rank System** (نظام الرتب العسكري):
+
+**Enlisted Ranks (أفراد)** - Starting positions:
+1. **جندي** (Soldier/Private) - $150/hour - Entry level, basic patrol
+2. **جندي أول** (Private First Class) - $160/hour - Patrol, traffic stops
+3. **عريف** (Corporal) - $170/hour - Lead patrol units
+4. **وكيل رقيب** (Sergeant Assistant) - $180/hour - Supervise patrols
+5. **رقيب** (Sergeant) - $190/hour - Shift supervisor
+6. **رقيب أول** (Staff Sergeant) - $210/hour - Station supervisor
+7. **رئيس رقباء** (Master Sergeant) - $230/hour - Senior NCO, training officer
+
+**Officer Ranks (ضباط)** - Leadership positions:
+8. **ملازم** (Lieutenant) - $250/hour - Patrol commander
+9. **ملازم أول** (First Lieutenant) - $260/hour - Investigations lead
+10. **نقيب** (Captain) - $270/hour - Department head
+11. **رائد** (Major) - $280/hour - Operations commander
+12. **مقدم** (Lieutenant Colonel) - $290/hour - Deputy chief
+13. **عقيد** (Colonel) - $300/hour - Station commander
+14. **عميد** (Brigadier) - $320/hour - Regional commander
+15. **لواء** (Major General) - $340/hour - Deputy director
+16. **فريق** (Lieutenant General) - $360/hour - Director of operations
+17. **فريق أول** (General/Police Chief) - $400/hour - **قائد الشرطة** (Police Commander)
+
+**Responsibilities** (vary by rank):
 - Patrol the city and respond to 911 calls
 - Enforce traffic laws and issue tickets
 - Investigate crimes and arrest suspects
 - Process criminals at police station
 - Maintain peace and order
+- Supervise lower ranks (Officers only)
+- Strategic planning (Senior Officers only)
 
 **Equipment**:
-- Police uniform and badge
-- Police vehicles (patrol car, motorcycle, helicopter)
-- Weapons (pistol, taser, baton)
+- Police uniform with rank insignia
+- Police vehicles (patrol car, motorcycle, helicopter for high ranks)
+- Weapons (pistol, taser, baton - upgraded for officers)
 - Handcuffs and evidence collection tools
 - Radio communication system
 
-**Salary**: $150-$300 per in-game hour (based on rank)
+**Promotion System**: Based on performance, time in service, and recommendation from superior officers
+
+**Salary Range**: $150-$400 per in-game hour (based on rank)
 
 #### 2. **Emergency Medical Services** (Max 6 players)
 **Roles**: Chief Paramedic, Paramedic, EMT
