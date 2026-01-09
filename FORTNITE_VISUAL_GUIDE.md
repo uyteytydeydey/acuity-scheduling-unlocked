@@ -345,11 +345,57 @@ New Live features 3 distinct cities inspired by GTA V locations, each with uniqu
    - Earth tones (brown, green, black)
 
 ### Job Vehicles
-1. **Police Patrol Car**
-   - Modified Fortnite car with blue/white livery
-   - Emergency lights on top (if possible)
-   - "POLICE" decals on doors
-   - Police badge on hood
+
+#### Police Fleet (3 Vehicle Types)
+
+1. **Dodge Charger (دودج تشارجر)** - Patrol/Pursuit Vehicle
+   - **Base**: Fortnite sports car/sedan
+   - **Color Scheme**: Black and white (50/50 split)
+   - **Livery**: 
+     - "POLICE" in large letters on doors (English/Arabic: شرطة)
+     - Blue reflective stripes along sides
+     - Hood: Police badge/star emblem
+     - Roof: Red and blue emergency lights
+     - Trunk: "POLICE" text
+   - **Features**: High-speed pursuit capability
+   - **Assigned to**: Enlisted ranks (جندي to رئيس رقباء)
+   - **Role**: Standard patrol, traffic enforcement, pursuits
+
+2. **GMC Tahoe (جمس تاهو)** - Supervisor/Utility Vehicle
+   - **Base**: Fortnite SUV/truck (large vehicle)
+   - **Color Scheme**: All black or dark blue
+   - **Livery**:
+     - "POLICE SUPERVISOR" on doors (English/Arabic: مشرف الشرطة)
+     - Gold/yellow reflective stripes
+     - Roof: Red, blue, and white lights (more than Charger)
+     - Side panels: Unit number and rank insignia
+     - Rear: "COMMAND UNIT" text
+   - **Features**: Larger capacity, equipment storage, K-9 cage option
+   - **Assigned to**: Officer ranks (ملازم to عميد)
+   - **Role**: Command vehicle, K-9 units, equipment transport, scene command
+
+3. **Ford Crown Victoria (فورد كراون فيكتوريا)** - Command/Detective Vehicle
+   - **Base**: Fortnite classic sedan
+   - **Two Variants**:
+     - **Marked**: White with thin blue stripe, subtle "POLICE" text
+     - **Unmarked**: Solid neutral colors (gray, black, dark blue), no visible markings
+   - **Livery** (Marked only):
+     - Minimal decals for professional appearance
+     - Small police emblem on doors
+     - Discreet light bar inside windshield
+     - "DETECTIVE" or command rank on side
+   - **Features**: Discrete appearance, professional look
+   - **Assigned to**: 
+     - Flag Officers (لواء, فريق, فريق أول) - Marked command vehicles
+     - Detectives (all ranks) - Unmarked for investigations
+   - **Role**: Detective work, undercover ops, command staff transport
+
+**Vehicle Assignment by Rank**:
+- **Enlisted (1-7)**: Dodge Charger (patrol duties)
+- **Junior Officers (8-10)**: Choice of Charger or Tahoe
+- **Senior Officers (11-14)**: GMC Tahoe (command duties)
+- **Flag Officers (15-17)**: Ford Crown Victoria (command staff)
+- **Detectives**: Unmarked Crown Victoria (any rank)
 
 2. **Ambulance**
    - White vehicle with red cross

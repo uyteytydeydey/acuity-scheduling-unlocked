@@ -383,10 +383,30 @@ For each job, place a **Button Device**:
    ```
 
 #### Job Vehicle Spawners
-1. **Police Vehicles** (at Police Station):
-   - Place 3x Spawner Devices (patrol car, motorcycle, SUV)
-   - Add Button: "Request Vehicle" (police team only)
-   - Connect Button → Spawner
+
+**Police Three-Tier Fleet** (at Police Station):
+1. **Dodge Charger (دودج تشارجر)** - Patrol Vehicle:
+   - Place Spawner Device (sports car/sedan)
+   - Add Conditional Button: "Request Charger" (Ranks 1-7 only)
+   - Customize: Black/white livery, "POLICE" decals
+   - Connect Button → Spawner (Channel 70)
+
+2. **GMC Tahoe (جمس تاهو)** - Supervisor Vehicle:
+   - Place Spawner Device (SUV/truck)
+   - Add Conditional Button: "Request Tahoe" (Ranks 8-14 only)
+   - Customize: Black, gold stripes, "SUPERVISOR"
+   - Connect Button → Spawner (Channel 71)
+
+3. **Ford Crown Victoria (فورد كراون فيكتوريا)** - Command Vehicle:
+   - Place 2x Spawner Devices (marked + unmarked)
+   - Add Conditional Button: "Request Crown Vic" (Ranks 15-17 or Detectives)
+   - Customize: White with stripe (marked) or neutral solid (unmarked)
+   - Connect Button → Spawner (Channel 72-73)
+
+**Setup Time**: 20 minutes for all 3 vehicle types
+- Use Tracker Device to store player rank (1-17)
+- Conditional Buttons check rank before spawning
+- Add HUD messages for vehicle assignment confirmation
 
 2. **EMS Vehicles** (at Hospital):
    - Place 2x Spawner Devices (ambulances)

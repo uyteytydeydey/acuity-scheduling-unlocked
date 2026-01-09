@@ -444,11 +444,89 @@ Respawn Device: Spawn at Police Station
 5. Connect Timer for 2-minute respawn delay (prevent spam)
 
 **Job Vehicles**:
-- **Police**: Patrol car, motorcycle, SWAT van
+- **Police**: Three-tier fleet system (Charger, Tahoe, Crown Vic) - see Police Vehicle Fleet below
 - **EMS**: Ambulance
 - **Fire**: Fire truck
 - **Taxi**: Taxi cab (company vehicle)
 - **Delivery**: Cargo van
+
+### Police Vehicle Fleet System
+
+#### Three-Tier Vehicle Assignment by Rank
+
+**Devices Required** (per vehicle type):
+- 3× Vehicle Spawner Devices (one for each vehicle type)
+- Conditional Button Devices (rank-based)
+- Class Selector Device (check rank)
+- Tracker Device (store player rank 1-17)
+
+**Implementation**:
+
+**1. Dodge Charger (دودج تشارجر) - Patrol/Pursuit**
+- **Ranks**: Enlisted (1-7): جندي through رئيس رقباء
+- **Setup**:
+  1. Place Vehicle Spawner at police station (set to sports car/sedan)
+  2. Add Conditional Button: "Request Charger"
+  3. Set conditions:
+     - Team: Police
+     - Custom property: Rank = 1-7 (check via Tracker)
+  4. On press → Spawn Dodge Charger
+  5. Vehicle customization: Black/white livery, blue lights, "POLICE" decals
+
+**2. GMC Tahoe (جمس تاهو) - Supervisor/Utility**
+- **Ranks**: Officers (8-14): ملازم through عميد
+- **Setup**:
+  1. Place Vehicle Spawner (set to SUV/truck)
+  2. Add Conditional Button: "Request Tahoe"
+  3. Set conditions:
+     - Team: Police
+     - Custom property: Rank = 8-14
+  4. On press → Spawn GMC Tahoe
+  5. Vehicle customization: Black/dark blue, gold stripes, enhanced lights
+  6. Special variants:
+     - K-9 Unit: Add "K-9" decal
+     - Command Unit: Add "SUPERVISOR" text
+
+**3. Ford Crown Victoria (فورد كراون فيكتوريا) - Command/Detective**
+- **Ranks**: Flag Officers (15-17): لواء, فريق, فريق أول
+- **Variants**: Marked (command) and Unmarked (detective)
+- **Setup**:
+  1. Place 2× Vehicle Spawners (marked and unmarked)
+  2. Add Conditional Button: "Request Crown Victoria"
+  3. Set conditions:
+     - Team: Police
+     - Custom property: Rank = 15-17 OR Role = Detective
+  4. On press → Spawn Crown Victoria (marked or unmarked based on role)
+  5. Vehicle customization:
+     - Marked: White with thin blue stripe, minimal decals
+     - Unmarked: Solid neutral color (gray/black), no markings
+
+**Rank Tracking System**:
+1. Use Tracker Device to store player rank (value 1-17)
+2. Update Tracker when player is promoted
+3. Conditional Buttons check Tracker value for vehicle access
+4. Class Selector can categorize: Enlisted (1-7), Officer (8-14), Flag Officer (15-17)
+
+**Device Chain Example (Charger)**:
+```
+[Police Station Button "Request Charger"] 
+    → [Class Selector: Check if Rank 1-7]
+    → [Tracker Device: Verify player rank]
+    → [Conditional Button: Passes if rank ≤ 7]
+    → [Vehicle Spawner: Spawn Dodge Charger]
+    → [HUD Message: "دودج تشارجر - Patrol Vehicle Assigned"]
+```
+
+**Vehicle Features Configuration**:
+- **Charger**: High speed, 2-seat capacity, standard equipment
+- **Tahoe**: Medium speed, 4-seat capacity, large storage
+- **Crown Vic**: Medium speed, 2-3 seats, professional appearance
+
+**Promotion Vehicle Upgrade**:
+1. When officer is promoted (Tracker updated)
+2. Trigger Device checks if new rank requires different vehicle
+3. Display HUD message: "Vehicle Upgrade Available"
+4. Officer can request new vehicle at station
 
 ### Vehicle Damage & Repair
 

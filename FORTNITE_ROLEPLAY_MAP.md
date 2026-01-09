@@ -498,7 +498,23 @@ If Governor is unavailable:
 
 **Equipment**:
 - Police uniform with rank insignia
-- Police vehicles (patrol car, motorcycle, helicopter for high ranks)
+- **Police Vehicles** (3 types based on rank and role):
+  1. **Dodge Charger** (دودج تشارجر) - Patrol/Pursuit Vehicle
+     - Ranks: جندي to رئيس رقباء (Enlisted)
+     - High-speed pursuit vehicle
+     - Standard patrol duties
+     - Traffic enforcement
+  2. **GMC Tahoe** (جمس تاهو) - Supervisor/Utility Vehicle
+     - Ranks: ملازم to عميد (Junior-Senior Officers)
+     - Command vehicle for supervisors
+     - K-9 unit transport
+     - Heavy equipment transport
+  3. **Ford Crown Victoria** (فورد كراون فيكتوريا) - Command/Detective Vehicle
+     - Ranks: لواء to فريق أول (Flag Officers) & Detectives
+     - Unmarked detective vehicles
+     - Command staff transport
+     - Undercover operations
+  4. **Helicopter** - Air support (فريق and فريق أول only)
 - Weapons (pistol, taser, baton - upgraded for officers)
 - Handcuffs and evidence collection tools
 - Radio communication system

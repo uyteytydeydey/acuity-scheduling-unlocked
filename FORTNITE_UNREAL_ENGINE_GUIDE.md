@@ -1423,6 +1423,150 @@ property_manager := class(creative_device):
 
 ## 🚗 Vehicle System (Verse)
 
+### Police Vehicle System
+
+Complete implementation for 3-tier police fleet (Dodge Charger, GMC Tahoe, Ford Crown Victoria):
+
+```verse
+using { /Fortnite.com/Devices }
+using { /Verse.org/Simulation }
+using { /UnrealEngine.com/Temporary/Diagnostics }
+
+police_vehicle_type := enum:
+    DodgeCharger = 1    # دودج تشارجر - Patrol/Pursuit
+    GMCTahoe = 2        # جمس تاهو - Supervisor/Utility
+    FordCrownVic = 3    # فورد كراون فيكتوريا - Command/Detective
+
+police_vehicle_manager := class(creative_device):
+    
+    @editable
+    RankSystem : rank_system = rank_system{}
+    
+    @editable
+    JobManager : job_manager = job_manager{}
+    
+    # Vehicle spawners for each type
+    @editable
+    ChargerSpawner : vehicle_spawner_device = vehicle_spawner_device{}
+    
+    @editable
+    TahoeSpawner : vehicle_spawner_device = vehicle_spawner_device{}
+    
+    @editable
+    CrownVicSpawner : vehicle_spawner_device = vehicle_spawner_device{}
+    
+    # Track assigned vehicles
+    var PlayerVehicles : [player]police_vehicle_type = map{}
+    
+    OnBegin<override>()<suspends>:void=
+        Print("Police Vehicle System - Initialized")
+    
+    # Assign vehicle based on rank
+    AssignPoliceVehicle(Player : player)<suspends>:void=
+        # Check if player is police
+        if (PlayerJob := JobManager.GetPlayerJob(Player)):
+            if (PlayerJob = "Police"):
+                # Get player's rank
+                if (Rank := RankSystem.GetPlayerPoliceRank(Player)):
+                    VehicleType := DetermineVehicleType(Rank)
+                    SpawnPoliceVehicle(Player, VehicleType)
+                    set PlayerVehicles[Player] = VehicleType
+                    
+                    ShowMessage(Player, "تم تعيين سيارتك الشرطية - Vehicle Assigned")
+    
+    # Determine vehicle type by rank
+    DetermineVehicleType(Rank : police_rank):police_vehicle_type=
+        # Enlisted ranks (1-7): Dodge Charger
+        if (Rank <= police_rank.RaeesRuqabaa):  # رئيس رقباء
+            return police_vehicle_type.DodgeCharger
+        
+        # Junior-Senior Officers (8-14): GMC Tahoe
+        else if (Rank >= police_rank.Mulazim and Rank <= police_rank.Ameed):
+            return police_vehicle_type.GMCTahoe
+        
+        # Flag Officers (15-17): Ford Crown Victoria
+        else if (Rank >= police_rank.Liwa):  # لواء and above
+            return police_vehicle_type.FordCrownVic
+        
+        # Default
+        return police_vehicle_type.DodgeCharger
+    
+    # Spawn specific vehicle type
+    SpawnPoliceVehicle(Player : player, VehicleType : police_vehicle_type):void=
+        case (VehicleType):
+            police_vehicle_type.DodgeCharger =>
+                ChargerSpawner.SpawnVehicle(agent[Player])
+                Print("{Player} received Dodge Charger (Patrol)")
+                
+            police_vehicle_type.GMCTahoe =>
+                TahoeSpawner.SpawnVehicle(agent[Player])
+                Print("{Player} received GMC Tahoe (Supervisor)")
+                
+            police_vehicle_type.FordCrownVic =>
+                CrownVicSpawner.SpawnVehicle(agent[Player])
+                Print("{Player} received Ford Crown Victoria (Command)")
+    
+    # Get vehicle name in Arabic
+    GetVehicleNameArabic(VehicleType : police_vehicle_type):string=
+        case (VehicleType):
+            police_vehicle_type.DodgeCharger => "دودج تشارجر"
+            police_vehicle_type.GMCTahoe => "جمس تاهو"
+            police_vehicle_type.FordCrownVic => "فورد كراون فيكتوريا"
+            _ => "Unknown"
+    
+    # Issue detective vehicle (unmarked Crown Vic)
+    IssueDetectiveVehicle(Player : player)<suspends>:void=
+        if (PlayerJob := JobManager.GetPlayerJob(Player)):
+            if (PlayerJob = "Police"):
+                # Detectives get unmarked Crown Victoria
+                CrownVicSpawner.SpawnVehicle(agent[Player])
+                set PlayerVehicles[Player] = police_vehicle_type.FordCrownVic
+                ShowMessage(Player, "سيارة تحقيقات غير مميزة - Unmarked Detective Vehicle")
+    
+    # Vehicle upgrade on promotion
+    OnPromotion(Player : player, NewRank : police_rank)<suspends>:void=
+        # Check if rank change requires vehicle upgrade
+        NewVehicleType := DetermineVehicleType(NewRank)
+        
+        if (CurrentVehicle := PlayerVehicles[Player]):
+            if not (CurrentVehicle = NewVehicleType):
+                # Upgrade needed
+                SpawnPoliceVehicle(Player, NewVehicleType)
+                set PlayerVehicles[Player] = NewVehicleType
+                
+                VehicleName := GetVehicleNameArabic(NewVehicleType)
+                ShowMessage(Player, "ترقية السيارة: {VehicleName} - Vehicle Upgraded")
+    
+    ShowMessage(Player : player, Message : string):void=
+        # Implementation for showing HUD message
+        Print("{Player}: {Message}")
+```
+
+**Vehicle Features by Type**:
+
+1. **Dodge Charger** (دودج تشارجر):
+   - Speed: High (pursuit capability)
+   - Capacity: 2 officers
+   - Equipment: Standard patrol gear storage
+   - Sirens: Standard police sirens
+   - Ranks: جندي (1) through رئيس رقباء (7)
+
+2. **GMC Tahoe** (جمس تاهو):
+   - Speed: Medium
+   - Capacity: 4-5 officers + equipment
+   - Equipment: K-9 cage, heavy weapons storage, command equipment
+   - Sirens: Enhanced emergency lighting
+   - Ranks: ملازم (8) through عميد (14)
+   - Special: Can be designated as K-9 unit or SWAT transport
+
+3. **Ford Crown Victoria** (فورد كراون فيكتوريا):
+   - Speed: Medium
+   - Capacity: 2-3 personnel
+   - Equipment: Detective kit, command communications
+   - Variants: Marked (command) and Unmarked (detective)
+   - Ranks: لواء (15), فريق (16), فريق أول (17)
+   - Special: Unmarked variant for undercover operations
+
 ### Vehicle Manager
 
 ```verse
