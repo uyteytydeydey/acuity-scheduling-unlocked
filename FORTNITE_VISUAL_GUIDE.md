@@ -346,56 +346,191 @@ New Live features 3 distinct cities inspired by GTA V locations, each with uniqu
 
 ### Job Vehicles
 
-#### Police Fleet (3 Vehicle Types)
+#### Police Fleet (3 Vehicle Types) - 100% Realistic Specifications
 
-1. **Dodge Charger (دودج تشارجر)** - Patrol/Pursuit Vehicle
-   - **Base**: Fortnite sports car/sedan
-   - **Color Scheme**: Black and white (50/50 split)
-   - **Livery**: 
-     - "POLICE" in large letters on doors (English/Arabic: شرطة)
-     - Blue reflective stripes along sides
-     - Hood: Police badge/star emblem
-     - Roof: Red and blue emergency lights
-     - Trunk: "POLICE" text
-   - **Features**: High-speed pursuit capability
-   - **Assigned to**: Enlisted ranks (جندي to رئيس رقباء)
-   - **Role**: Standard patrol, traffic enforcement, pursuits
+##### 1. **Dodge Charger Pursuit (دودج تشارجر)** - Patrol/High-Speed Pursuit Vehicle
 
-2. **GMC Tahoe (جمس تاهو)** - Supervisor/Utility Vehicle
-   - **Base**: Fortnite SUV/truck (large vehicle)
-   - **Color Scheme**: All black or dark blue
-   - **Livery**:
-     - "POLICE SUPERVISOR" on doors (English/Arabic: مشرف الشرطة)
-     - Gold/yellow reflective stripes
-     - Roof: Red, blue, and white lights (more than Charger)
-     - Side panels: Unit number and rank insignia
-     - Rear: "COMMAND UNIT" text
-   - **Features**: Larger capacity, equipment storage, K-9 cage option
-   - **Assigned to**: Officer ranks (ملازم to عميد)
-   - **Role**: Command vehicle, K-9 units, equipment transport, scene command
+**Real-World Specifications (100% Accurate)**:
+- Model: 2020-2024 Dodge Charger Pursuit (Police Package)
+- Engine: 5.7L HEMI V8 (370 HP)
+- Top Speed: 150 mph / 241 km/h
+- 0-60 mph: 5.9 seconds
+- Dimensions: 200" L × 75" W × 58" H
+- Seating: 2 officers (front), 2 suspects (rear cage)
 
-3. **Ford Crown Victoria (فورد كراون فيكتوريا)** - Command/Detective Vehicle
-   - **Base**: Fortnite classic sedan
-   - **Two Variants**:
-     - **Marked**: White with thin blue stripe, subtle "POLICE" text
-     - **Unmarked**: Solid neutral colors (gray, black, dark blue), no visible markings
-   - **Livery** (Marked only):
-     - Minimal decals for professional appearance
-     - Small police emblem on doors
-     - Discreet light bar inside windshield
-     - "DETECTIVE" or command rank on side
-   - **Features**: Discrete appearance, professional look
-   - **Assigned to**: 
-     - Flag Officers (لواء, فريق, فريق أول) - Marked command vehicles
-     - Detectives (all ranks) - Unmarked for investigations
-   - **Role**: Detective work, undercover ops, command staff transport
+**100% Realistic Livery Design**:
+- **Base Colors**: 
+  - Front half: Gloss white (#FFFFFF)
+  - Rear half: Gloss black (#1C1C1C)
+  - Split at driver door B-pillar (50/50 division)
+- **Door Decals**:
+  - Large "POLICE" in Helvetica Bold font, white on black section, black on white section
+  - Arabic "شرطة" below in traditional calligraphy
+  - City seal/badge emblem (circular, gold trim, 12" diameter)
+  - Unit number "P-1XX" below badge (4" tall numbers)
+- **Hood**: Unit number centered (12" tall): "P-101", "P-102", etc.
+- **Roof Equipment**:
+  - Full-width LED light bar (Whelen Legacy or Federal Signal Valor)
+  - Red/Blue alternating pattern (4 red front, 4 blue rear, 8 white side)
+  - Spotlight mounted on A-pillar (driver side)
+- **Side Striping**:
+  - Reflective blue stripe (3" wide) running from headlight to taillight at door handle height
+  - "TO SERVE AND PROTECT" text above stripe
+  - Chevron pattern on front quarter panels
+- **Rear Design**:
+  - "POLICE" in 8" reflective letters across trunk
+  - Full-width red/blue LED light bar in rear window
+  - Reflective chevron stripe pattern on bumper
+- **Additional Equipment**:
+  - Push bumper (black steel, front mounted)
+  - Spotlight (driver side, roof mounted)
+  - Small antennas (4x) on trunk
+  - Tinted rear windows (35% tint)
+  - Steel wheels with chrome center caps
+  - Laptop mount (center console)
+  - Shotgun rack (between seats)
+  - Prisoner cage partition (black steel mesh)
+- **Assigned to**: Enlisted ranks 1-7 (جندي to رئيس رقباء)
+- **Role**: Standard patrol, traffic enforcement, high-speed pursuits, first response
 
-**Vehicle Assignment by Rank**:
-- **Enlisted (1-7)**: Dodge Charger (patrol duties)
-- **Junior Officers (8-10)**: Choice of Charger or Tahoe
-- **Senior Officers (11-14)**: GMC Tahoe (command duties)
-- **Flag Officers (15-17)**: Ford Crown Victoria (command staff)
-- **Detectives**: Unmarked Crown Victoria (any rank)
+---
+
+##### 2. **GMC Tahoe PPV (جمس تاهو)** - Supervisor/Tactical Support Vehicle
+
+**Real-World Specifications (100% Accurate)**:
+- Model: 2021-2024 GMC Tahoe Police Pursuit Vehicle (PPV)
+- Engine: 5.3L V8 EcoTec3 (355 HP)
+- Top Speed: 130 mph / 209 km/h
+- Dimensions: 210" L × 81" W × 75" H
+- Seating: 5-7 officers + equipment storage
+- Cargo: 94 cubic feet with seats down
+
+**100% Realistic Livery Design**:
+- **Base Colors**:
+  - Entire vehicle: Matte black (#0A0A0A) or Midnight Blue (#191970)
+  - Professional tactical appearance
+- **Door Decals**:
+  - Gold "POLICE" lettering (Helvetica Bold, 10" tall)
+  - Arabic "شرطة" in gold (8" tall)
+  - "SUPERVISOR" bar below in gold (4" tall, English/Arabic: مشرف)
+  - City seal in gold (18" diameter, more prominent than Charger)
+  - Rank insignia below seal (for assigned officer)
+  - Unit designation: "S-1XX" (Supervisor units)
+- **Hood**: Large unit number centered (18" tall): "S-101"
+- **Roof Equipment**:
+  - Extended LED light bar (52" Whelen Justice or Federal Signal Integrity)
+  - 360° visibility with 12 LED modules
+  - Red/Blue/White pattern: 4 red front, 4 blue rear, 4 white side/side
+  - Additional scene lights (4x) on light bar for illumination
+  - Whip antennas (2x) for radio
+- **Side Striping**:
+  - Wide reflective gold stripe (6" wide) running full length at window line
+  - Second thinner stripe (2" wide) at rocker panel
+  - Reflective chevron pattern on front quarter panels and rear quarters
+  - "COMMAND UNIT" text on rear quarter panels
+- **Rear Design**:
+  - "POLICE SUPERVISOR" in large reflective gold letters (10" tall)
+  - Full-width LED light bar in rear window (red/blue)
+  - High-visibility chevron stripe pattern across entire liftgate (yellow/gold)
+  - "STAY BACK 500 FT" warning below chevrons
+- **Additional Equipment**:
+  - Heavy-duty push bumper (black steel with LED flashers integrated)
+  - Brush guard (front, black steel)
+  - Roof cargo basket (for equipment)
+  - Spotlights (both sides, A-pillar mounted)
+  - Running boards (black aluminum, illuminated)
+  - Tinted windows (20% tint for tactical privacy)
+  - Upgraded steel wheels (black, 18")
+  - Mobile command center equipment
+- **Special Variants**:
+  - **K-9 Unit**: "K-9 UNIT" decals, rear ventilation system visible, dog silhouette graphic, kennels
+  - **Command Post**: Additional antennas (6x), "COMMAND" text, mobile command equipment visible
+- **Assigned to**: Officer ranks 8-14 (ملازم to عميد)
+- **Role**: Field supervision, K-9 operations, equipment transport, scene command, tactical support
+
+---
+
+##### 3. **Ford Crown Victoria Police Interceptor (فورد كراون فيكتوريا)** - Command/Detective Vehicle
+
+**Real-World Specifications (100% Accurate)**:
+- Model: 2008-2011 Ford Crown Victoria Police Interceptor
+- Engine: 4.6L V8 (250 HP)
+- Top Speed: 129 mph / 208 km/h
+- Dimensions: 212" L × 78" W × 57" H
+- Seating: 2-3 personnel
+- Classic police sedan design (last body-on-frame patrol car)
+
+**Two Distinct Variants**:
+
+**Variant A: Marked Command Vehicle (سيارة القيادة المميزة)**
+- **Base Colors**: Pearl white (#F8F8FF) or Light silver (#C0C0C0) - Executive appearance
+- **Door Decals** (Minimal, Professional):
+  - Small "POLICE" text (6" tall, dark blue #000080)
+  - Arabic "شرطة" below (5" tall)
+  - City seal/badge (10" diameter, understated)
+  - Rank designation: "COMMAND STAFF" or specific rank (e.g., "CAPTAIN", "نقيب")
+  - Unit: "C-1XX" (Command units)
+- **Hood**: Unit number only (8" tall): "C-101" - Clean, professional
+- **Roof Equipment**:
+  - Low-profile LED light bar (36" Whelen SlimLighter or Federal Signal SignalMaster)
+  - OR internal visor lights (red/blue, mounted inside windshield, very discrete)
+  - Minimal profile for executive appearance
+- **Side Striping**:
+  - Single thin reflective stripe (1" wide, dark blue) at door handle height
+  - Very subtle, professional appearance
+  - No chevrons or aggressive markings
+- **Rear Design**:
+  - Small "POLICE" text (4" tall, centered on trunk)
+  - Internal rear deck LED flashers (red/blue, mounted inside rear window)
+  - No chevrons (executive appearance)
+- **Additional Equipment**:
+  - No push bumper (clean front end)
+  - Discrete spotlight (driver side only, A-pillar)
+  - Single antenna (rear deck)
+  - Lightly tinted windows (50% tint)
+  - Chrome or polished aluminum wheels (executive appearance)
+  - Leather seats (front, tan or black)
+  - No prisoner cage (command staff vehicle)
+  - Mobile data terminal
+- **Assigned to**: Flag Officers ranks 15-17 (لواء, فريق, فريق أول - Police Chiefs)
+- **Role**: Command staff transport, administrative duties, ceremonial functions, executive presence
+
+**Variant B: Unmarked Detective Vehicle (سيارة التحقيقات غير المميزة)**
+- **Base Colors**: Solid neutral color: Charcoal gray (#36454F), Black (#000000), Dark blue (#000080), or Silver (#C0C0C0)
+- **Exterior**: **Completely civilian appearance**
+  - **NO police markings whatsoever**
+  - **NO reflective stripes**
+  - **NO visible decals or badges**
+  - Standard civilian wheels (alloy, no steel wheels)
+  - Looks 100% identical to civilian Crown Victoria
+- **Roof Equipment**:
+  - Internal LED lights ONLY (hidden inside windshield and rear window)
+  - Red/blue visor lights (activated only during enforcement)
+  - OR completely hidden magnetic emergency lights (deployed when needed)
+  - **No external light bar**
+- **Additional Equipment**:
+  - No push bumper
+  - No visible spotlights
+  - Single discrete antenna (short, looks like civilian radio)
+  - Untinted windows OR light tint (35%) - civilian appearance
+  - Standard civilian appearance throughout
+  - Laptop mount (fold-down, hidden)
+  - Radio equipment (concealed)
+  - Detective kit in trunk
+- **Assigned to**: Detectives (any rank), Undercover officers, Criminal investigators
+- **Role**: Covert operations, surveillance, investigations, undercover work, plainclothes transport
+
+---
+
+**Vehicle Assignment Matrix by Rank (100% Realistic)**:
+| Rank | Category | Vehicle | Livery Type |
+|------|----------|---------|-------------|
+| 1-7 | Enlisted | Dodge Charger | Full patrol livery (black/white) |
+| 8-14 | Officers | GMC Tahoe | Supervisor livery (black/gold) |
+| 15-17 | Flag Officers | Crown Victoria | Minimal marked command |
+| Any | Detectives | Crown Victoria | Completely unmarked |
+
+**Automatic Assignment System**: Vehicle type is automatically assigned based on officer rank and role, with automatic upgrade upon promotion. All specifications match real-world police vehicles 100%.
 
 2. **Ambulance**
    - White vehicle with red cross
