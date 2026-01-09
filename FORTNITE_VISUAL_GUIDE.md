@@ -774,6 +774,94 @@ New Live features 3 distinct cities inspired by GTA V locations, each with uniqu
 
 ---
 
+### GMC Dealership (معرض جي ام سي) - Premium American Trucks & SUVs
+
+**Location**: Al-Markaz Shopping District, next to Toyota dealership  
+**Branding**: Official GMC logo, red corporate color (#C8102E), premium showroom design  
+**Staff**: GMC Sales Associate ($95/hour + 5% commission)
+
+#### 1. GMC Sierra 1500 AT4 (جي ام سي سييرا) - 2024 Model - STANDARD
+**Role**: Premium work truck, off-road adventures, towing, construction, luxury pickup
+
+**100% Real Specifications**:
+- Engine: 6.2L V8 EcoTec3 (420 HP @ 5,600 RPM, 623 Nm torque @ 4,100 RPM)
+- Transmission: 10-Speed Automatic
+- Drivetrain: 4WD with 2-speed transfer case, electronic locking rear differential
+- Top Speed: 180 km/h (112 mph)
+- 0-100 km/h: 6.3 seconds
+- Fuel Economy: 14.7 L/100km city, 10.7 L/100km highway
+- Dimensions: 241.2" L × 81.2" W × 77.1" H
+- Bed Length: 69.9" (Short box)
+- Payload Capacity: 1,133 kg (2,500 lbs)
+- Towing Capacity: 4,309 kg (9,500 lbs)
+- Seating: 5 passengers (Crew Cab)
+- Ground Clearance: 11.1 inches
+- Colors: Carbon Black, Onyx Black, Summit White, Red Quartz, Smokey Quartz
+- Features: 13.4" touchscreen, Bose premium audio (7 speakers), AT4 off-road suspension, skid plates, all-terrain tires, wireless charging, leather seats, panoramic sunroof
+- **Price**: $15,000 NC
+
+#### 2. GMC Sierra 1500 AT4X Modified (جي ام سي سييرا معدل) - 2024 Model - PERFORMANCE TUNED ⭐
+**Role**: High-performance pickup, racing enthusiast, extreme off-road, show vehicle
+
+**Modified Performance Specifications**:
+- Engine: 6.2L V8 EcoTec3 **SUPERCHARGED** (550 HP @ 6,200 RPM, 785 Nm torque @ 4,500 RPM)
+- Transmission: 10-Speed Automatic (performance-tuned shift mapping)
+- Drivetrain: 4WD with upgraded transfer case, heavy-duty locking differentials
+- **Top Speed: 240 km/h (149 mph)** ⚡ **UPGRADED**
+- **0-100 km/h: 4.9 seconds** ⚡ **UPGRADED**
+- Fuel Economy: 18.5 L/100km city, 13.2 L/100km highway (performance tuning impact)
+- Dimensions: 241.2" L × 81.2" W × 78.5" H (raised 1.4" with lift kit)
+- Bed Length: 69.9" (Short box)
+- Payload Capacity: 1,020 kg (2,250 lbs) (reduced due to modifications)
+- Towing Capacity: 5,443 kg (12,000 lbs) ⚡ **UPGRADED**
+- Seating: 5 passengers (Crew Cab with sport seats)
+- Ground Clearance: 12.5 inches ⚡ **UPGRADED** (lift kit)
+- Colors: Carbon Black, Performance Red, Stealth Gray, Championship White
+- **Performance Modifications**:
+  - Whipple 2.9L supercharger kit
+  - Cold air intake system
+  - Performance exhaust (dual exit, aggressive sound)
+  - Upgraded intercooler and cooling system
+  - Performance ECU tune
+  - Heavy-duty brakes (6-piston front calipers)
+  - Fox Racing shocks (2.5" lift)
+  - 35" all-terrain tires on 20" forged wheels
+  - LED light bar and auxiliary lights
+  - Sport bucket seats with harnesses
+  - Roll bar with integrated lights
+  - Custom body kit with aggressive styling
+  - Performance badges and graphics
+- **Price**: $18,000 NC ⭐ **+$3,000 for modifications**
+
+#### 3. GMC Yukon Denali (جي ام سي يوكن دينالي) - 2024 Model
+**Role**: Luxury family SUV, VIP transport, executive vehicle, long-distance travel, government officials
+
+**100% Real Specifications**:
+- Engine: 6.2L V8 EcoTec3 (420 HP @ 5,600 RPM, 623 Nm torque @ 4,100 RPM)
+- Transmission: 10-Speed Automatic
+- Drivetrain: 4WD with Active Response system
+- Top Speed: 193 km/h (120 mph)
+- 0-100 km/h: 6.1 seconds
+- Fuel Economy: 14.9 L/100km city, 11.2 L/100km highway
+- Dimensions: 210.0" L × 80.5" W × 76.7" H
+- Seating: 8 passengers (3 rows)
+- Cargo: 722 L behind 3rd row, 2,658 L with all seats folded
+- Towing Capacity: 3,674 kg (8,100 lbs)
+- Ground Clearance: 8.0 inches
+- Colors: Onyx Black, Summit White, Dark Sky Metallic, Volcanic Red, Sterling Metallic
+- Features: 16.8" touchscreen infotainment, 14-speaker Bose premium audio, head-up display, adaptive cruise control, power-folding 3rd row, heated/ventilated front seats, heated 2nd row, tri-zone climate control, panoramic sunroof, leather interior, hands-free power liftgate
+- **Price**: $22,000 NC (2nd most expensive civilian vehicle after Land Cruiser)
+
+### GMC Dealership Features
+- **Premium Sales Process**: VIP greeting → Vehicle showcase → Performance demonstration → Test drive (off-road course for Sierra) → Customization consultation → Financing → White-glove delivery
+- **Financing**: Cash purchase or bank loan through Masraf Al Rajhi (20-30% down, 5-10% interest)
+- **Services**: Extended warranty options (3-5 years), free maintenance for first year, performance tuning support, 24/7 roadside assistance
+- **Display**: Vehicles on elevated platforms with dramatic lighting, performance specs showcased, modification portfolio
+- **Test Drive**: Off-road course access for Sierra models, highway loop for Yukon
+- **Customization**: Performance upgrades available for all models (exhaust, wheels, suspension, tuning)
+
+---
+
 ## 📸 Recommended Screenshot Locations
 
 ### For Promotional Materials

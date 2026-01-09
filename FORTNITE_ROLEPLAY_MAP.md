@@ -113,10 +113,11 @@ The map is divided into **3 distinct cities**, each with unique characteristics 
   - Gated communities
   - Shopping centers
   - **Toyota Dealership (معرض تيوتا)** - Official Toyota showroom with 4 vehicles
+  - **GMC Dealership (معرض جي ام سي)** - Premium American trucks & SUVs with 3 vehicles (including modified Sierra) ⭐ NEW
   - Parks and plazas
   - Schools and community centers
-- **Jobs Available**: Real Estate Agent, Store Clerk, Delivery Driver, Toyota Sales Associate
-- **Features**: Dense housing, middle-upper class neighborhoods, automotive retail
+- **Jobs Available**: Real Estate Agent, Store Clerk, Delivery Driver, Toyota Sales Associate, GMC Sales Associate
+- **Features**: Dense housing, middle-upper class neighborhoods, automotive retail district
 
 #### Port & Industrial Zone
 - **Key Locations**:
@@ -646,6 +647,38 @@ If Governor is unavailable:
 - Hilux sale: $90/hour + $600 commission
 - Land Cruiser sale: $90/hour + $1,250 commission
 
+#### 6.2 **GMC Dealership** (Max 3 players)
+**Location**: Al-Markaz Shopping District (next to Toyota)  
+**Roles**: GMC Sales Associate, Performance Specialist
+
+**Responsibilities**:
+- Sell GMC premium trucks and SUVs
+- Arrange vehicle financing through Masraf Al Rajhi
+- Process test drives (off-road course for Sierra)
+- Explain performance modifications and upgrades
+- Handle trade-ins
+- Maintain premium showroom
+- VIP customer service
+
+**Vehicles Available**:
+1. **GMC Sierra 1500 AT4** (2024) - $15,000 NC - Premium pickup truck (6.2L V8, 420 HP, 180 km/h)
+2. **GMC Sierra 1500 AT4X Modified** (2024) - $18,000 NC - Performance-tuned pickup (6.2L V8 Supercharged, 550 HP, 240 km/h) ⭐ MODIFIED
+3. **GMC Yukon Denali** (2024) - $22,000 NC - Luxury full-size SUV (6.2L V8, 420 HP, 8 passengers)
+
+**Equipment**:
+- Premium attire
+- VIP showroom access
+- Vehicle keys
+- Performance documentation
+- Off-road test drive access
+
+**Salary**: $95 per in-game hour + commission (5% of vehicle sale price)
+
+**Commission Examples**:
+- Sierra AT4 sale: $95/hour + $750 commission
+- Sierra AT4X Modified sale: $95/hour + $900 commission
+- Yukon Denali sale: $95/hour + $1,100 commission
+
 #### 7. **Entertainment & Hospitality** (Unlimited)
 **Roles**: Restaurant Owner, Chef, Bartender, DJ, Event Coordinator
 
@@ -841,6 +874,11 @@ If Governor is unavailable:
 - **Toyota Hilux (2024)**: $12,000 NC - Work truck/4WD, 201 HP diesel, 175 km/h, 1,000 kg payload, off-road capable
 - **Toyota Land Cruiser (2024)**: $25,000 NC - Luxury SUV, 409 HP twin-turbo V6, 210 km/h, 7 passengers, premium features
 - **Toyota Avalon (2022)**: $10,000 NC - Executive sedan, 301 HP V6, 209 km/h, luxury interior
+
+**GMC Dealership (معرض جي ام سي)** - Premium American trucks and SUVs with 100% real specifications:
+- **GMC Sierra 1500 AT4 (2024)**: $15,000 NC - Premium pickup truck, 420 HP V8, 180 km/h, 4WD, off-road package, 1,133 kg payload
+- **GMC Sierra 1500 AT4X Modified (2024)**: $18,000 NC - Performance-tuned pickup, 550 HP supercharged V8, 240 km/h, upgraded suspension, racing exhaust ⭐ MODIFIED
+- **GMC Yukon Denali (2024)**: $22,000 NC - Luxury full-size SUV, 420 HP V8, 193 km/h, 8 passengers (3 rows), premium leather, advanced tech
 
 **Other Civilian Vehicles**:
 - **Economy Cars**: $2,000-$5,000 (basic transportation)
