@@ -35,7 +35,7 @@ This guide will help you create a basic functioning roleplay map in Fortnite Cre
 ### Step 3: Plan Your 3 Cities
 **Mark out these 3 distinct city areas on your island:**
 
-1. **Al-Markaz (Central City)** - 50% of map (Center and North)
+1. **Los Santos (Central City)** - 50% of map (Center and North)
    - Downtown with skyscrapers - 12x12 grid squares
    - Government Palace (Qasr Al-Hukm) - 4x4 grid squares (tallest structures)
    - Financial district - 6x6 grid squares
@@ -65,10 +65,10 @@ This guide will help you create a basic functioning roleplay map in Fortnite Cre
 
 ### Priority Buildings by City
 
-#### Al-Markaz (Central City) - Build First (2 hours)
+#### Los Santos (Central City) - Build First (2 hours)
 
 ##### 1. Qasr Al-Hukm (Government Palace) - 40 min
-**Location**: Center of Al-Markaz (most prominent location)
+**Location**: Center of Los Santos (most prominent location)
 **Required Elements**:
 - Main palace building with dome (use largest gallery buildings)
 - Grand entrance with columns
@@ -84,7 +84,7 @@ This guide will help you create a basic functioning roleplay map in Fortnite Cre
 - 1x HUD Message (welcome to palace)
 
 ##### 2. Police HQ (30 min)
-**Location**: Al-Markaz Emergency Services
+**Location**: Los Santos Emergency Services
 **Required Elements**:
 - Main building (use Downtown Gallery buildings)
 - Vehicle garage (3 spawn points)
@@ -662,7 +662,7 @@ For each job, place a **Button Device**:
 ## 🎯 Quick Reference Checklist
 
 ### Core Buildings
-**Al-Markaz (Central City)**:
+**Los Santos (Central City)**:
 - [ ] Qasr Al-Hukm (Government Palace)
 - [ ] Police HQ (with jail cells)
 - [ ] Hospital (with ambulances)

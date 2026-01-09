@@ -12,13 +12,13 @@ This document describes the visual design and aesthetic of the New Live roleplay
 **"Three Worlds, One Map - GTA V Inspired"**
 
 New Live features 3 distinct cities inspired by GTA V locations, each with unique visual identities:
-- **Al-Markaz**: Modern skyscraper metropolis (Los Santos-inspired)
+- **Los Santos**: Modern skyscraper metropolis (Los Santos-inspired)
 - **Paleto Bay**: Coastal small-town charm (Paleto Bay-inspired)
 - **Sandy Shores**: Desert outpost aesthetic (Sandy Shores-inspired)
 
 ### Color Palettes by City
 
-#### 🏙️ Al-Markaz (Central Metropolis)
+#### 🏙️ Los Santos (Central Metropolis)
 
 **Downtown & Skyscraper District**
 - **Primary Colors**: Steel gray, reflective glass blue, gold accents
@@ -106,7 +106,7 @@ New Live features 3 distinct cities inspired by GTA V locations, each with uniqu
 
 ## 🏢 Key Landmark Designs
 
-### 0. Qasr Al-Hukm (Government Palace) - Al-Markaz
+### 0. Qasr Al-Hukm (Government Palace) - Los Santos
 
 **Exterior Design**:
 - **Massive royal palace** - Largest single structure on map
@@ -146,7 +146,7 @@ New Live features 3 distinct cities inspired by GTA V locations, each with uniqu
 - VIP events and ceremonies
 - Political roleplay headquarters
 
-### 1. Police Station - "CLPD Headquarters" - Al-Markaz
+### 1. Police Station - "CLPD Headquarters" - Los Santos
 
 **Exterior Design**:
 - 3-story modern police building
@@ -689,7 +689,7 @@ New Live features 3 distinct cities inspired by GTA V locations, each with uniqu
 
 ### Toyota Showroom Design (معرض تيوتا)
 
-**Location**: Al-Markaz Shopping District  
+**Location**: Los Santos Shopping District  
 **Branding**: Official Toyota corporate identity  
 **Theme**: Modern automotive showroom with professional presentation
 
@@ -776,7 +776,7 @@ New Live features 3 distinct cities inspired by GTA V locations, each with uniqu
 
 ### GMC Dealership (معرض جي ام سي) - Premium American Trucks & SUVs
 
-**Location**: Al-Markaz Shopping District, next to Toyota dealership  
+**Location**: Los Santos Shopping District, next to Toyota dealership  
 **Branding**: Official GMC logo, red corporate color (#C8102E), premium showroom design  
 **Staff**: GMC Sales Associate ($95/hour + 5% commission)
 

@@ -15,7 +15,7 @@ This repository contains comprehensive design documentation for multiple game pr
 👉 **[UNREAL ENGINE Guide - Full Programming](FORTNITE_UNREAL_ENGINE_GUIDE.md)** 👈 ⭐ NEW
 
 ### Key Features
-- 🏙️ **3 Distinct Cities** - Al-Markaz (metropolis with skyscrapers & government palace), Paleto Bay (coastal town), Sandy Shores (desert outpost)
+- 🏙️ **3 Distinct Cities** - Los Santos (metropolis with skyscrapers & government palace), Paleto Bay (coastal town), Sandy Shores (desert outpost)
 - 👔 **23+ Career Paths** - Governor, Ministers, Police, EMS, Fire, Taxi, Business, Fisherman, Pilot, and more
 - 💰 **Player-Driven Economy** - Buy vehicles, properties, and build your wealth across all cities
 - 🚗 **Vehicle System** - Cars, boats, planes - own and customize personal vehicles

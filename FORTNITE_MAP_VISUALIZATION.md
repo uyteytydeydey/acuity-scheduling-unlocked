@@ -122,7 +122,7 @@ EMERGENCY SERVICES HUB:
 └────────────────────────────────────────────┘
 ```
 
-### Street Layout - Al-Markaz
+### Street Layout - Los Santos
 
 ```
 ╔══════════════════════════════════════════════╗
@@ -332,13 +332,13 @@ LEGEND:
 
 REST STOPS & SERVICES:
 ═══════════════════════════════════════════════════════════════
-📍 Stop 1: Coastal Gas Station (between Paleto Bay & Al-Markaz)
+📍 Stop 1: Coastal Gas Station (between Paleto Bay & Los Santos)
    ⛽ Fuel, 🍔 Food, 🚻 Restrooms, 🅿️ Parking
 
-📍 Stop 2: Al-Markaz Central Station (in city)
+📍 Stop 2: Los Santos Central Station (in city)
    🚕 Taxis, 🚌 Buses, 🅿️ Parking, 🏪 Shops
 
-📍 Stop 3: Desert Gas Station (between Al-Markaz & Sandy Shores)
+📍 Stop 3: Desert Gas Station (between Los Santos & Sandy Shores)
    ⛽ Fuel, 🍔 Diner, 🔧 Repairs, 🅿️ Parking
 
 📍 Stop 4: Sandy Shores Airfield (in desert)
@@ -360,24 +360,24 @@ TOTAL MAP SIZE:
 └─ Device Memory Budget: 100,000 total
 
 CITY ALLOCATIONS:
-├─ Al-Markaz: ~312 grid squares (50%)
+├─ Los Santos: ~312 grid squares (50%)
 ├─ Paleto Bay: ~156 grid squares (25%)
 └─ Sandy Shores: ~156 grid squares (25%)
 
 BUILDING HEIGHTS:
-├─ Al-Markaz Skyscrapers: 15 floors (tallest)
+├─ Los Santos Skyscrapers: 15 floors (tallest)
 ├─ Government Palace: 8 floors with dome
 ├─ Paleto Bay Buildings: 1-3 floors
 └─ Sandy Shores Buildings: 1-2 floors
 
 TRAVEL TIMES (by car):
-├─ Al-Markaz to Paleto Bay: 3-4 minutes
-├─ Al-Markaz to Sandy Shores: 3-4 minutes
-├─ Paleto Bay to Sandy Shores: 6-8 minutes (through Al-Markaz)
-└─ Cross-city (Al-Markaz): 1-2 minutes
+├─ Los Santos to Paleto Bay: 3-4 minutes
+├─ Los Santos to Sandy Shores: 3-4 minutes
+├─ Paleto Bay to Sandy Shores: 6-8 minutes (through Los Santos)
+└─ Cross-city (Los Santos): 1-2 minutes
 
 PLAYER DISTRIBUTION (recommended):
-├─ Al-Markaz: 16-20 players
+├─ Los Santos: 16-20 players
 ├─ Paleto Bay: 6-10 players
 └─ Sandy Shores: 6-10 players
 ```
@@ -392,17 +392,17 @@ PLAYER DISTRIBUTION (recommended):
 ═══════════════════════════════════════════════════════════════
 
 🔵 BLUE ZONES - Police/Law Enforcement
-   - Al-Markaz Police HQ
+   - Los Santos Police HQ
    - Paleto Bay Police Station
    - Sandy Shores Sheriff
 
 🔴 RED ZONES - Medical/Emergency
-   - Al-Markaz Hospital
+   - Los Santos Hospital
    - Paleto Bay Medical Clinic
    - Sandy Shores Med Post
 
 🟡 YELLOW ZONES - Fire Services
-   - Al-Markaz Fire Station
+   - Los Santos Fire Station
    - Paleto Bay Fire Station
 
 🟢 GREEN ZONES - Residential/Safe Areas
@@ -410,11 +410,11 @@ PLAYER DISTRIBUTION (recommended):
    - Parks and beaches
 
 🟣 PURPLE ZONES - Entertainment
-   - Al-Markaz Entertainment Quarter
+   - Los Santos Entertainment Quarter
    - Paleto Bay Boardwalk
 
 🟤 BROWN ZONES - Industrial/Work
-   - Al-Markaz Port
+   - Los Santos Port
    - Paleto Bay Fishing Industry
    - Sandy Shores Mining
 
@@ -447,7 +447,7 @@ PLAYER DISTRIBUTION (recommended):
                         |
                         ↓
          🏢🏢🏢🏢🏢🏢🏢🏢🏢🏢    ← Skyscrapers (tall!)
-        /  Al-Markaz City  /
+        /  Los Santos City  /
        /   🕌  🏦  🎰  ⚓   /     ← Government Palace visible
       /____________________/
               |
@@ -460,7 +460,7 @@ PLAYER DISTRIBUTION (recommended):
      /______________/
 
 ELEVATION LEVELS:
-Level 5: 🏢 Skyscraper tops (Al-Markaz)
+Level 5: 🏢 Skyscraper tops (Los Santos)
 Level 4: 🏢 Mid-rise buildings
 Level 3: 🕌 Palace dome
 Level 2: 🏠 Standard buildings
@@ -513,8 +513,8 @@ HIGHWAYS:
 ═══════════════════════════════════════════════════════════════
 
 ⭐ ICONIC LANDMARKS (7):
-1. 🕌 Qasr Al-Hukm (Government Palace) - Al-Markaz CENTER
-2. 🏢 Skyscraper District - Al-Markaz North
+1. 🕌 Qasr Al-Hukm (Government Palace) - Los Santos CENTER
+2. 🏢 Skyscraper District - Los Santos North
 3. 🗼 Lighthouse - Paleto Bay Coast
 4. 🏖️ Main Beach - Paleto Bay
 5. ✈️ Sandy Shores Airfield - Desert
@@ -522,9 +522,9 @@ HIGHWAYS:
 7. 🌉 Bridge to Paleto Bay
 
 🏆 ACTIVITY HOTSPOTS (10):
-1. 🎰 Casino - Al-Markaz Entertainment
-2. 🏦 Central Bank - Al-Markaz Downtown
-3. ⚓ Commercial Port - Al-Markaz Industrial
+1. 🎰 Casino - Los Santos Entertainment
+2. 🏦 Central Bank - Los Santos Downtown
+3. ⚓ Commercial Port - Los Santos Industrial
 4. 🎣 Fishing Docks - Paleto Bay
 5. 🏄 Surf Beach - Paleto Bay
 6. 🚤 Marina - Paleto Bay
@@ -561,8 +561,8 @@ HIGHWAYS:
 ═══════════════════════════════════════════════════════════════
 
 🚗 DRIVING:
-From Al-Markaz to Paleto Bay: Take North Highway
-From Al-Markaz to Sandy Shores: Take South Highway
+From Los Santos to Paleto Bay: Take North Highway
+From Los Santos to Sandy Shores: Take South Highway
 Speed Limit: City (30), Highway (65), Desert (55)
 
 🚕 TAXI/NEWBER:
@@ -571,7 +571,7 @@ Call via phone app
 Estimated fares: $10-50 depending on distance
 
 🚁 HELICOPTER:
-Available at: Al-Markaz rooftop, Sandy Shores Airfield
+Available at: Los Santos rooftop, Sandy Shores Airfield
 Fast travel between cities (1 minute)
 Cost: $100 per trip
 
@@ -606,7 +606,7 @@ Watch for traffic!
    - Skyscraper rooftop
 
 2. 🌆 CITY VIEWS:
-   - Al-Markaz from highway bridge
+   - Los Santos from highway bridge
    - Skyscraper district at night
    - Government Palace plaza
 

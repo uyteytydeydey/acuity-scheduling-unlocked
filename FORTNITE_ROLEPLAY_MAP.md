@@ -46,7 +46,7 @@ Create the most immersive roleplay experience in Fortnite Creative by combining 
 
 ### Key Features
 
-🏙️ **3 Unique Cities** - Al-Markaz (Los Santos-style metropolis), Paleto Bay (coastal town), Sandy Shores (desert outpost)  
+🏙️ **3 Unique Cities** - Los Santos (Los Santos-style metropolis), Paleto Bay (coastal town), Sandy Shores (desert outpost)  
 🏢 **Government Palace** - Qasr Al-Hukm with Governor and Cabinet Ministers  
 👔 **23+ Career Paths** - From Governor to fisherman, including government leadership positions  
 💰 **Player-Driven Economy** - Earn, spend, and trade currency across all cities  
@@ -64,7 +64,7 @@ The map is divided into **3 distinct cities**, each with unique characteristics 
 
 ---
 
-### 🏙️ City 1: Al-Markaz (The Central City)
+### 🏙️ City 1: Los Santos (The Central City)
 **Inspiration**: Los Santos (GTA V) - Major metropolitan area  
 **Size**: 50% of total map  
 **Theme**: Modern urban metropolis with skyscrapers and government center
@@ -249,22 +249,22 @@ The map is divided into **3 distinct cities**, each with unique characteristics 
 ### 🛣️ Connecting Infrastructure
 
 #### Highway System
-- **Main Highway**: Connects all 3 cities (Al-Markaz ↔ Paleto Bay ↔ Sandy Shores)
+- **Main Highway**: Connects all 3 cities (Los Santos ↔ Paleto Bay ↔ Sandy Shores)
 - **Coastal Road**: Scenic route along Paleto Bay coastline
 - **Desert Highway**: Fast route through Sandy Shores
-- **Urban Freeways**: Multiple lanes through Al-Markaz
+- **Urban Freeways**: Multiple lanes through Los Santos
 - **Features**: Gas stations, rest stops, scenic viewpoints, toll booths
 
 #### Transportation Hubs
-- **Al-Markaz Central Station**: Bus and taxi hub
+- **Los Santos Central Station**: Bus and taxi hub
 - **Paleto Bay Marina**: Boat transport
 - **Sandy Shores Airfield**: Air travel
 - **Features**: Fast travel points, vehicle spawns, transportation jobs
 
 #### Notable Landmarks Between Cities
-- **Wind Farm**: Between Al-Markaz and Sandy Shores
+- **Wind Farm**: Between Los Santos and Sandy Shores
 - **Mountain Pass**: Elevated road with city views
-- **Bridge**: Connects Al-Markaz to Paleto Bay
+- **Bridge**: Connects Los Santos to Paleto Bay
 - **Desert Gas Stations**: Multiple stops along desert highway
 - **Abandoned Military Base**: Hidden location in desert (restricted area)
 
@@ -325,7 +325,7 @@ The map is divided into **3 distinct cities**, each with unique characteristics 
 - **Appointment**: Appoint Police Chiefs and Sheriffs
 
 **Responsibilities**:
-- Supervise Police HQ in Al-Markaz
+- Supervise Police HQ in Los Santos
 - Manage Paleto Bay Police Station
 - Oversee Sandy Shores Sheriff Department
 - Review and approve major police operations
@@ -616,7 +616,7 @@ If Governor is unavailable:
 **Salary**: $70-$200 per in-game hour + sales commission
 
 #### 6.1 **Toyota Dealership** (Max 3 players)
-**Location**: Al-Markaz Shopping District  
+**Location**: Los Santos Shopping District  
 **Roles**: Toyota Sales Associate, Finance Manager
 
 **Responsibilities**:
@@ -648,7 +648,7 @@ If Governor is unavailable:
 - Land Cruiser sale: $90/hour + $1,250 commission
 
 #### 6.2 **GMC Dealership** (Max 3 players)
-**Location**: Al-Markaz Shopping District (next to Toyota)  
+**Location**: Los Santos Shopping District (next to Toyota)  
 **Roles**: GMC Sales Associate, Performance Specialist
 
 **Responsibilities**:
