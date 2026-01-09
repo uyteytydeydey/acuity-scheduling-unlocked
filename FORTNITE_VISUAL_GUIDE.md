@@ -353,8 +353,8 @@ New Live features 3 distinct cities inspired by GTA V locations, each with uniqu
 **Real-World Specifications (100% Accurate)**:
 - Model: 2020-2024 Dodge Charger Pursuit (Police Package)
 - Engine: 5.7L HEMI V8 (370 HP)
-- Top Speed: 150 mph / 241 km/h
-- 0-60 mph: 5.9 seconds
+- Top Speed: 241 km/h (150 mph)
+- 0-100 km/h: 5.9 seconds
 - Dimensions: 200" L × 75" W × 58" H
 - Seating: 2 officers (front), 2 suspects (rear cage)
 
@@ -400,7 +400,7 @@ New Live features 3 distinct cities inspired by GTA V locations, each with uniqu
 **Real-World Specifications (100% Accurate)**:
 - Model: 2021-2024 GMC Tahoe Police Pursuit Vehicle (PPV)
 - Engine: 5.3L V8 EcoTec3 (355 HP)
-- Top Speed: 130 mph / 209 km/h
+- Top Speed: 209 km/h (130 mph)
 - Dimensions: 210" L × 81" W × 75" H
 - Seating: 5-7 officers + equipment storage
 - Cargo: 94 cubic feet with seats down
@@ -455,7 +455,7 @@ New Live features 3 distinct cities inspired by GTA V locations, each with uniqu
 **Real-World Specifications (100% Accurate)**:
 - Model: 2008-2011 Ford Crown Victoria Police Interceptor
 - Engine: 4.6L V8 (250 HP)
-- Top Speed: 129 mph / 208 km/h
+- Top Speed: 208 km/h (129 mph)
 - Dimensions: 212" L × 78" W × 57" H
 - Seating: 2-3 personnel
 - Classic police sedan design (last body-on-frame patrol car)
