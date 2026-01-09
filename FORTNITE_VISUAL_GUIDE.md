@@ -685,6 +685,95 @@ New Live features 3 distinct cities inspired by GTA V locations, each with uniqu
 
 ---
 
+## 🚗 Toyota Dealership & Civilian Vehicles (100% Real Specifications)
+
+### Toyota Showroom Design (معرض تيوتا)
+
+**Location**: Al-Markaz Shopping District  
+**Branding**: Official Toyota corporate identity  
+**Theme**: Modern automotive showroom with professional presentation
+
+#### Exterior Design
+- **Colors**: White building with Toyota red accents (#EB0A1E)
+- **Signage**: Large illuminated "TOYOTA" logo (official font)
+- **Windows**: Floor-to-ceiling glass showroom front
+- **Entrance**: Double glass doors with automatic opening animation
+- **Parking**: Customer parking and test drive area
+
+#### Interior Layout
+- **Display Area**: 4 vehicle display platforms with spotlights
+- **Sales Office**: Desks for sales associates and finance manager
+- **Waiting Area**: Comfortable seating with Toyota branding
+- **Feature Wall**: Large Toyota logo backdrop
+- **Lighting**: Bright showroom lighting highlighting vehicles
+
+### 🚗 Toyota Vehicle Specifications (100% Real-World Accurate)
+
+#### 1. Toyota Camry (تيوتا كامري) - 2024 Model
+**Role**: Family sedan, business vehicle, taxi option
+
+**Real Specifications**:
+- Engine: 2.5L 4-Cylinder Dynamic Force (203 HP @ 6,600 RPM, 184 lb-ft torque)
+- Transmission: 8-Speed Automatic
+- Top Speed: 209 km/h (130 mph)
+- 0-100 km/h: 8.2 seconds
+- Dimensions: 192.7" L × 72.4" W × 56.9" H
+- Seating: 5 passengers
+- Colors: Celestial Silver, Wind Chill Pearl, Blueprint, Predawn Gray, Black Sand Pearl
+- Features: Apple CarPlay, Toyota Safety Sense 3.0, 9" touchscreen
+- **Price**: $8,000 NC
+
+#### 2. Toyota Hilux (تيوتا هايلكس) - 2024 Model
+**Role**: Work truck, off-road vehicle, construction, fishing, mining
+
+**Real Specifications**:
+- Engine: 2.8L 1GD-FTV Turbo Diesel 4-Cylinder (201 HP, 500 Nm torque)
+- Transmission: 6-Speed Automatic, 4WD with low-range
+- Top Speed: 175 km/h (109 mph)
+- 0-100 km/h: 10.5 seconds
+- Payload: 1,000 kg | Towing: 3,500 kg
+- Dimensions: 211.7" L × 72.4" W × 70.1" H
+- Seating: 5 passengers (Double Cab)
+- Colors: Super White, Silver Metallic, Attitude Black, Emotional Red
+- Features: Off-road package, rear diff lock, bed liner, 8" touchscreen
+- **Price**: $12,000 NC
+
+#### 3. Toyota Land Cruiser (تيوتا لاند كروزر) - 2024 Model (LC 300)
+**Role**: Luxury SUV, VIP transport, desert exploration
+
+**Real Specifications**:
+- Engine: 3.5L V6 Twin-Turbo (409 HP @ 5,200 RPM, 650 Nm torque)
+- Transmission: 10-Speed Automatic, Full-time 4WD
+- Top Speed: 210 km/h (130 mph)
+- 0-100 km/h: 6.7 seconds
+- Dimensions: 194.9" L × 78.0" W × 73.4" H
+- Seating: 7 passengers (3 rows)
+- Colors: Super White, Precious White Pearl, Attitude Black, Dark Blue
+- Features: Crawl Control, Multi-Terrain Select, KDSS, 12.3" touchscreen, JBL audio, leather seats
+- **Price**: $25,000 NC (most expensive civilian vehicle)
+
+#### 4. Toyota Avalon (تيوتا أفالون) - 2022 Model
+**Role**: Executive sedan, luxury transport, business meetings
+
+**Real Specifications**:
+- Engine: 3.5L V6 (301 HP @ 6,600 RPM, 267 lb-ft torque)
+- Transmission: 8-Speed Automatic
+- Top Speed: 209 km/h (130 mph)
+- 0-100 km/h: 6.8 seconds
+- Dimensions: 195.9" L × 72.8" W × 56.5" H
+- Seating: 5 passengers
+- Colors: Wind Chill Pearl, Celestial Silver, Ruby Flare Pearl, Midnight Black
+- Features: 9" touchscreen, JBL premium audio, heated/ventilated seats, panoramic sunroof
+- **Price**: $10,000 NC
+
+### Toyota Dealership Features
+- **Sales Process**: Greeting → Needs Assessment → Vehicle Tour → Test Drive → Financing → Delivery
+- **Financing**: Cash purchase or bank loan through Masraf Al Rajhi (20-30% down, 5-10% interest)
+- **Services**: 30-day warranty, free first maintenance, roadside assistance
+- **Display**: Each vehicle on illuminated rotating platform with specs and pricing
+
+---
+
 ## 📸 Recommended Screenshot Locations
 
 ### For Promotional Materials

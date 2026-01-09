@@ -112,10 +112,11 @@ The map is divided into **3 distinct cities**, each with unique characteristics 
   - High-rise apartment complexes
   - Gated communities
   - Shopping centers
+  - **Toyota Dealership (معرض تيوتا)** - Official Toyota showroom with 4 vehicles
   - Parks and plazas
   - Schools and community centers
-- **Jobs Available**: Real Estate Agent, Store Clerk, Delivery Driver
-- **Features**: Dense housing, middle-upper class neighborhoods
+- **Jobs Available**: Real Estate Agent, Store Clerk, Delivery Driver, Toyota Sales Associate
+- **Features**: Dense housing, middle-upper class neighborhoods, automotive retail
 
 #### Port & Industrial Zone
 - **Key Locations**:
@@ -613,6 +614,38 @@ If Governor is unavailable:
 
 **Salary**: $70-$200 per in-game hour + sales commission
 
+#### 6.1 **Toyota Dealership** (Max 3 players)
+**Location**: Al-Markaz Shopping District  
+**Roles**: Toyota Sales Associate, Finance Manager
+
+**Responsibilities**:
+- Sell Toyota vehicles to players
+- Arrange vehicle financing through Masraf Al Rajhi
+- Process test drives
+- Handle trade-ins
+- Maintain showroom and display vehicles
+- Customer service and sales presentations
+
+**Vehicles Available**:
+1. **Toyota Camry** (2024) - $8,000 NC - Family sedan
+2. **Toyota Hilux** (2024) - $12,000 NC - Work truck/4WD
+3. **Toyota Land Cruiser** (2024) - $25,000 NC - Luxury SUV
+4. **Toyota Avalon** (2022) - $10,000 NC - Executive sedan
+
+**Equipment**:
+- Professional attire
+- Showroom access
+- Vehicle keys
+- Sales documents
+- Test drive insurance
+
+**Salary**: $90 per in-game hour + commission (5% of vehicle sale price)
+
+**Commission Examples**:
+- Camry sale: $90/hour + $400 commission
+- Hilux sale: $90/hour + $600 commission
+- Land Cruiser sale: $90/hour + $1,250 commission
+
 #### 7. **Entertainment & Hospitality** (Unlimited)
 **Roles**: Restaurant Owner, Chef, Bartender, DJ, Event Coordinator
 
@@ -802,6 +835,14 @@ If Governor is unavailable:
 ### Vehicle Categories
 
 #### Personal Vehicles
+
+**Toyota Dealership (معرض تيوتا)** - Official vehicles with 100% real specifications:
+- **Toyota Camry (2024)**: $8,000 NC - Family sedan, 203 HP, 209 km/h top speed, 5 passengers
+- **Toyota Hilux (2024)**: $12,000 NC - Work truck/4WD, 201 HP diesel, 175 km/h, 1,000 kg payload, off-road capable
+- **Toyota Land Cruiser (2024)**: $25,000 NC - Luxury SUV, 409 HP twin-turbo V6, 210 km/h, 7 passengers, premium features
+- **Toyota Avalon (2022)**: $10,000 NC - Executive sedan, 301 HP V6, 209 km/h, luxury interior
+
+**Other Civilian Vehicles**:
 - **Economy Cars**: $2,000-$5,000 (basic transportation)
 - **Sports Cars**: $10,000-$20,000 (speed and style)
 - **Luxury Vehicles**: $15,000-$25,000 (prestige and comfort)
