@@ -994,13 +994,34 @@ If Governor is unavailable:
 - **Features**:
   - Send private messages (disappear after read)
   - Photo sharing (text descriptions)
-  - **Streak System**: Track consecutive days of messaging with friends
+  - **Streak System** 🔥: Track consecutive days of messaging with friends
+    - **Streak Counter**: Shows number of consecutive days (displayed as fire emoji + number)
+    - **Streak Rules**: 
+      - ⏰ **24-Hour Window**: Both players must send at least one message every 24 hours
+      - ❌ **Streak Loss**: If 24 hours pass without messaging, streak resets to 0
+      - ⚠️ **Streak Warning**: Visual indicator when streak is about to expire (less than 2 hours remaining)
+      - ⏱️ **Timer Display**: Shows time remaining until streak expires
+    - **Streak Emojis**:
+      - 🔥 3-6 days: Basic fire
+      - 💯 7-13 days: Hundred emoji (1 week milestone)
+      - ⭐ 14-29 days: Star emoji (2 weeks)
+      - 💎 30-99 days: Diamond emoji (1 month+)
+      - 👑 100+ days: Crown emoji (legendary streak)
+    - **Streak Notifications**:
+      - Push notification when streak is about to end (2 hours warning)
+      - Celebration notification when reaching milestone (7, 30, 100 days)
+      - Sad notification when streak is lost
     - Streaks increase social reputation
     - Rewards for maintaining long streaks
   - Story posting (24-hour visible posts)
-  - Friend list with streak counters
-- **Usage**: Close friend communication, building relationships
-- **Streak Rewards**: Bonus XP and social perks for 7, 30, 100 day streaks
+  - Friend list with streak counters (sorted by highest streaks)
+  - **Best Friends List**: Top 3 friends with highest streaks appear with special emoji
+- **Usage**: Close friend communication, building relationships, maintaining social connections
+- **Streak Rewards**: 
+  - 7 days: +50 Social XP, "Committed Friend" badge
+  - 30 days: +200 Social XP, "Best Friend" badge, 100 NC bonus
+  - 100 days: +1000 Social XP, "Legendary Friend" badge, 500 NC bonus, special profile frame
+  - 365 days: +5000 Social XP, "Ultimate Friend" badge, 2000 NC bonus, exclusive streak trophy item
 
 ##### 3. **Absher** (Government Services App)
 - **Purpose**: Official government app for fines, violations, and identity documents
@@ -1220,7 +1241,12 @@ If Governor is unavailable:
 
 **Data Persistence**:
 - Contact lists stored per player
-- Streak counters tracked with timers
+- **Streak counters tracked with 24-hour timers**:
+  - Each friend pair has individual streak counter
+  - Timer resets every time both players message
+  - Automatic streak loss after 24 hours of inactivity
+  - Streak data saved per identity (separate for identity 1 and 2)
+  - Warning notifications sent 2 hours before expiration
 - Transaction history logged
 - Messages can be saved (limited storage)
 
@@ -1241,12 +1267,21 @@ If Governor is unavailable:
 
 **Social Integration**:
 - New X: Public announcements
-- New Chat: Friend connections and streaks
+- **New Chat: Friend connections and 24-hour streak system**
+  - Streak timer countdown visible in app
+  - Push notifications before streak expires
+  - Streak leaderboard among friends
+  - Milestone celebration animations
 - NewSab: Group coordination
 - Phone: Direct communication
 
 **Progression Rewards**:
-- New Chat streaks: +social XP
+- **New Chat streaks: +social XP (with 24-hour maintenance requirement)**
+  - 3 days: +25 XP
+  - 7 days: +50 XP + "Committed Friend" badge
+  - 30 days: +200 XP + "Best Friend" badge + 100 NC
+  - 100 days: +1000 XP + "Legendary Friend" badge + 500 NC
+  - 365 days: +5000 XP + "Ultimate Friend" badge + 2000 NC + exclusive item
 - Newber ratings: +driver reputation
 - Keeta ratings: +business reputation
 - Haraj sales: +merchant experience
