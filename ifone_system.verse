@@ -31,8 +31,15 @@ ifone_system := class(creative_device):
         PhotoID<public>:string = ""
         Timestamp<public>:float = 0.0
         FilterApplied<public>:string = "Normal"
+        ARFilterApplied<public>:string = "None"  # AR funny filter
         Location<public>:string = ""
         IsShared<public>:logic = false
+    
+    # AR Filter state for NewChat
+    ar_filter_state := class:
+        FilterName<public>:string = "None"
+        IsActive<public>:logic = false
+        FaceSwapPartnerID<public>:string = ""  # For face swap filter
     
     # Player identity phone data
     identity_phone_data := class:
@@ -61,6 +68,10 @@ ifone_system := class(creative_device):
         Photos<public>:[]photo_data = array{}
         MaxPhotos<public>:int = 100
         
+        # AR Filter settings for NewChat
+        CurrentARFilter<public>:string = "None"
+        ARFiltersUnlocked<public>:[]string = array{}  # Unlocked filters
+        
         # Contacts
         Contacts<public>:[]string = array{}
         
@@ -79,6 +90,25 @@ ifone_system := class(creative_device):
     STREAK_WARNING_TIME<public>:float = 7200.0  # 2 hours before expiration
     CAMERA_FILTERS<public>:[]string = array{"Normal", "BlackWhite", "Sepia", "Vintage", "Neon", "Warm", "Cold", "Dramatic"}
     
+    # NewChat AR Funny Filters (15 filters total)
+    AR_FILTERS<public>:[]string = array{
+        "Dog",        # 🐶 Puppy ears, nose, tongue (most popular)
+        "Cat",        # 😺 Cat ears, whiskers, meow sounds
+        "Bunny",      # 🐰 Floppy ears with nose wiggle
+        "Crown",      # 👑 Royal crown with sparkles
+        "Clown",      # 🤡 Red nose, wig, face paint
+        "Alien",      # 👽 Big eyes and green skin
+        "Unicorn",    # 🦄 Rainbow horn with flowers
+        "Beard",      # 🧔 Various beard/mustache styles
+        "Makeup",     # 💄 Auto beauty enhancement
+        "Rainbow",    # 🌈 Rainbow vomit effect (viral)
+        "Holiday",    # 🎃 Seasonal (pumpkin, santa, etc)
+        "Robot",      # 🤖 Metallic robotic face
+        "Sparkle",    # 🌟 Glitter and stars
+        "Sunglasses", # 😎 Cool sunglasses styles
+        "FaceSwap"    # 🎭 Swap faces with nearby player
+    }
+    
     # ===== INITIALIZATION =====
     
     OnBegin<override>()<suspends>:void=
@@ -94,7 +124,7 @@ ifone_system := class(creative_device):
         Print("1. ✅ Absher (أبشر) - Identity & Ranks")
         Print("2. ✅ Masraf Al Rajhi (مصرف الراجحي) - Banking")
         Print("3. ✅ NewSaab (نيوساب) - WhatsApp-style messaging")
-        Print("4. ✅ NewChat (نيوشات) - Snapchat with 24h streaks")
+        Print("4. ✅ NewChat (نيوشات) - Snapchat with 24h streaks + 15 AR filters")
         Print("5. ✅ NewX (نيو إكس) - Twitter/X platform")
         Print("6. ✅ Maps (الخرائط) - GPS Navigation")
         Print("7. ✅ Phone (الهاتف) - Voice calls")
@@ -102,6 +132,7 @@ ifone_system := class(creative_device):
         Print("9. ✅ Settings (الإعدادات) - System config")
         Print("10. ✅ Radio (الراديو) - 100-channel system")
         Print("11. ✅ Camera (الكاميرا) - Photo & Video")
+        Print("🐶 15 AR Funny Filters Available in NewChat!")
     
     # ===== PLAYER MANAGEMENT =====
     
@@ -323,8 +354,57 @@ ifone_system := class(creative_device):
     ShowNewChatUI(Player:player):void=
         # Display stories
         # Show streak leaderboard
-        # Camera interface for snaps
+        # Camera interface for snaps with AR filters
+        # AR Filter selector (15 funny filters)
         Print("NewChat UI displayed with streaks")
+        Print("🐶 AR Filters: Dog, Cat, Bunny, Crown, Clown, Alien, Unicorn, Beard, Makeup, Rainbow, Holiday, Robot, Sparkle, Sunglasses, FaceSwap")
+    
+    # ===== AR FILTER FUNCTIONS =====
+    
+    ApplyARFilter(Player:player, FilterName:string):void=
+        if(PhoneData := PlayerPhoneData[Player]):
+            set PhoneData.CurrentARFilter = FilterName
+            Print("✨ {FilterName} filter applied!")
+            
+            # Special handling for face swap
+            if(FilterName = "FaceSwap"):
+                Print("👥 Position near another player to swap faces")
+    
+    TakeNewChatSnap(Player:player, ARFilterName:string):void=
+        # Take photo/video with AR filter for NewChat
+        if(PhoneData := PlayerPhoneData[Player]):
+            if(PhoneData.Photos.Length < PhoneData.MaxPhotos):
+                CurrentTime := GetCurrentGameTime()
+                NewPhoto := photo_data{
+                    PhotoID := "SNAP_{CurrentTime}",
+                    Timestamp := CurrentTime,
+                    FilterApplied := "Normal",
+                    ARFilterApplied := ARFilterName,
+                    Location := GetPlayerLocation(Player),
+                    IsShared := false
+                }
+                
+                if(set PhoneData.Photos = PhoneData.Photos + array{NewPhoto}):
+                    Print("📸 Snap captured with {ARFilterName} filter!")
+                    Print("Visible for 24 hours")
+    
+    UnlockARFilter(Player:player, FilterName:string):void=
+        if(PhoneData := PlayerPhoneData[Player]):
+            if(set PhoneData.ARFiltersUnlocked = PhoneData.ARFiltersUnlocked + array{FilterName}):
+                Print("🎉 New AR filter unlocked: {FilterName}!")
+    
+    # Unlock all AR filters for a player
+    UnlockAllARFilters(Player:player):void=
+        if(PhoneData := PlayerPhoneData[Player]):
+            for(FilterName : AR_FILTERS):
+                UnlockARFilter(Player, FilterName)
+            Print("🎉 All 15 AR filters unlocked!")
+    
+    # Face swap between two players
+    InitiateFaceSwap(Player1:player, Player2:player):void=
+        Print("🎭 Face swap activated between {Player1} and {Player2}!")
+        Print("Swapping faces for photo/video...")
+        # Implement face swap logic
     
     # ===== APP 5: NEWX (نيو إكس) - Twitter/X =====
     
@@ -439,12 +519,13 @@ ifone_system := class(creative_device):
     
     ShowCameraUI(Player:player):void=
         # Camera viewfinder
-        # Filter selection (8 filters)
+        # Filter selection (8 standard filters + 15 AR filters for NewChat)
         # Photo/Video toggle
         # Flash controls
         # Share options
         Print("Camera UI displayed")
-        Print("Filters: Normal, B&W, Sepia, Vintage, Neon, Warm, Cold, Dramatic")
+        Print("Standard Filters: Normal, B&W, Sepia, Vintage, Neon, Warm, Cold, Dramatic")
+        Print("AR Filters (NewChat): 🐶 Dog, 😺 Cat, 🐰 Bunny, 👑 Crown, 🤡 Clown, 👽 Alien, 🦄 Unicorn, 🧔 Beard, 💄 Makeup, 🌈 Rainbow, 🎃 Holiday, 🤖 Robot, 🌟 Sparkle, 😎 Sunglasses, 🎭 FaceSwap")
     
     SharePhotoToNewChat(Player:player, PhotoID:string):void=
         Print("📸 Photo shared to NewChat story!")
