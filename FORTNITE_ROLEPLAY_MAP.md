@@ -1146,6 +1146,59 @@ If Governor is unavailable:
 - **Realistic Banking**: Mimics real Al Rajhi Bank interface for immersive Saudi Arabian theme
 - **Transaction Fees**: No fees for player-to-player transfers, 2% fee for business transactions
 
+##### 11. **Camera** (📷 - Photo & Video App)
+- **Purpose**: Capture photos and videos to document experiences in New Live
+- **Features**:
+  - **Photo Capture**: Take in-game screenshots/photos
+    - Front camera mode (selfies)
+    - Rear camera mode (environment photos)
+    - Photo filters and effects (8 filters: Normal, B&W, Sepia, Vintage, Neon, Warm, Cool, Dramatic)
+    - Grid lines for composition
+    - Timer mode (3s, 5s, 10s)
+    - Flash toggle
+  - **Video Recording**: Capture short video clips
+    - Record up to 60 seconds
+    - Video quality options
+    - Pause and resume recording
+  - **Photo Gallery Integration**: All photos saved to gallery automatically
+  - **Editing Tools**:
+    - Crop and rotate
+    - Brightness and contrast adjustments
+    - Saturation controls
+    - Text overlays
+    - Stickers and emojis
+  - **Sharing Options**:
+    - Share directly to NewChat stories
+    - Post to NewX feed
+    - Send via NewSab messages
+    - Set as profile picture
+    - Save to gallery
+  - **Camera Modes**:
+    - Portrait mode (blurred background effect)
+    - Panorama mode
+    - Night mode (low-light enhancement)
+    - Action mode (for moving subjects)
+  - **Advanced Features**:
+    - Photo location tagging (GPS coordinates)
+    - Timestamp on photos
+    - Photo albums organization
+    - Favorites marking
+    - Recently deleted folder (30-day recovery)
+- **Usage**: 
+  - Document roleplay moments
+  - Capture evidence (for police/criminal RP)
+  - Social media content creation
+  - Business advertising photos
+  - Personal memories
+  - News reporting for journalists
+- **Integration**:
+  - Links with NewChat for story posts
+  - Connects to NewX for photo tweets
+  - Gallery app for photo management
+  - Evidence system for police investigations
+- **Storage**: Players can store up to 100 photos/videos per identity
+- **Camera Access**: Any player can use camera anytime (not restricted)
+
 #### Phone System Technical Implementation
 
 **Fortnite Creative Implementation**:
@@ -1159,10 +1212,11 @@ If Governor is unavailable:
 
 **Phone Menu Navigation**:
 - Players access phone via inventory item or button
-- Grid menu showing all 10 apps
+- Grid menu showing all 11 apps
 - Each app opens sub-menu with features
 - Back button to return to home screen
 - Notification badges on apps with updates
+- Camera quick-access from lock screen
 
 **Data Persistence**:
 - Contact lists stored per player
