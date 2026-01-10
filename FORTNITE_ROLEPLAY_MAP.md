@@ -994,6 +994,25 @@ If Governor is unavailable:
 - **Features**:
   - Send private messages (disappear after read)
   - Photo sharing (text descriptions)
+  - **AR Funny Filters** 🐶⭐ **NEW**: Augmented reality face filters for photos and videos
+    - 🐶 **Dog Filter**: Classic puppy ears, nose, and tongue
+    - 😺 **Cat Filter**: Cat ears, whiskers, and meow sounds
+    - 🐰 **Bunny Filter**: Floppy bunny ears with nose wiggle
+    - 👑 **Crown Filter**: Royal crown with sparkles
+    - 🤡 **Clown Filter**: Red nose, colorful wig, face paint
+    - 👽 **Alien Filter**: Big alien eyes and green skin
+    - 🦄 **Unicorn Filter**: Rainbow unicorn horn with flowers
+    - 🧔 **Beard Filter**: Various beard and mustache styles
+    - 💄 **Makeup Filter**: Auto beauty enhancement
+    - 🌈 **Rainbow Filter**: Rainbow vomit effect (fun filter)
+    - 🎃 **Holiday Filters**: Special filters for events (pumpkin, santa, etc.)
+    - 🤖 **Robot Filter**: Metallic robotic face effect
+    - 🌟 **Sparkle Filter**: Face covered in glitter and stars
+    - 😎 **Sunglasses Filter**: Various cool sunglasses styles
+    - 🎭 **Face Swap**: Swap faces between two players
+    - Filter effects work in real-time during photo/video capture
+    - Filters can be applied to saved photos in gallery
+    - New filters added weekly for engagement
   - **Streak System** 🔥: Track consecutive days of messaging with friends
     - **Streak Counter**: Shows number of consecutive days (displayed as fire emoji + number)
     - **Streak Rules**: 
