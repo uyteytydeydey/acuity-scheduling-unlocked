@@ -558,24 +558,59 @@ If Governor is unavailable:
 
 **Salary Range**: $150-$400 per in-game hour (based on rank)
 
-#### 2. **Emergency Medical Services** (Max 6 players)
-**Roles**: Chief Paramedic, Paramedic, EMT
+#### 2. **Emergency Medical Services** (Max 13 players) 🏥 ⭐ **UPDATED**
+**Ranks**: Chief Paramedic (1), Senior Paramedic (2), Paramedic (4), EMT (6)
 
 **Responsibilities**:
-- Respond to medical emergencies
-- Treat injured players
-- Transport patients to hospital
-- Provide field medical care
-- Stock medical supplies
+- Respond to medical emergencies (automatic alerts via Sehhaty app)
+- **ONLY paramedics can revive downed players** - civilians cannot help
+- Treat injured players with medical equipment
+- Transport patients to hospital via ambulance
+- Provide advanced life support and field medical care
+- Stock and manage medical supplies
+- Coordinate with police on crime scenes
+- Mass casualty incident response
 
 **Equipment**:
-- Medical uniform
-- Ambulance vehicles
-- Medical supplies and stretchers
-- First aid kits
-- Emergency radio
+- Medical uniform (rank-specific)
+- Ambulance fleet: Type I, Type II, Paramedic Motorcycle, Air Ambulance
+- Advanced medical equipment: Defibrillator, trauma kits, stretchers
+- First aid supplies and medications
+- Emergency radio (Channel 31 - EMS)
+- GPS navigation with patient location tracking
+- Sehhaty app paramedic dashboard
 
-**Salary**: $120-$250 per in-game hour
+**Key Features** ⭐ **NEW**:
+- **Automatic Alert System**: Instant notification when ANY player is downed
+- Alert shows: player name, GPS location, injury type, priority level
+- Downed players visible on map with red cross marker
+- First to accept gets navigation route
+- Backup alert if no response within 30 seconds
+- **Only paramedics can revive** - 10 second revival animation
+- **5-minute bleeding out timer** for downed players
+- Performance tracking: Response time, patient survival rate
+- Bonus pay for fast response times (<2 min critical calls)
+
+**Salary**: 
+- Chief Paramedic: $250/hour
+- Senior Paramedic: $200/hour
+- Paramedic: $150/hour
+- EMT: $120/hour
+- **Performance Bonuses**: Up to $50/hour extra for excellent response times
+
+**Emergency Response**:
+- Critical calls (<2 min response required)
+- Urgent calls (<3 min response)
+- Standard calls (<5 min response)
+- Mass casualty incident protocols
+
+**Medical Facilities Access**:
+- Los Santos General Hospital (main)
+- Paleto Bay Medical Clinic
+- Sandy Shores Urgent Care
+- All 3 pharmacies
+
+*See complete Health & Medical System section for full details*
 
 #### 3. **Fire Department** (Max 4 players)
 **Roles**: Fire Chief, Firefighter
@@ -893,6 +928,392 @@ If Governor is unavailable:
 4. **Booking**: Process suspect, take mugshot, document charges
 5. **Detention**: Hold in cell until court or release on bail
 6. **Trial**: Present case to judge with evidence
+
+---
+
+## 🏥 Health & Medical System ⭐ **NEW**
+
+### Overview
+The comprehensive health system adds realism and immersion to New Live roleplay, requiring players to manage their health and rely on professional paramedics for emergency medical care.
+
+### Health Mechanics
+
+#### Health Status
+- **Health Bar**: 0-100% health level displayed on HUD
+- **Injury Types**:
+  - 🔫 **Gunshot Wounds**: Severe bleeding, requires immediate medical attention
+  - 🚗 **Vehicle Accidents**: Broken bones, internal injuries, concussion
+  - 💥 **Explosions**: Burns, trauma, hearing damage
+  - 👊 **Physical Assault**: Bruises, cuts, fractures
+  - ⚡ **Environmental**: Falls, fire, drowning
+- **Bleeding System**:
+  - Active bleeding reduces health over time
+  - Heavy bleeding: -2% health per 10 seconds
+  - Light bleeding: -1% health per 20 seconds
+  - Blood loss causes unconsciousness at 20% health
+- **Pain Effects**:
+  - Slowed movement speed when injured
+  - Reduced accuracy with weapons
+  - Blurred vision at low health
+  - Screen shake and visual indicators
+
+#### Downed State
+When a player's health reaches 0%, they enter the **downed state**:
+
+**Downed Player Restrictions** ⚠️:
+- **Cannot move** - player is incapacitated
+- **Cannot use weapons or items**
+- **Cannot be revived by civilians** - ONLY paramedics can revive
+- **Self-revive is IMPOSSIBLE** - must wait for paramedic
+- **Bleeding out timer**: 5 minutes until automatic respawn
+- **Voice chat remains active** for roleplay communication
+- **Can use Sehhaty app** to request ambulance while downed
+- **Can see incoming ambulance ETA** on screen
+- **Pain sounds and animations** play automatically
+
+**What Downed Players CAN Do**:
+- Talk via voice/text chat for roleplay
+- View their surroundings (limited camera)
+- Request ambulance via Sehhaty app (صحتي)
+- See countdown timer until respawn
+- See ETA of incoming paramedics
+- Provide information to police/witnesses
+
+### Emergency Medical Services (EMS)
+
+#### Paramedic Job System
+
+**Ranks & Roles**:
+1. **Chief Paramedic** (1 position) - $250/hour
+   - Oversees all EMS operations
+   - Manages EMS staff and resources
+   - Coordinates mass casualty incidents
+   - Budget and equipment management
+   - Training and certification
+
+2. **Senior Paramedic** (2 positions) - $200/hour
+   - Advanced life support procedures
+   - Supervises EMTs during calls
+   - Mentor new paramedics
+   - Complex medical procedures
+   - Lead on critical calls
+
+3. **Paramedic** (4 positions) - $150/hour
+   - Emergency medical response
+   - Patient assessment and treatment
+   - Ambulance operation
+   - Basic and advanced life support
+   - Hospital transportation
+
+4. **EMT (Emergency Medical Technician)** (6 positions) - $120/hour
+   - First responder to emergencies
+   - Basic life support
+   - Patient stabilization
+   - Ambulance assistance
+   - Medical supply management
+
+**Total EMS Staff**: Up to 13 paramedics online simultaneously
+
+#### Automatic Alert System 🚨
+
+When ANY player is downed anywhere on the map:
+
+1. **Instant Notification** sent to ALL online paramedics
+2. **Alert Information Displays**:
+   - 👤 Downed player's name
+   - 📍 Exact GPS location with coordinates
+   - 🩸 Injury type (gunshot, vehicle accident, fall, etc.)
+   - ⚠️ Priority level (Critical, Urgent, Stable)
+   - 🕐 Time since patient downed
+   - 👥 Number of casualties (if multiple)
+
+3. **Map Marker**:
+   - Red cross marker appears on paramedic's map
+   - Flashing indicator for critical patients
+   - Distance to patient shown
+   - Route navigation activated
+
+4. **Response Protocol**:
+   - First paramedic to accept gets primary assignment
+   - Navigation route automatically displayed
+   - **Backup alert** if no response within 30 seconds
+   - Nearest paramedic gets priority notification
+   - Multiple casualties trigger **mass casualty incident** protocol
+
+5. **Priority Levels**:
+   - 🔴 **Critical** (bleeding out <2 min): Sirens, lights, priority 1
+   - 🟠 **Urgent** (bleeding out 2-4 min): Fast response required
+   - 🟢 **Stable** (bleeding out >4 min): Standard response
+
+#### EMS Equipment & Vehicles
+
+**Medical Equipment**:
+- 💊 First Aid Kit (stops light bleeding)
+- 💉 Advanced Trauma Kit (treats gunshot wounds)
+- 🩹 Bandages and Gauze (wound dressing)
+- 💊 Pain Medication (reduces pain effects)
+- 🩺 Defibrillator (revives downed patients)
+- 🏥 Stretcher (patient transport)
+- 🎒 Medical Backpack (carries all supplies)
+- 📋 Patient Assessment Kit
+
+**Ambulance Fleet**:
+1. **Type I Ambulance** (Standard Response)
+   - 2 passengers (driver + paramedic)
+   - Full medical equipment storage
+   - Siren and emergency lights
+   - GPS navigation system
+   - Radio (Channel 31 - EMS)
+   - Top Speed: 140 km/h
+
+2. **Type II Ambulance** (Critical Care)
+   - 3 passengers (driver + 2 paramedics)
+   - Advanced life support equipment
+   - Mobile ICU capabilities
+   - Enhanced lights and sirens
+   - Top Speed: 140 km/h
+
+3. **Paramedic Motorcycle** (Rapid Response)
+   - 1 rider (solo paramedic)
+   - Basic medical kit
+   - Fast navigation through traffic
+   - First on scene for assessments
+   - Top Speed: 180 km/h
+
+4. **Air Ambulance Helicopter** 🚁 (Critical Transport)
+   - 4 passengers (pilot + 3 medical crew)
+   - Advanced trauma equipment
+   - Rapid inter-city transport
+   - Mountain/desert rescue capability
+   - Top Speed: 250 km/h
+
+#### Medical Treatment Procedures
+
+**On-Scene Treatment** (Field Medicine):
+1. **Scene Safety Check**: Ensure area is secure
+2. **Patient Assessment**: Check vitals, injuries, consciousness
+3. **Stop Bleeding**: Apply pressure, bandages, tourniquets
+4. **Stabilization**: Splint fractures, manage airways
+5. **Pain Management**: Administer pain medication
+6. **Patient Monitoring**: Track vitals during transport
+
+**Revival Process**:
+- Paramedic uses defibrillator on downed patient
+- **10-second revival animation** plays
+- Patient revived with 30% health
+- Patient can now move but needs hospital treatment
+- Paramedic provides post-revival care instructions
+
+**Hospital Transport**:
+- Load patient onto ambulance stretcher
+- Secure patient for transport
+- Monitor vitals during drive
+- Use sirens for critical patients
+- Navigate to nearest hospital
+- Transfer care to hospital staff
+
+#### Medical Facilities
+
+**🏥 Los Santos General Hospital** (Main Hospital)
+- **Location**: Los Santos Downtown Medical District
+- **Facilities**:
+  - Emergency Room (10 beds)
+  - Operating Rooms (4 rooms)
+  - Intensive Care Unit (6 beds)
+  - Radiology Department (X-Ray, CT, MRI)
+  - Pharmacy
+  - Waiting Room
+  - Ambulance Bay
+- **Staff Stations**:
+  - Doctor offices
+  - Nurse stations
+  - Administrative offices
+  - Medical supply storage
+- **Services**:
+  - Emergency trauma care
+  - Surgery and advanced procedures
+  - Diagnostic imaging
+  - Prescription medications
+  - Patient admission and discharge
+  - Medical records department
+- **Features**:
+  - Helipad for air ambulance
+  - Parking for ambulances and patient vehicles
+  - 24/7 emergency services
+  - Cafeteria and vending machines
+
+**🏥 Paleto Bay Medical Clinic**
+- **Location**: Paleto Bay Town Center
+- **Facilities**:
+  - Emergency treatment room (3 beds)
+  - Examination rooms (2 rooms)
+  - Small pharmacy
+  - Waiting area
+- **Services**:
+  - Basic emergency care
+  - Minor injury treatment
+  - Stabilization and transfer to main hospital
+  - Prescription refills
+- **Staff**: 2-3 medical personnel
+
+**🏥 Sandy Shores Urgent Care**
+- **Location**: Sandy Shores Airfield Area
+- **Facilities**:
+  - Emergency bay (2 beds)
+  - Treatment room
+  - Basic medical supplies
+- **Services**:
+  - Emergency stabilization
+  - First aid and wound care
+  - Air ambulance coordination
+- **Staff**: 1-2 medical personnel
+
+**💊 Pharmacies** (3 locations across cities)
+- Fill prescriptions from doctors
+- Over-the-counter medications
+- First aid supplies for civilians
+- Health products and vitamins
+
+#### Civilian Health Management
+
+**Health Maintenance**:
+- Eat food regularly to maintain health
+- Visit hospitals for checkups
+- Avoid dangerous activities
+- Wear protective gear (helmets, vests)
+- Use seatbelts in vehicles
+
+**First Aid for Civilians**:
+- Civilians can use **basic first aid kits** on themselves only
+- First aid kits restore 20% health
+- Cannot revive downed players
+- Cannot treat gunshot wounds
+- Can slow bleeding temporarily
+- Available at pharmacies ($50 NC)
+
+**When to Call 911**:
+- Any player is downed
+- Serious injuries or bleeding
+- Vehicle accidents with injuries
+- Unconscious players
+- Multiple casualties
+- Crime scenes with injured victims
+
+#### Sehhaty App Integration (صحتي)
+
+**Emergency Request Flow**:
+1. Player opens Sehhaty app on iFone
+2. Taps "Request Ambulance" button (طلب إسعاف)
+3. GPS location automatically shared
+4. Injury type selected from menu
+5. Alert sent to ALL paramedics
+6. Player sees confirmation: "Ambulance Dispatched"
+7. ETA displayed: "Arriving in 2:30"
+8. Real-time tracking of incoming ambulance
+9. Notification when paramedic is 30 seconds away
+10. Paramedic arrives and provides treatment
+
+**App Features for Patients**:
+- View health status in real-time
+- Medical history and treatment records
+- Find nearest hospital or clinic
+- Book doctor appointments
+- Pay medical bills via Masraf Al Rajhi
+- Pharmacy prescription refills
+- Health tips and reminders
+
+**App Features for Paramedics**:
+- Special paramedic dashboard
+- Emergency alert notifications
+- Patient location on map with navigation
+- Multiple active calls display
+- Patient medical history access
+- Call completion and reporting
+- Shift schedule and statistics
+
+### Medical Billing & Costs
+
+**Emergency Services**:
+- 🚑 Ambulance Call: $200 NC
+- 💊 On-Scene Treatment: $100 NC
+- 🏥 Hospital Transport: $150 NC
+- **Total Emergency Cost**: $450 NC (paid via Sehhaty app)
+
+**Hospital Services**:
+- Emergency Room Visit: $300 NC
+- Surgery: $1,000-$3,000 NC
+- X-Ray/Imaging: $200 NC
+- Hospital Stay: $500 NC per day
+- Medication: $50-$200 NC
+
+**Insurance Options**:
+- **Basic Plan**: $500 NC/week (50% coverage)
+- **Premium Plan**: $1,000 NC/week (80% coverage)
+- **No Insurance**: Pay full costs
+
+**Payment Methods**:
+- Direct payment via Sehhaty app
+- Masraf Al Rajhi bank transfer
+- Insurance claim submission
+- Payment plans for large bills
+
+### EMS Performance Standards
+
+**Response Time Requirements**:
+- ⏱️ **Critical Calls**: Under 2 minutes
+- ⏱️ **Urgent Calls**: Under 3 minutes
+- ⏱️ **Standard Calls**: Under 5 minutes
+
+**Performance Metrics**:
+- Response time tracking
+- Patient survival rate
+- Treatment success rate
+- Patient satisfaction ratings
+- Call completion statistics
+
+**Rewards for Good Performance**:
+- Bonus pay for fast response times
+- Paramedic of the Month award
+- Rank promotions
+- Special recognition badges
+- Increased base salary
+
+**Consequences for Poor Performance**:
+- Warning for slow response
+- Reduced pay for missed calls
+- Demotion for repeated failures
+- Termination for negligence
+
+### Roleplay Scenarios
+
+**Common EMS Calls**:
+- 🚗 Traffic accidents on highways
+- 🔫 Shooting victims from gang violence
+- 🏗️ Construction site injuries
+- 🏍️ Motorcycle accidents
+- 💥 Explosion casualties
+- 🌊 Drowning at beach/marina
+- 🔥 Fire victims and smoke inhalation
+- 👊 Assault victims
+- 💊 Drug overdoses
+- ❤️ Heart attacks and medical emergencies
+
+**Mass Casualty Incidents**:
+- Multiple victims from one event
+- All available paramedics respond
+- Triage system: Treat critical first
+- Coordination with police and fire
+- Multiple ambulances on scene
+- Field command post setup
+- Hospital pre-notification
+
+**Integration with Police**:
+- Crime scenes with injured victims
+- Paramedics need police clearance
+- Evidence preservation
+- Witness statements
+- Gunshot wound reporting (mandatory)
+- Joint training exercises
 
 ---
 
@@ -1271,8 +1692,87 @@ If Governor is unavailable:
   - Connects to NewX for photo tweets
   - Gallery app for photo management
   - Evidence system for police investigations
-- **Storage**: Players can store up to 100 photos/videos per identity
+- **Storage**: Players can store up to 1000 photos/videos per identity (500 photos + 500 videos)
 - **Camera Access**: Any player can use camera anytime (not restricted)
+
+##### 12. **Sehhaty** (صحتي - My Health App) 🏥 ⭐ **NEW**
+- **Purpose**: Complete health management and emergency medical services request system
+- **Features**:
+  - **Request Ambulance** (طلب إسعاف) 🚑:
+    - One-tap emergency button
+    - Automatic GPS location sharing with paramedics
+    - Real-time ETA display
+    - Ambulance tracking on map
+    - Direct communication with paramedic team
+    - Emergency type selection (injury, illness, accident)
+    - Priority level indicator
+  - **Health Status Dashboard**:
+    - Current health level (0-100%)
+    - Active injuries and conditions
+    - Blood loss meter
+    - Pain level indicator
+    - Medical history log
+    - Treatment records
+  - **Medical Records**:
+    - Previous injuries and treatments
+    - Medications prescribed
+    - Hospital visit history
+    - Insurance information
+    - Blood type and allergies
+    - Emergency contacts
+  - **Hospital Locator** 🏥:
+    - Find nearest hospital or clinic
+    - View available medical staff
+    - Check ER wait times
+    - Hospital services list
+    - GPS navigation to facility
+  - **Pharmacy Services** 💊:
+    - Browse available medications
+    - Prescription refills
+    - Medication reminders
+    - Drug information and side effects
+    - Pharmacy locations
+  - **Appointment Booking**:
+    - Schedule doctor appointments
+    - View available time slots
+    - Appointment reminders
+    - Doctor specialties list
+    - Cancel or reschedule
+  - **Medical Bill Payment**:
+    - View treatment costs
+    - Pay hospital bills via Masraf Al Rajhi
+    - Insurance claim submission
+    - Payment history
+    - Receipt downloads
+  - **Health Tips & Alerts**:
+    - Daily health tips
+    - Disease outbreak warnings
+    - Vaccination reminders
+    - Wellness challenges
+- **Paramedic Alert System** 🚨:
+  - **Automatic Alert**: When any player is downed, ALL paramedics receive instant notification
+  - Alert shows: Player name, exact location (GPS), injury type, priority level
+  - Paramedics can see downed player marker on their map
+  - First paramedic to accept gets navigation route
+  - Backup alert if no response within 30 seconds
+  - Multiple casualties create mass casualty incident alert
+- **Downed Player Restrictions** ⚠️:
+  - **ONLY paramedics can revive downed players** - civilians cannot help
+  - Downed players must wait for paramedic arrival
+  - Self-revive is NOT possible
+  - Bleeding out timer: 5 minutes until respawn
+  - Player can call for help via Sehhaty app while downed
+  - Can see ETA of incoming ambulance
+  - Voice chat remains active for roleplay
+- **Integration**:
+  - Links with Masraf Al Rajhi for medical bill payments
+  - GPS integration for ambulance tracking
+  - Direct line to EMS dispatch (channel 31)
+  - Hospital system connection
+  - Insurance verification
+- **Usage**: Essential app for all players - request emergency medical help, manage health, book appointments
+- **Cost**: FREE app, pre-installed on all iFones
+- **Emergency Response Time**: Paramedics have 2-3 minute response time requirement
 
 #### Phone System Technical Implementation
 
@@ -1287,7 +1787,7 @@ If Governor is unavailable:
 
 **Phone Menu Navigation**:
 - Players access phone via inventory item or button
-- Grid menu showing all 11 apps
+- Grid menu showing all 12 apps (including Sehhaty)
 - Each app opens sub-menu with features
 - Back button to return to home screen
 - Notification badges on apps with updates
