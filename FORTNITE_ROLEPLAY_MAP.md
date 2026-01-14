@@ -285,6 +285,16 @@ The map is divided into **3 distinct cities**, each with unique characteristics 
 - **Budget Authority**: Approve city budgets and major expenditures
 - **Diplomatic Authority**: Represent the city in official matters
 - **Pardon Power**: Grant pardons and reduce sentences
+- **⚖️ Moderation Authority**: Three-strike warning and ban system (سلطة الإشراف)
+  - Issue Warning 1 (تحذير أول): First offense warning
+  - Issue Warning 2 (تحذير ثاني): Second offense with 3-hour timeout
+  - Issue Warning 3 (تحذير ثالث): Third offense triggers ban decision
+  - **Determine Ban Duration**: Governor decides ban length after 3rd strike
+    - Temporary: 1 day, 3 days, 7 days, 14 days, 30 days
+    - Permanent (حظر نهائي): No return allowed
+  - Designate moderators: Grant warning/ban powers to trusted administrators
+  - Review ban appeals: Final authority on all player appeals
+  - Clear warnings: Forgiveness/second chances at Governor's discretion
 - **🎯 Surveillance Authority**: Full map surveillance with ability to monitor ALL players (سلطة المراقبة)
   - Real-time location tracking of ALL players on map
   - View player inventory and money
@@ -307,18 +317,24 @@ The map is divided into **3 distinct cities**, each with unique characteristics 
 
 **Equipment**:
 - Executive Office in Government Palace (Qasr Al-Hukm)
-- **🖥️ Intelligence Command Center**: Advanced surveillance room with:
+- **🖥️ Intelligence & Moderation Command Center**: Advanced control room with:
   - Multi-screen monitoring system showing all 3 cities
   - Player tracking interface with live GPS
   - Radio intercept system (all 100 channels)
   - Security camera network access
   - Financial transaction monitor
   - Criminal database terminal
+  - **⚖️ Moderation Panel**: Warning and ban management system
+    - View all player warning histories
+    - Issue warnings (strikes 1, 2, 3)
+    - Set ban durations after 3rd strike
+    - Manage designated moderators
+    - Review ban appeals
 - Official Governor Vehicle (luxury sedan with flags)
 - Security detail (4 bodyguards from police force)
 - Direct communication line to all departments
 - Access to all government buildings and areas
-- Mobile surveillance tablet (iFone with special Governor app)
+- Mobile surveillance tablet (iFone with special Governor app and moderation controls)
 
 **Salary**: $500 per in-game hour (highest paid position)
 

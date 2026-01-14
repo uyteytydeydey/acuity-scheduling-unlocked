@@ -325,29 +325,112 @@ The Governor has FULL surveillance capabilities to maintain order and security a
 
 ### Moderation Tools
 
-#### Warning System
-- **Verbal Warning**: Remind player of rules
-- **Official Warning**: Logged warning, 3 = kick
-- **Kick**: Remove from server temporarily
-- **Timeout**: Short ban (1-3 hours)
-- **Temporary Ban**: 1-7 day ban
-- **Permanent Ban**: Removed indefinitely
+#### Warning System (Governor/King Authority) 👑
+
+**Three-Strike Warning System:**
+The Governor (King) and designated administrators have authority to issue warnings and bans.
+
+**Strike Progression:**
+1. **First Warning (تحذير أول)** ⚠️
+   - Official warning logged to player record
+   - Player notified in-game and via iFone notification
+   - Verbal explanation of violation
+   - 24-hour monitoring period begins
+
+2. **Second Warning (تحذير ثاني)** ⚠️⚠️
+   - Second violation logged
+   - 3-hour temporary timeout/suspension
+   - Required to review rules before returning
+   - 72-hour probation period
+   - One more strike = ban
+
+3. **Third Warning (تحذير ثالث)** ⚠️⚠️⚠️
+   - Third violation = automatic ban
+   - **Ban duration decided by Governor/King**:
+     - Temporary ban: 1 day, 3 days, 7 days, 14 days, 30 days
+     - Permanent ban (حظر نهائي): No return allowed
+   - Ban appeal only through Governor/King
+
+**Authorization System:**
+- 👑 **Governor (King)**: Full authority to issue all warnings and determine ban durations
+- 🛡️ **Designated Moderators**: Selected by Governor with warning/ban powers
+- 📋 **Ban Authority**: Only Governor and designated moderators can execute bans
+- ⚖️ **Appeal Process**: All ban appeals reviewed by Governor personally
+
+**Warning Commands (Governor/Authorized Moderators Only):**
+```
+/warn1 [player] [reason] - Issue first warning
+/warn2 [player] [reason] - Issue second warning (3-hour timeout)
+/warn3 [player] [reason] - Issue third warning (requires ban decision)
+/setban [player] [duration] [reason] - Set ban after 3rd warning
+/permban [player] [reason] - Permanent ban (Governor only)
+/viewwarnings [player] - Check player's warning history
+/clearwarnings [player] - Clear warnings (Governor only)
+/designatemoderator [player] - Grant moderation powers (Governor only)
+```
+
+**Warning Escalation Examples:**
+
+**Example 1: Minor Offense**
+- Strike 1: Breaking character → Warning
+- Strike 2: Breaking character again → 3-hour timeout
+- Strike 3: Still breaking character → Governor decides: 3-day ban
+
+**Example 2: Moderate Offense**
+- Strike 1: RDM (Random Death Match) → Warning
+- Strike 2: RDM again → 3-hour timeout
+- Strike 3: RDM third time → Governor decides: 7-day ban
+
+**Example 3: Serious Offense**
+- Strike 1: Meta gaming → Warning
+- Strike 2: Meta gaming again → 3-hour timeout
+- Strike 3: Meta gaming third time → Governor decides: 14-day or permanent ban
 
 #### Punishment Guidelines
 
-| Offense | 1st | 2nd | 3rd | 4th |
-|---------|-----|-----|-----|-----|
-| Minor (Breaking Character) | Verbal | Warning | Kick | 1-day ban |
-| Moderate (RDM/VDM) | Warning | 3hr timeout | 1-day ban | 7-day ban |
-| Serious (Meta/Power Gaming) | Warning | 1-day ban | 7-day ban | Permanent |
-| Severe (Harassment/Cheating) | Permanent ban | - | - | - |
+| Offense | 1st Strike | 2nd Strike | 3rd Strike | Ban Decision |
+|---------|-----------|-----------|-----------|--------------|
+| Minor (Breaking Character) | Warning ⚠️ | 3hr timeout ⚠️⚠️ | Governor decides | 1-7 days |
+| Moderate (RDM/VDM) | Warning ⚠️ | 3hr timeout ⚠️⚠️ | Governor decides | 3-14 days |
+| Serious (Meta/Power Gaming) | Warning ⚠️ | 3hr timeout ⚠️⚠️ | Governor decides | 7-30 days or permanent |
+| Severe (Harassment/Cheating) | **Immediate permanent ban** | - | - | No appeal |
+
+#### Governor Surveillance & Moderation Powers 👑
+
+**Surveillance Capabilities:**
+- 📍 Real-time player location tracking
+- 💰 Monitor all bank transactions
+- 📻 Listen to all 100 radio channels (including police and gang channels)
+- 📹 Access all security cameras across 3 cities
+- 👁️ Spectator mode to watch any player
+- 📊 View player inventories and possessions
+- 📱 Review social media activity (NewX, NewChat, NewSaab)
+
+**Moderation Powers:**
+- ⚖️ Issue warnings (strikes 1, 2, 3)
+- 🔨 Determine ban duration after 3rd strike
+- 👥 Designate moderators with warning/ban authority
+- 📋 Review all player warning histories
+- 🗑️ Clear warnings (forgiveness)
+- 🚨 Emergency server-wide announcements
+- 🔐 Lockdown zones or cities
+- ⏸️ Temporarily freeze players for investigation
+
+**Proper Use Policy:**
+- ✅ Use surveillance for investigations and maintaining order
+- ✅ Issue warnings fairly based on evidence
+- ✅ Give players chance to explain before 3rd strike ban
+- ❌ No abuse of power for personal gain
+- ❌ No spying on players for entertainment
+- ⚠️ Governor can be removed by server owner for abuse
 
 #### Admin Commands (Conceptual)
-- `/warn [player] [reason]` - Issue warning
-- `/kick [player] [reason]` - Remove from server
-- `/ban [player] [duration] [reason]` - Temporary ban
-- `/permban [player] [reason]` - Permanent ban
-- `/jail [player] [time]` - Send to jail
+- `/warn1 [player] [reason]` - Issue first warning
+- `/warn2 [player] [reason]` - Issue second warning with 3hr timeout
+- `/warn3 [player] [reason]` - Issue third warning (triggers ban decision)
+- `/setban [player] [1d/3d/7d/14d/30d/perm] [reason]` - Execute ban
+- `/kick [player] [reason]` - Remove from server temporarily
+- `/jail [player] [time]` - Send to jail (in-game punishment)
 - `/freeze [player]` - Stop player movement
 - `/tp [location]` - Teleport to location
 - `/bring [player]` - Bring player to you
