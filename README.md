@@ -46,6 +46,19 @@ Welcome to the comprehensive design documentation for **Echoes of Tomorrow**, an
 
 ---
 
+## 🎬 Video Editing Tools
+
+**Create promotional videos NOW!**  
+👉 **[Video Editing Script & Guide](VIDEO_EDITING_README.md)** 👈
+
+- ✅ FFmpeg batch script for automated video generation
+- ✅ Support for 16:9 (1920x1080) and 9:16 (1080x1920) formats
+- ✅ Customizable text overlays and music integration
+- ✅ High-quality H.264 encoding at 60 FPS
+- ✅ Perfect for YouTube, social media shorts, and promotional content
+
+---
+
 ## 📚 Documentation
 
 This repository contains comprehensive documentation organized into the following core documents:
