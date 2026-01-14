@@ -228,12 +228,15 @@
 
 ### Radio Channels
 - **Channel 0 (Public)**: Open city-wide chat
-- **Channel 1 (Police)**: Law enforcement only
-- **Channel 2 (EMS)**: Medical services only
-- **Channel 3 (Fire)**: Fire department only
-- **Channel 4 (Taxi)**: Taxi drivers coordination
-- **Channel 5 (Business)**: Commerce and trade
-- **Private Channels**: Create for gangs/organizations
+- **Channels 1-10 (Police)**: Law enforcement communication (available to all police ranks)
+- **Channels 11-30 (Gangs)**: Criminal organizations and gang communications
+- **Channel 911 (Emergency)**: Police, Fire, EMS coordination
+- **Channel 31 (EMS)**: Medical services only
+- **Channel 32 (Fire)**: Fire department only
+- **Channel 33 (Taxi)**: Taxi drivers coordination
+- **Channel 34 (Business)**: Commerce and trade
+- **Channels 35-40 (SWAT)**: Special operations team communication
+- **Channels 41-99 (Private)**: Create for custom groups/organizations
 
 ---
 

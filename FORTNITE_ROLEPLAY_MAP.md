@@ -957,13 +957,15 @@ If Governor is unavailable:
 
 ### Radio Channels
 1. **Public Frequency (0)**: Open city-wide chat
-2. **Emergency Services (911)**: Police, Fire, EMS coordination
-3. **Police Channel (1)**: Law enforcement only
-4. **EMS Channel (2)**: Medical services only
-5. **Fire Channel (3)**: Fire department only
-6. **Taxi Dispatch (4)**: Driver coordination
-7. **Business Channel (5)**: Commerce and trade
-8. **Private Channels (10-99)**: Create custom channels
+2. **Police Channels (1-10)**: Law enforcement communication (all police ranks)
+3. **Gang Channels (11-30)**: Criminal organizations and gang communications
+4. **Emergency Services (911)**: Police, Fire, EMS coordination
+5. **EMS Channel (31)**: Medical services only
+6. **Fire Channel (32)**: Fire department only
+7. **Taxi Dispatch (33)**: Driver coordination
+8. **Business Channel (34)**: Commerce and trade
+9. **SWAT Channels (35-40)**: Special operations team communication
+10. **Private Channels (41-99)**: Create custom channels
 
 ### Phone System - "iFone 17 Pro Max"
 
