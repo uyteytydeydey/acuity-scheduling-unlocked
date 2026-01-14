@@ -285,6 +285,15 @@ The map is divided into **3 distinct cities**, each with unique characteristics 
 - **Budget Authority**: Approve city budgets and major expenditures
 - **Diplomatic Authority**: Represent the city in official matters
 - **Pardon Power**: Grant pardons and reduce sentences
+- **🎯 Surveillance Authority**: Full map surveillance with ability to monitor ALL players (سلطة المراقبة)
+  - Real-time location tracking of ALL players on map
+  - View player inventory and money
+  - Listen to ALL radio channels (1-100) including encrypted police and gang channels
+  - Access to ALL security camera feeds across 3 cities
+  - Monitor ALL in-game transactions and activities
+  - View player statistics and criminal records
+  - Spectator mode to observe any player in real-time
+  - Complete intelligence dashboard in Governor's office
 
 **Responsibilities**:
 - Lead cabinet meetings with all ministers
@@ -298,10 +307,18 @@ The map is divided into **3 distinct cities**, each with unique characteristics 
 
 **Equipment**:
 - Executive Office in Government Palace (Qasr Al-Hukm)
+- **🖥️ Intelligence Command Center**: Advanced surveillance room with:
+  - Multi-screen monitoring system showing all 3 cities
+  - Player tracking interface with live GPS
+  - Radio intercept system (all 100 channels)
+  - Security camera network access
+  - Financial transaction monitor
+  - Criminal database terminal
 - Official Governor Vehicle (luxury sedan with flags)
 - Security detail (4 bodyguards from police force)
 - Direct communication line to all departments
 - Access to all government buildings and areas
+- Mobile surveillance tablet (iFone with special Governor app)
 
 **Salary**: $500 per in-game hour (highest paid position)
 

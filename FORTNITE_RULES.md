@@ -109,6 +109,41 @@
 
 ## 👮 Job-Specific Rules
 
+### 🏛️ Governor (الحاكم) - Special Powers & Rules
+
+#### Surveillance Authority (سلطة المراقبة)
+The Governor has FULL surveillance capabilities to maintain order and security across all 3 cities.
+
+**Surveillance Powers**:
+- 📍 **Real-Time Player Tracking**: View location of ALL players on map
+- 💰 **Financial Monitoring**: Access to ALL player bank accounts and transaction history
+- 📻 **Radio Intercept**: Listen to ALL 100 radio channels including encrypted police (1-10) and gang (11-30) channels
+- 📹 **Security Cameras**: Access ALL security camera feeds across Los Santos, Paleto Bay, and Sandy Shores
+- 📊 **Player Statistics**: View inventories, criminal records, and activity logs
+- 👁️ **Spectator Mode**: Observe any player in real-time without being seen
+- 🎯 **Intelligence Dashboard**: Complete monitoring system in Governor's Command Center
+
+**Proper Use of Surveillance** (Rules):
+1. ✅ **Security Purposes**: Use for maintaining city safety and investigating major crimes
+2. ✅ **Emergency Response**: Monitor situations during state of emergency
+3. ✅ **Criminal Investigation**: Gather intelligence on organized crime
+4. ⚠️ **Privacy Respect**: Don't abuse powers for personal gain or harassment
+5. ⚠️ **No Meta-Gaming**: Don't share OOC information; use IC methods to act on intelligence
+6. ⚠️ **Roleplay Required**: Must roleplay receiving intelligence reports, not instant knowledge
+7. ❌ **No Abuse**: Don't use surveillance to help friends cheat or target specific players unfairly
+
+**Accountability**:
+- Governor can be impeached by server admins for power abuse
+- Surveillance logs are monitored by server moderators
+- Players can report surveillance abuse to admins
+- Excessive abuse = removal from Governor position
+
+**Example Proper Use**:
+> ✅ Governor receives report of gang activity, checks surveillance, dispatches police with IC intelligence briefing
+> ❌ Governor sees friend struggling in robbery via surveillance, immediately tells them where police are without IC reason
+
+---
+
 ### Police Officers
 
 #### Requirements
