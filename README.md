@@ -1,12 +1,58 @@
-# Echoes of Tomorrow - AAA Game Design Repository 🎮
+# Game Design Repository 🎮
 
-[![Status](https://img.shields.io/badge/Status-Pre--Production-blue)](PROJECT_OVERVIEW.md) [![Engine](https://img.shields.io/badge/Engine-Unreal%205.4-green)](TECHNICAL_ARCHITECTURE.md) [![Genre](https://img.shields.io/badge/Genre-Action%20RPG-orange)](GAME_DESIGN_DOCUMENT.md)
+This repository contains comprehensive design documentation for multiple game projects:
 
-Welcome to the comprehensive design documentation for **Echoes of Tomorrow**, an ambitious AAA action RPG that combines cutting-edge graphics technology with innovative time manipulation gameplay mechanics. This repository contains detailed design documents covering all aspects of the game's development, from technical architecture to visual direction.
+## 🌆 Featured Project: New Live - Fortnite Creative Roleplay Map
+
+[![Platform](https://img.shields.io/badge/Platform-Fortnite%20Creative-7C3AED)](FORTNITE_ROLEPLAY_MAP.md) [![Players](https://img.shields.io/badge/Players-32%2B-green)]() [![Mode](https://img.shields.io/badge/Mode-Roleplay-orange)]() [![Status](https://img.shields.io/badge/Status-Design%20Phase-blue)]()
+
+**NEW!** A comprehensive Fortnite Creative roleplay map inspired by FiveM, supporting 32+ players with jobs, economy, properties, and more!
+
+👉 **[View Complete Documentation](FORTNITE_ROLEPLAY_MAP.md)** 👈  
+👉 **[Quick Setup Guide](FORTNITE_QUICK_START.md)** 👈  
+👉 **[Technical Implementation](FORTNITE_TECHNICAL_GUIDE.md)** 👈  
+👉 **[Map Visualization - SEE THE MAP!](FORTNITE_MAP_VISUALIZATION.md)** 👈 ⭐ NEW  
+👉 **[UNREAL ENGINE Guide - Full Programming](FORTNITE_UNREAL_ENGINE_GUIDE.md)** 👈 ⭐ NEW
+
+### Key Features
+- 🏙️ **3 Distinct Cities** - Los Santos (metropolis with skyscrapers & government palace), Paleto Bay (coastal town), Sandy Shores (desert outpost)
+- 👔 **23+ Career Paths** - Governor, Ministers, Police, EMS, Fire, Taxi, Business, Fisherman, Pilot, and more
+- 💰 **Player-Driven Economy** - Buy vehicles, properties, and build your wealth across all cities
+- 🚗 **Vehicle System** - Cars, boats, planes - own and customize personal vehicles
+- ⚖️ **Law & Order** - Active police force with arrest and court systems
+- 🏠 **Property Ownership** - Buy homes and businesses in urban, coastal, or desert settings
+- 📱 **iFone 17 Pro Max** - 11 integrated apps including Camera, social media, ride-hailing, food delivery, banking (Masraf Al Rajhi), and government services
+- 🏛️ **Government System** - Governor and Cabinet Ministers with full powers
 
 ---
 
-## 🚀 Ready to Publish? Start Here!
+## 🎮 Also in This Repository: Echoes of Tomorrow
+
+[![Status](https://img.shields.io/badge/Status-Pre--Production-blue)](PROJECT_OVERVIEW.md) [![Engine](https://img.shields.io/badge/Engine-Unreal%205.4-green)](TECHNICAL_ARCHITECTURE.md) [![Genre](https://img.shields.io/badge/Genre-Action%20RPG-orange)](GAME_DESIGN_DOCUMENT.md)
+
+Comprehensive design documentation for **Echoes of Tomorrow**, an ambitious AAA action RPG that combines cutting-edge graphics technology with innovative time manipulation gameplay mechanics.
+
+### Quick Facts
+
+| **Genre** | Action RPG / Sci-Fi / Time Manipulation |
+| **Engine** | Unreal Engine 5.4 |
+| **Platforms** | PC, PlayStation 5, Xbox Series X\|S |
+| **Development** | 36-42 months |
+| **Target Release** | Q4 2027 |
+| **Rating** | M for Mature (17+) |
+| **Playtime** | 20-30 hours (main story) |
+
+### Documentation Links
+- 📖 [Project Overview](PROJECT_OVERVIEW.md)
+- 🎮 [Game Design Document](GAME_DESIGN_DOCUMENT.md)
+- 🔧 [Technical Architecture](TECHNICAL_ARCHITECTURE.md)
+- 🎨 [Art Direction Guide](ART_DIRECTION.md)
+- 📱 [PS5 Publishing Guide](PS5_PUBLISHING_GUIDE.md)
+- 🖼️ [Visual Preview & Mockups](VISUAL_PREVIEW.md)
+
+---
+
+## 🚀 Ready to Publish Echoes of Tomorrow? Start Here!
 
 **Want to publish this game on PlayStation 5 NOW?**  
 👉 **[Read the Quick Start Publishing Guide](QUICK_START_PUBLISHING.md)** 👈

@@ -1,0 +1,612 @@
+# New Live - Server Rules & Moderation Guide
+
+## 📜 Official Server Rules
+
+### 🚨 Core Rules (Zero Tolerance)
+
+#### 1. No Harassment or Discrimination
+- ❌ **Prohibited**: Hate speech, racism, sexism, homophobia, transphobia, religious discrimination
+- ❌ **Prohibited**: Bullying, targeted harassment, doxxing, threats
+- ⚠️ **Penalty**: Immediate permanent ban
+- 📝 **Notes**: We maintain a zero-tolerance policy for any form of discrimination or harassment
+
+#### 2. No Cheating or Exploiting
+- ❌ **Prohibited**: Using glitches to gain unfair advantages
+- ❌ **Prohibited**: Money exploits, duplication bugs
+- ❌ **Prohibited**: Map boundary breaking
+- ❌ **Prohibited**: Griefing or intentionally ruining others' experience
+- ⚠️ **Penalty**: 7-day ban (first offense), permanent ban (repeat)
+- 📝 **Notes**: Report bugs to admins instead of exploiting them
+
+#### 3. Stay In Character
+- ✅ **Required**: Maintain roleplay immersion at all times
+- ❌ **Prohibited**: Breaking character for extended periods
+- ❌ **Prohibited**: Using out-of-character (OOC) information in roleplay
+- ⚠️ **Penalty**: Warning → Kick → 1-day ban
+- 📝 **Notes**: Use /ooc chat for out-of-character discussions
+
+### ⚖️ Roleplay Rules
+
+#### 4. New Life Rule (NLR)
+**Definition**: After respawning from death, you forget the events leading to your death and cannot return to the location for 5 minutes.
+
+- ✅ **Correct**: Respawn, forget confrontation, continue roleplay elsewhere
+- ❌ **Incorrect**: Immediately return to fight the person who killed you
+- ❌ **Incorrect**: Use information from your "previous life"
+- ⚠️ **Penalty**: Warning → 1-hour timeout → 1-day ban
+
+**Example**:
+> You're killed during a bank robbery. After respawning, you cannot remember the robbery or who shot you. You cannot return to the bank for 5 minutes.
+
+#### 5. No Random Death Match (RDM)
+**Definition**: Killing another player without valid roleplay reason.
+
+- ✅ **Valid**: Self-defense, police shooting armed suspect
+- ✅ **Valid**: Gang conflict with established rivalry
+- ❌ **Invalid**: Killing someone because you're bored
+- ❌ **Invalid**: Killing for no roleplay reason
+- ⚠️ **Penalty**: 3-hour ban → 1-day ban → 7-day ban
+
+**Example**:
+> ❌ Wrong: You see a player and immediately shoot them.
+> ✅ Right: A player threatens you with a weapon, you defend yourself.
+
+#### 6. No Vehicle Death Match (VDM)
+**Definition**: Using vehicles as weapons to kill players without valid roleplay reason.
+
+- ✅ **Valid**: Accidental collision during chase
+- ❌ **Invalid**: Deliberately running over players
+- ❌ **Invalid**: Using vehicle as primary weapon
+- ⚠️ **Penalty**: Same as RDM
+
+#### 7. Value Your Life (Fear RP)
+**Definition**: Act realistically when your life is in danger.
+
+- ✅ **Correct**: Comply when outnumbered or at gunpoint
+- ✅ **Correct**: Show fear in dangerous situations
+- ❌ **Incorrect**: Attacking when surrounded by 5 armed police
+- ❌ **Incorrect**: Making jokes while being held hostage
+- ⚠️ **Penalty**: Warning → Kick → 1-day ban
+
+**Example**:
+> If 3 police officers point guns at you and order you to freeze, you must comply. Don't pull out a weapon and try to fight.
+
+#### 8. No Power Gaming
+**Definition**: Forcing actions on other players without giving them a chance to respond.
+
+- ✅ **Correct**: "/me attempts to handcuff" (gives chance to resist)
+- ❌ **Incorrect**: "/me handcuffs you" (forces action)
+- ❌ **Incorrect**: Claiming impossible abilities
+- ⚠️ **Penalty**: Warning → Correction → Kick
+
+**Proper Format**:
+- Use "/me attempts to..." instead of "/me does..."
+- Give other players time to respond
+- Keep actions realistic
+
+#### 9. No Meta Gaming
+**Definition**: Using out-of-character information in roleplay.
+
+- ❌ **Prohibited**: Using Discord/voice chat info in-game
+- ❌ **Prohibited**: Stream sniping
+- ❌ **Prohibited**: Knowing player's location without IC reason
+- ⚠️ **Penalty**: Warning → 1-day ban → 7-day ban
+
+**Example**:
+> ❌ Wrong: Your friend tells you on Discord they're being robbed, you drive there immediately.
+> ✅ Right: Your friend calls 911 in-game, police dispatch tells you the location.
+
+#### 10. Realistic Roleplay
+**Definition**: Keep actions believable and immersive.
+
+- ✅ **Correct**: Drive at reasonable speeds in city
+- ✅ **Correct**: Roleplay injuries after crashes
+- ❌ **Incorrect**: Jumping off buildings without injury
+- ❌ **Incorrect**: Crashing at high speed and immediately driving away
+- ⚠️ **Penalty**: Reminder → Warning → Kick
+
+---
+
+## 👮 Job-Specific Rules
+
+### 🏛️ Governor (الحاكم) - Special Powers & Rules
+
+#### Surveillance Authority (سلطة المراقبة)
+The Governor has FULL surveillance capabilities to maintain order and security across all 3 cities.
+
+**Surveillance Powers**:
+- 📍 **Real-Time Player Tracking**: View location of ALL players on map
+- 💰 **Financial Monitoring**: Access to ALL player bank accounts and transaction history
+- 📻 **Radio Intercept**: Listen to ALL 100 radio channels including encrypted police (1-10) and gang (11-30) channels
+- 📹 **Security Cameras**: Access ALL security camera feeds across Los Santos, Paleto Bay, and Sandy Shores
+- 📊 **Player Statistics**: View inventories, criminal records, and activity logs
+- 👁️ **Spectator Mode**: Observe any player in real-time without being seen
+- 🎯 **Intelligence Dashboard**: Complete monitoring system in Governor's Command Center
+
+**Proper Use of Surveillance** (Rules):
+1. ✅ **Security Purposes**: Use for maintaining city safety and investigating major crimes
+2. ✅ **Emergency Response**: Monitor situations during state of emergency
+3. ✅ **Criminal Investigation**: Gather intelligence on organized crime
+4. ⚠️ **Privacy Respect**: Don't abuse powers for personal gain or harassment
+5. ⚠️ **No Meta-Gaming**: Don't share OOC information; use IC methods to act on intelligence
+6. ⚠️ **Roleplay Required**: Must roleplay receiving intelligence reports, not instant knowledge
+7. ❌ **No Abuse**: Don't use surveillance to help friends cheat or target specific players unfairly
+
+**Accountability**:
+- Governor can be impeached by server admins for power abuse
+- Surveillance logs are monitored by server moderators
+- Players can report surveillance abuse to admins
+- Excessive abuse = removal from Governor position
+
+**Example Proper Use**:
+> ✅ Governor receives report of gang activity, checks surveillance, dispatches police with IC intelligence briefing
+> ❌ Governor sees friend struggling in robbery via surveillance, immediately tells them where police are without IC reason
+
+---
+
+### Police Officers
+
+#### Requirements
+- Must be level 10+
+- Clean record (no bans in past 30 days)
+- Microphone recommended
+- Professional attitude required
+
+#### Rules
+1. **Use of Force**: Only use weapons when necessary (armed suspect, self-defense)
+2. **Miranda Rights**: Read rights before arrest ("You have the right to remain silent...")
+3. **Evidence**: Collect evidence before making arrests when possible
+4. **Backup**: Call for backup in dangerous situations
+5. **Corruption**: Light corruption allowed (taking small bribes) but not excessive
+6. **Professionalism**: Maintain professional demeanor
+7. **Response Time**: Respond to 911 calls promptly
+
+#### Arrest Procedures
+1. Announce you're police: "Police! Stop!"
+2. Give clear commands: "Put your hands up!"
+3. If suspect complies: Handcuff and transport
+4. If suspect resists: Use appropriate force
+5. Read rights during transport
+6. Process at station (mugshot, paperwork)
+7. Place in jail cell for appropriate time
+
+#### Traffic Stops
+1. Turn on emergency lights
+2. Follow suspect safely
+3. Use PA system or text: "Pull over"
+4. Approach with caution
+5. Request license and registration
+6. Issue ticket or warning
+7. Let them go or arrest if warranted
+
+### Emergency Medical Services (EMS)
+
+#### Requirements
+- Must be level 5+
+- Professional attitude
+- Quick response capability
+
+#### Rules
+1. **Priority**: Life-saving over everything
+2. **Neutrality**: Treat everyone (including criminals)
+3. **Scene Safety**: Don't enter active crime scenes without police clearance
+4. **Treatment**: Roleplay medical treatment appropriately
+5. **Hospital**: Transport serious injuries to hospital
+6. **Billing**: Charge reasonable fees for services
+
+#### Medical Response Protocol
+1. Receive 911 call or see injured player
+2. Respond with ambulance and lights
+3. Assess scene safety (wait for police if dangerous)
+4. Approach patient and assess injuries
+5. Provide treatment (bandages, medical supplies)
+6. Transport to hospital if needed
+7. Charge patient for services rendered
+
+### Firefighters
+
+#### Requirements
+- Must be level 5+
+- Teamwork oriented
+
+#### Rules
+1. **Emergency Response**: Respond to fire/rescue calls
+2. **Equipment**: Use proper firefighting equipment
+3. **Safety**: Coordinate with police at dangerous scenes
+4. **Rescue**: Prioritize saving lives over property
+5. **Training**: Know how to operate fire equipment
+
+### Criminal Roleplay
+
+#### Requirements
+- Must be level 15+
+- Understand consequence system
+- Cannot be in law enforcement jobs
+
+#### Allowed Criminal Activities
+1. **Petty Crime**: Theft, trespassing, vandalism
+2. **Vehicle Theft**: Stealing parked vehicles
+3. **Robbery**: Store robberies, player muggings
+4. **Bank Heist**: Organized bank robberies (max 4 participants)
+5. **Drug Dealing**: Roleplay drug trade (no actual drugs shown)
+6. **Illegal Racing**: Street racing events
+
+#### Criminal Rules
+1. **Hostages**: Must roleplay negotiations, cannot instantly kill
+2. **Time Between Heists**: 30-minute cooldown between major crimes
+3. **Police Ratio**: At least 4 police online for bank heist
+4. **Realistic**: Use appropriate weapons and tactics
+5. **Escape Plans**: Must have escape plan, not suicide missions
+
+#### Consequences
+- **Caught by Police**: Jail time, fines, criminal record
+- **Repeat Offender**: Increased sentences, harder to get legitimate jobs
+- **Most Wanted**: Active manhunt, higher police priority
+
+---
+
+## 📢 Communication Rules
+
+### Text Chat
+- ✅ Use for in-character dialogue
+- ✅ Use /me for actions: "/me opens door"
+- ✅ Use /911 for emergencies
+- ❌ No spam or excessive caps
+- ❌ No advertising external servers
+
+### Voice Chat (if enabled)
+- ✅ Use proximity chat for local conversations
+- ✅ Use radio channels for job communications
+- ❌ No loud music or mic spam
+- ❌ No voice changers (except light modulation)
+- ⚠️ **Penalty**: Mute → Kick → Ban
+
+### Radio Channels
+- **Channel 0 (Public)**: Open city-wide chat
+- **Channels 1-10 (Police)**: Law enforcement communication (available to all police ranks)
+- **Channels 11-30 (Gangs)**: Criminal organizations and gang communications
+- **Channel 911 (Emergency)**: Police, Fire, EMS coordination
+- **Channel 31 (EMS)**: Medical services only
+- **Channel 32 (Fire)**: Fire department only
+- **Channel 33 (Taxi)**: Taxi drivers coordination
+- **Channel 34 (Business)**: Commerce and trade
+- **Channels 35-40 (SWAT)**: Special operations team communication
+- **Channels 41-99 (Private)**: Create for custom groups/organizations
+
+---
+
+## 👤 Account & Conduct
+
+### General Conduct
+1. **Respect Staff**: Listen to admin/moderator instructions
+2. **Report Issues**: Use proper channels to report bugs or players
+3. **No Begging**: Don't beg for money, items, or promotions
+4. **Age Requirement**: Must be 13+ (or 16+ depending on server policy)
+5. **Language**: Use server's primary language(s) - customize based on your community
+6. **Impersonation**: Don't impersonate staff or known players
+
+### Character Rules
+1. **One Character**: One primary character per player
+2. **Realistic Names**: No meme names or inappropriate names
+3. **Backstory**: Create a basic character backstory
+4. **Consistency**: Maintain consistent character personality
+
+---
+
+## 🛠️ Admin & Moderation Guide
+
+### Staff Roles
+
+#### Owner/Server Admin
+- Full creative control
+- Ban/unban authority
+- Final decision on disputes
+- Server configuration
+- Staff management
+
+#### Senior Moderator
+- Kick and ban players (up to 7 days)
+- Handle complex disputes
+- Train new moderators
+- Review ban appeals
+
+#### Moderator
+- Kick players
+- Issue warnings
+- Temporary timeouts (up to 3 hours)
+- Monitor roleplay quality
+- Answer player questions
+
+#### Helper/Support
+- Answer questions
+- Guide new players
+- Report issues to moderators
+- No punishment authority
+
+### Moderation Tools
+
+#### Warning System (Governor/King Authority) 👑
+
+**Three-Strike Warning System:**
+The Governor (King) and designated administrators have authority to issue warnings and bans.
+
+**Strike Progression:**
+1. **First Warning (تحذير أول)** ⚠️
+   - Official warning logged to player record
+   - Player notified in-game and via iFone notification
+   - Verbal explanation of violation
+   - 24-hour monitoring period begins
+
+2. **Second Warning (تحذير ثاني)** ⚠️⚠️
+   - Second violation logged
+   - 3-hour temporary timeout/suspension
+   - Required to review rules before returning
+   - 72-hour probation period
+   - One more strike = ban
+
+3. **Third Warning (تحذير ثالث)** ⚠️⚠️⚠️
+   - Third violation = automatic ban
+   - **Ban duration decided by Governor/King**:
+     - Temporary ban: 1 day, 3 days, 7 days, 14 days, 30 days
+     - Permanent ban (حظر نهائي): No return allowed
+   - Ban appeal only through Governor/King
+
+**Authorization System:**
+- 👑 **Governor (King)**: Full authority to issue all warnings and determine ban durations
+- 🛡️ **Designated Moderators**: Selected by Governor with warning/ban powers
+- 📋 **Ban Authority**: Only Governor and designated moderators can execute bans
+- ⚖️ **Appeal Process**: All ban appeals reviewed by Governor personally
+
+**Warning Commands (Governor/Authorized Moderators Only):**
+```
+/warn1 [player] [reason] - Issue first warning
+/warn2 [player] [reason] - Issue second warning (3-hour timeout)
+/warn3 [player] [reason] - Issue third warning (requires ban decision)
+/setban [player] [duration] [reason] - Set ban after 3rd warning
+/permban [player] [reason] - Permanent ban (Governor only)
+/viewwarnings [player] - Check player's warning history
+/clearwarnings [player] - Clear warnings (Governor only)
+/designatemoderator [player] - Grant moderation powers (Governor only)
+```
+
+**Warning Escalation Examples:**
+
+**Example 1: Minor Offense**
+- Strike 1: Breaking character → Warning
+- Strike 2: Breaking character again → 3-hour timeout
+- Strike 3: Still breaking character → Governor decides: 3-day ban
+
+**Example 2: Moderate Offense**
+- Strike 1: RDM (Random Death Match) → Warning
+- Strike 2: RDM again → 3-hour timeout
+- Strike 3: RDM third time → Governor decides: 7-day ban
+
+**Example 3: Serious Offense**
+- Strike 1: Meta gaming → Warning
+- Strike 2: Meta gaming again → 3-hour timeout
+- Strike 3: Meta gaming third time → Governor decides: 14-day or permanent ban
+
+#### Punishment Guidelines
+
+| Offense | 1st Strike | 2nd Strike | 3rd Strike | Ban Decision |
+|---------|-----------|-----------|-----------|--------------|
+| Minor (Breaking Character) | Warning ⚠️ | 3hr timeout ⚠️⚠️ | Governor decides | 1-7 days |
+| Moderate (RDM/VDM) | Warning ⚠️ | 3hr timeout ⚠️⚠️ | Governor decides | 3-14 days |
+| Serious (Meta/Power Gaming) | Warning ⚠️ | 3hr timeout ⚠️⚠️ | Governor decides | 7-30 days or permanent |
+| Severe (Harassment/Cheating) | **Immediate permanent ban** | - | - | No appeal |
+
+#### Governor Surveillance & Moderation Powers 👑
+
+**Surveillance Capabilities:**
+- 📍 Real-time player location tracking
+- 💰 Monitor all bank transactions
+- 📻 Listen to all 100 radio channels (including police and gang channels)
+- 📹 Access all security cameras across 3 cities
+- 👁️ Spectator mode to watch any player
+- 📊 View player inventories and possessions
+- 📱 Review social media activity (NewX, NewChat, NewSaab)
+
+**Moderation Powers:**
+- ⚖️ Issue warnings (strikes 1, 2, 3)
+- 🔨 Determine ban duration after 3rd strike
+- 👥 Designate moderators with warning/ban authority
+- 📋 Review all player warning histories
+- 🗑️ Clear warnings (forgiveness)
+- 🚨 Emergency server-wide announcements
+- 🔐 Lockdown zones or cities
+- ⏸️ Temporarily freeze players for investigation
+
+**Proper Use Policy:**
+- ✅ Use surveillance for investigations and maintaining order
+- ✅ Issue warnings fairly based on evidence
+- ✅ Give players chance to explain before 3rd strike ban
+- ❌ No abuse of power for personal gain
+- ❌ No spying on players for entertainment
+- ⚠️ Governor can be removed by server owner for abuse
+
+#### Admin Commands (Conceptual)
+- `/warn1 [player] [reason]` - Issue first warning
+- `/warn2 [player] [reason]` - Issue second warning with 3hr timeout
+- `/warn3 [player] [reason]` - Issue third warning (triggers ban decision)
+- `/setban [player] [1d/3d/7d/14d/30d/perm] [reason]` - Execute ban
+- `/kick [player] [reason]` - Remove from server temporarily
+- `/jail [player] [time]` - Send to jail (in-game punishment)
+- `/freeze [player]` - Stop player movement
+- `/tp [location]` - Teleport to location
+- `/bring [player]` - Bring player to you
+- `/spec [player]` - Spectate player (invisible)
+
+### Handling Reports
+
+#### Player Reports
+1. **Receive Report**: Via Discord, in-game, or other method
+2. **Gather Evidence**: Screenshots, witness statements, logs
+3. **Review**: Watch replay or talk to involved players
+4. **Decision**: Determine if rule was broken
+5. **Action**: Warn, kick, or ban as appropriate
+6. **Log**: Document the incident and action taken
+7. **Follow-up**: Inform reporter of outcome
+
+#### Evidence Collection
+- Screenshots of chat
+- Video recordings (if available)
+- Witness testimonies (at least 2)
+- Time and location of incident
+- Players involved
+
+### Ban Appeals
+
+#### Appeal Process
+1. Player submits appeal (Discord/website)
+2. Admin reviews original ban
+3. Player explains their side
+4. Admin considers evidence and explanation
+5. Decision: Uphold, reduce, or overturn ban
+6. Inform player of decision
+
+#### Appeal Criteria
+- ✅ First offense for minor rule
+- ✅ Genuine misunderstanding
+- ✅ Shows remorse and understanding
+- ❌ Repeat offender
+- ❌ Severe violation (harassment, cheating)
+- ❌ No remorse or responsibility
+
+---
+
+## 🎓 New Player Orientation
+
+### Tutorial Process
+1. **Welcome Message**: Greet new player at spawn
+2. **City Tour**: Show major districts and landmarks
+3. **Job Explanation**: Explain available careers
+4. **Rules Overview**: Review core rules
+5. **Q&A**: Answer any questions
+6. **First Job**: Help them select and start first job
+
+### Quick Start for New Players
+1. Spawn at City Hall
+2. Read signs and tutorial messages
+3. Visit Employment Center
+4. Choose a job (recommend: Taxi or Retail for beginners)
+5. Receive starter equipment
+6. Follow job instructions
+7. Earn first salary
+8. Explore the city
+9. Interact with other players
+
+---
+
+## 📊 Server Management
+
+### Daily Tasks
+- [ ] Check for rule violations
+- [ ] Respond to player reports
+- [ ] Monitor economy balance
+- [ ] Test new features/fixes
+- [ ] Engage with community
+
+### Weekly Tasks
+- [ ] Review ban appeals
+- [ ] Update rules if needed
+- [ ] Host community event
+- [ ] Backup server data
+- [ ] Staff meeting
+
+### Monthly Tasks
+- [ ] Analyze player feedback
+- [ ] Plan major updates
+- [ ] Review staff performance
+- [ ] Community survey
+- [ ] Feature roadmap update
+
+### Performance Metrics
+- **Active Players**: Track daily/weekly active users
+- **Rule Violations**: Monitor trends (increasing/decreasing)
+- **Job Distribution**: Ensure balanced job participation
+- **Economy Health**: Check inflation, money supply
+- **Player Retention**: % of returning players
+- **Satisfaction**: Survey results
+
+---
+
+## 🏆 Rewards & Recognition
+
+### Positive Reinforcement
+
+#### Player of the Week
+- Nominated by staff or community
+- Excellent roleplay quality
+- Helpful to new players
+- Reward: $5,000 LC bonus + recognition
+
+#### Best Roleplay Moment
+- Monthly competition
+- Submit favorite RP scenario
+- Community votes
+- Reward: $10,000 LC + special item/title
+
+#### Veteran Status
+- Achieved at 100 hours played
+- Exclusive cosmetic or badge
+- Special spawn location
+- Priority job selection
+
+---
+
+## 📞 Contact & Support
+
+### How to Get Help
+
+#### In-Game Support
+- Use `/help` command
+- Ask in public chat
+- Contact moderator (green name)
+
+#### Discord Support
+- #support channel
+- Open support ticket
+- Tag @Moderator role
+
+#### Ban Appeals
+- #ban-appeals channel
+- Provide ban ID and explanation
+- Wait for admin response (24-48 hours)
+
+### Staff Contact
+- **Owner**: [Discord/Username]
+- **Senior Mod Team**: [Discord channel]
+- **Bug Reports**: [Discord/Website]
+- **Suggestions**: [Discord/Website]
+
+---
+
+## 📝 Rule Updates
+
+### Version History
+- **v1.0** (December 2025): Initial rule set
+- Future updates will be posted here
+
+### Proposing Rule Changes
+- Submit suggestion in Discord #suggestions
+- Explain rationale
+- Community discussion
+- Staff vote
+- Implementation if approved
+
+---
+
+<div align="center">
+
+## ⚖️ "Rules Create Freedom"
+
+**By establishing clear boundaries, we create space for unlimited creativity.**
+
+---
+
+**New Live - Server Rules**  
+Version 1.0 | December 2025
+
+*Play Fair. Roleplay Well. Respect Everyone.*
+
+</div>
